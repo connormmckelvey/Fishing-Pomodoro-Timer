@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://8gp21sfo5fw2"]
+
+[ext_resource type="Script" path="res://Scripts/json_to_resource.gd" id="1_6lhrg"]
+[ext_resource type="Texture2D" uid="uid://dponshptnhuk2" path="res://Resources/Catchable Textures/progenetica_texutre.tres" id="2_cbmd6"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_6lhrg")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 3
+texture = ExtResource("2_cbmd6")
+region_enabled = true
+region_rect = Rect2(0, 0, 32, 32)

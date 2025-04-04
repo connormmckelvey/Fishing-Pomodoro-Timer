@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Catchable.gd" id="1_kngr1"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/18.png" id="2_yjbxo"]
+
+[resource]
+script = ExtResource("1_kngr1")
+catchable_name = "Red piranha"
+rarity = 3
+depth = 15
+type = 0
+texture = ExtResource("2_yjbxo")
