@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_onn1x"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/25.png" id="2_kstq8"]
+
+[resource]
+script = ExtResource("1_onn1x")
+gear_name = "Crab trap"
+cost = 30
+rarity = 3
+type = "Tackle"
+bonuses = {
+"depth_score": 1,
+"rariety_score": 2,
+"types_avilable": ["crab"]
+}
+texture = ExtResource("2_kstq8")

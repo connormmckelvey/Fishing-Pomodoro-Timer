@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="SaveData" load_steps=2 format=3 uid="uid://sqivva6elces"]
+
+[ext_resource type="Script" path="res://Scripts/SaveData.gd" id="1_gihsu"]
+
+[resource]
+script = ExtResource("1_gihsu")
+level = 0
+equiped_gear = Array[Resource("res://Scripts/Gear.gd")]([])
+gear_owned = Array[Resource("res://Scripts/Gear.gd")]([])
+gear_not_owned = Array[Resource("res://Scripts/Gear.gd")]([])
+money = 0
+catches = Array[Resource("res://Scripts/Catchable.gd")]([])
+work_time_min = 0
+rest_time_min = 0

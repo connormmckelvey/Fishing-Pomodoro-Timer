@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_733mu"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/8.png" id="2_bobw4"]
+
+[resource]
+script = ExtResource("1_733mu")
+gear_name = "Jig lure"
+cost = 20
+rarity = 2
+type = "Tackle"
+bonuses = {
+"depth_score": 2,
+"rariety_score": 1,
+"types_avilable": ["fish", "scorpionfish"]
+}
+texture = ExtResource("2_bobw4")

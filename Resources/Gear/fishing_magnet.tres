@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://bffld2ed8xn1w"]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_7bay2"]
+[ext_resource type="Texture2D" uid="uid://uil4xov23f05" path="res://Assets/gear icons/12.png" id="2_grsmk"]
+
+[resource]
+script = ExtResource("1_7bay2")
+gear_name = "Fishing magnet"
+cost = 40
+rarity = 3
+type = "Accessory"
+bonuses = {
+"depth_score": 4,
+"rariety_score": 0,
+"types_avilable": ["trash"]
+}
+texture = ExtResource("2_grsmk")

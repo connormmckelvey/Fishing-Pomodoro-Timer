@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_i83xk"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/6.png" id="2_613i3"]
+
+[resource]
+script = ExtResource("1_i83xk")
+gear_name = "Fishing line"
+cost = 15
+rarity = 1
+type = "Tackle"
+bonuses = {
+"depth_score": 1,
+"rariety_score": 0,
+"types_avilable": ["fish"]
+}
+texture = ExtResource("2_613i3")

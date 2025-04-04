@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_7p17g"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/33.png" id="2_o4tgm"]
+
+[resource]
+script = ExtResource("1_7p17g")
+gear_name = "Portable fridge"
+cost = 50
+rarity = 3
+type = "Accessory"
+bonuses = {
+"depth_score": 0,
+"rariety_score": 3,
+"types_avilable": ["fish"]
+}
+texture = ExtResource("2_o4tgm")

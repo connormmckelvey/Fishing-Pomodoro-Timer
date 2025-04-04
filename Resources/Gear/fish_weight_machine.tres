@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_3tves"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/22.png" id="2_nvf6s"]
+
+[resource]
+script = ExtResource("1_3tves")
+gear_name = "Fish weight machine"
+cost = 35
+rarity = 3
+type = "Accessory"
+bonuses = {
+"depth_score": 0,
+"rariety_score": 3,
+"types_avilable": ["fish"]
+}
+texture = ExtResource("2_nvf6s")

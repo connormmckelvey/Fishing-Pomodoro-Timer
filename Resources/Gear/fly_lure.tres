@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_mnwk7"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/9.png" id="2_f5m6c"]
+
+[resource]
+script = ExtResource("1_mnwk7")
+gear_name = "Fly lure"
+cost = 15
+rarity = 2
+type = "Tackle"
+bonuses = {
+"depth_score": 1,
+"rariety_score": 2,
+"types_avilable": ["fish", "salmon"]
+}
+texture = ExtResource("2_f5m6c")

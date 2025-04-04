@@ -1,12 +1,12 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Catchable.gd" id="1_ucrv4"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/26.png" id="2_ttayi"]
+[ext_resource type="Script" path="res://Scripts/Catchable.gd" id="1_06b07"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/26.png" id="2_tu8lp"]
 
 [resource]
-script = ExtResource("1_ucrv4")
+script = ExtResource("1_06b07")
 catchable_name = "Sockeye salmon"
 rarity = 4
 depth = 20
-type = 0
-texture = ExtResource("2_ttayi")
+type = "salmon"
+texture = ExtResource("2_tu8lp")

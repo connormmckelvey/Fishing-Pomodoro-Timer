@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_6qkmd"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/28.png" id="2_twe1w"]
+
+[resource]
+script = ExtResource("1_6qkmd")
+gear_name = "Fork harpoon"
+cost = 35
+rarity = 3
+type = "Rod"
+bonuses = {
+"depth_score": 4,
+"rariety_score": 2,
+"types_avilable": ["fish", "anglerfish"]
+}
+texture = ExtResource("2_twe1w")

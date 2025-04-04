@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://c78q46irm0keo"]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_2gvx2"]
+[ext_resource type="Texture2D" uid="uid://cmvd2wgfkwskh" path="res://Assets/gear icons/31.png" id="2_fbh8v"]
+
+[resource]
+script = ExtResource("1_2gvx2")
+gear_name = "Bucket"
+cost = 5
+rarity = 1
+type = "Accessory"
+bonuses = {
+"depth_score": 0,
+"rariety_score": 0,
+"types_avilable": ["fish"]
+}
+texture = ExtResource("2_fbh8v")

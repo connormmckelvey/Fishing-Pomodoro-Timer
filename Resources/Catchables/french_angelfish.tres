@@ -1,12 +1,12 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Catchable.gd" id="1_c1vxh"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/9.png" id="2_yd1m4"]
+[ext_resource type="Script" path="res://Scripts/Catchable.gd" id="1_wsavl"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/9.png" id="2_ncmq6"]
 
 [resource]
-script = ExtResource("1_c1vxh")
+script = ExtResource("1_wsavl")
 catchable_name = "French angelfish"
 rarity = 3
 depth = 20
-type = 0
-texture = ExtResource("2_yd1m4")
+type = "fish"
+texture = ExtResource("2_ncmq6")

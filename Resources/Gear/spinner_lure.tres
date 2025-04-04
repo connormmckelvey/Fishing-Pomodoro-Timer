@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_datjs"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/11.png" id="2_qc5m2"]
+
+[resource]
+script = ExtResource("1_datjs")
+gear_name = "Spinner lure"
+cost = 25
+rarity = 2
+type = "Tackle"
+bonuses = {
+"depth_score": 2,
+"rariety_score": 1,
+"types_avilable": ["fish"]
+}
+texture = ExtResource("2_qc5m2")

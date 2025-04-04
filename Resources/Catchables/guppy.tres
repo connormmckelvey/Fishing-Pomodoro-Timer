@@ -1,12 +1,12 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Catchable.gd" id="1_638w2"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/23.png" id="2_kvm4u"]
+[ext_resource type="Script" path="res://Scripts/Catchable.gd" id="1_w1en4"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/23.png" id="2_evae6"]
 
 [resource]
-script = ExtResource("1_638w2")
+script = ExtResource("1_w1en4")
 catchable_name = "Guppy"
 rarity = 1
 depth = 2
-type = 0
-texture = ExtResource("2_kvm4u")
+type = "fish"
+texture = ExtResource("2_evae6")

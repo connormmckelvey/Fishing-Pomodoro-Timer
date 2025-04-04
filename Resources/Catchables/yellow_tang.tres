@@ -1,12 +1,12 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Catchable.gd" id="1_piikw"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/4.png" id="2_qj3fm"]
+[ext_resource type="Script" path="res://Scripts/Catchable.gd" id="1_13o2g"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/4.png" id="2_ovd48"]
 
 [resource]
-script = ExtResource("1_piikw")
+script = ExtResource("1_13o2g")
 catchable_name = "Yellow tang"
 rarity = 3
 depth = 10
-type = 0
-texture = ExtResource("2_qj3fm")
+type = "fish"
+texture = ExtResource("2_ovd48")

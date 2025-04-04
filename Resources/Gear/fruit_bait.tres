@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_mg8qx"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/16.png" id="2_7clch"]
+
+[resource]
+script = ExtResource("1_mg8qx")
+gear_name = "Fruit bait"
+cost = 5
+rarity = 1
+type = "Tackle"
+bonuses = {
+"depth_score": 0,
+"rariety_score": 2,
+"types_avilable": ["fish"]
+}
+texture = ExtResource("2_7clch")

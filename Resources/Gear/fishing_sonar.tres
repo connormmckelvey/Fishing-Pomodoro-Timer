@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://6aseh4k4oink"]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_qey3i"]
+[ext_resource type="Texture2D" uid="uid://brdeajxbsja4r" path="res://Assets/gear icons/36.png" id="2_defer"]
+
+[resource]
+script = ExtResource("1_qey3i")
+gear_name = "Fishing sonar"
+cost = 60
+rarity = 4
+type = "Accessory"
+bonuses = {
+"depth_score": 6,
+"rariety_score": 3,
+"types_avilable": ["fish", "deepfish", "anglerfish"]
+}
+texture = ExtResource("2_defer")

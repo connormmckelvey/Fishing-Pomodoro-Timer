@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_qoba7"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/17.png" id="2_6b3oi"]
+
+[resource]
+script = ExtResource("1_qoba7")
+gear_name = "Garlic bait"
+cost = 5
+rarity = 2
+type = "Tackle"
+bonuses = {
+"depth_score": 0,
+"rariety_score": 2,
+"types_avilable": ["piranha"]
+}
+texture = ExtResource("2_6b3oi")

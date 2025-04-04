@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_hckrn"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/32.png" id="2_m0281"]
+
+[resource]
+script = ExtResource("1_hckrn")
+gear_name = "Fishing bag"
+cost = 10
+rarity = 1
+type = "Accessory"
+bonuses = {
+"depth_score": 0,
+"rariety_score": 1,
+"types_avilable": ["fish"]
+}
+texture = ExtResource("2_m0281")

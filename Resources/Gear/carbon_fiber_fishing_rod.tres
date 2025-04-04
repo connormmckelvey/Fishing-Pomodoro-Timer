@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://bp4kncneqjyag"]
+
+[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_1mu5w"]
+[ext_resource type="Texture2D" uid="uid://dr8ooyee53134" path="res://Assets/gear icons/5.png" id="2_q31py"]
+
+[resource]
+script = ExtResource("1_1mu5w")
+gear_name = "Carbon fiber fishing rod"
+cost = 100
+rarity = 4
+type = "Rod"
+bonuses = {
+"depth_score": 8,
+"rariety_score": 3,
+"types_avilable": ["fish", "anglerfish", "pufferfish"]
+}
+texture = ExtResource("2_q31py")

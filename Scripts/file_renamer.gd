@@ -1,7 +1,7 @@
 extends Node
 
 # Replace with your actual folder path (relative to the project root)
-const IMAGE_FOLDER := "res://Assets/catchables icons/"
+const IMAGE_FOLDER := "res://Assets/gear icons/"
 const GRID_ROWS := 12
 const GRID_COLS := 12
 var fish_names = [
