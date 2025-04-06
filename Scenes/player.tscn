@@ -179,7 +179,7 @@ script = ExtResource("1_22jyx")
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_ybde2")
 animation = &"idle"
-frame_progress = 0.926456
+frame_progress = 0.081579
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="AnimatedSprite2D"]
 root_node = NodePath("../..")

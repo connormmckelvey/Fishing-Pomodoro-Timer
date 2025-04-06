@@ -1,10 +1,10 @@
-[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://d1xh55uyn1epp"]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_1e3gt"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/31.png" id="2_lw8gl"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_xx0gh"]
+[ext_resource type="Texture2D" uid="uid://cmvd2wgfkwskh" path="res://Assets/gear icons/31.png" id="2_5xfhr"]
 
 [resource]
-script = ExtResource("1_1e3gt")
+script = ExtResource("1_xx0gh")
 gear_name = "Bucket"
 cost = 5
 rarity = 1
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 0,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_lw8gl")
+texture = ExtResource("2_5xfhr")

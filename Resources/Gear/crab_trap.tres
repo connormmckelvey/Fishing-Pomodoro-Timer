@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_n0br7"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/25.png" id="2_kti5o"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_nh7w4"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/25.png" id="2_l5ygq"]
 
 [resource]
-script = ExtResource("1_n0br7")
+script = ExtResource("1_nh7w4")
 gear_name = "Crab trap"
 cost = 30
 rarity = 3
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 2,
 "types_avilable": ["crab"]
 }
-texture = ExtResource("2_kti5o")
+texture = ExtResource("2_l5ygq")

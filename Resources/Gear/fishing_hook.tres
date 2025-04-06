@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_7cnk6"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/7.png" id="2_y6vtx"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_e448e"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/7.png" id="2_speyh"]
 
 [resource]
-script = ExtResource("1_7cnk6")
+script = ExtResource("1_e448e")
 gear_name = "Fishing hook"
 cost = 10
 rarity = 1
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 1,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_y6vtx")
+texture = ExtResource("2_speyh")

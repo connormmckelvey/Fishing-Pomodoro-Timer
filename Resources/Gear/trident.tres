@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_pj0w3"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/30.png" id="2_h6yin"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_pn3f5"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/30.png" id="2_eia10"]
 
 [resource]
-script = ExtResource("1_pj0w3")
+script = ExtResource("1_pn3f5")
 gear_name = "Trident"
 cost = 45
 rarity = 4
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 2,
 "types_avilable": ["fish", "anglerfish"]
 }
-texture = ExtResource("2_h6yin")
+texture = ExtResource("2_eia10")

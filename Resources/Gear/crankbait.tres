@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_5m3r5"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/10.png" id="2_0c2d6"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_qgvnc"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/10.png" id="2_wh1w7"]
 
 [resource]
-script = ExtResource("1_5m3r5")
+script = ExtResource("1_qgvnc")
 gear_name = "Crankbait"
 cost = 30
 rarity = 3
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 2,
 "types_avilable": ["fish", "pufferfish"]
 }
-texture = ExtResource("2_0c2d6")
+texture = ExtResource("2_wh1w7")

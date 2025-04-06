@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_3feww"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/29.png" id="2_f2aip"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_yn0xi"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/29.png" id="2_dl8ms"]
 
 [resource]
-script = ExtResource("1_3feww")
+script = ExtResource("1_yn0xi")
 gear_name = "Fishing spear"
 cost = 20
 rarity = 2
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 1,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_f2aip")
+texture = ExtResource("2_dl8ms")
