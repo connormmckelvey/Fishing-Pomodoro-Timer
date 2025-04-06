@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_ohf6j"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/27.png" id="2_vrqil"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_fvp0c"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/27.png" id="2_nsyuy"]
 
 [resource]
-script = ExtResource("1_ohf6j")
+script = ExtResource("1_fvp0c")
 gear_name = "Harpoon"
 cost = 30
 rarity = 3
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 2,
 "types_avilable": ["fish", "deepfish"]
 }
-texture = ExtResource("2_vrqil")
+texture = ExtResource("2_nsyuy")

@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_3i8rv"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/35.png" id="2_7hulw"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_gxw63"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/35.png" id="2_w152c"]
 
 [resource]
-script = ExtResource("1_3i8rv")
+script = ExtResource("1_gxw63")
 gear_name = "Fishing marker"
 cost = 15
 rarity = 1
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 1,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_7hulw")
+texture = ExtResource("2_w152c")

@@ -1,0 +1,104 @@
+[gd_scene load_steps=3 format=3 uid="uid://b8qidkc2kg8kk"]
+
+[ext_resource type="FontFile" uid="uid://d2srfwq605q6o" path="res://Assets/Pixellari.ttf" id="1_lqyg2"]
+
+[sub_resource type="Theme" id="Theme_0nsb7"]
+default_font = ExtResource("1_lqyg2")
+default_font_size = 16
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_0nsb7")
+text = "Tackle Box"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "Active Gear"
+
+[node name="Button2" type="Button" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "Active Gear"
+
+[node name="Button3" type="Button" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "Active Gear"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="GridContainer" type="GridContainer" parent="VBoxContainer/HBoxContainer/ScrollContainer"]
+layout_mode = 2
+columns = 3
+
+[node name="Button4" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"
+
+[node name="Button5" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"
+
+[node name="Button6" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"
+
+[node name="Button7" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"
+
+[node name="Button8" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"
+
+[node name="Button9" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"
+
+[node name="Button10" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"
+
+[node name="Button11" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"
+
+[node name="Button12" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"
+
+[node name="Button13" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"
+
+[node name="Button14" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"
+
+[node name="Button15" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"
+
+[node name="Button16" type="Button" parent="VBoxContainer/HBoxContainer/ScrollContainer/GridContainer"]
+layout_mode = 2
+text = "Gear"

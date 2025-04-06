@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_du6rt"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/4.png" id="2_sh5vq"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_86yki"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/4.png" id="2_oswpf"]
 
 [resource]
-script = ExtResource("1_du6rt")
+script = ExtResource("1_86yki")
 gear_name = "Glass fiber fishing rod"
 cost = 75
 rarity = 3
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 2,
 "types_avilable": ["fish", "anglerfish"]
 }
-texture = ExtResource("2_sh5vq")
+texture = ExtResource("2_oswpf")

@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Catchable.gd" id="1_utyll"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/30.png" id="2_b6wlm"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_utyll"]
+[ext_resource type="Texture2D" uid="uid://estw1adhwbef" path="res://Assets/catchables icons/30.png" id="2_b6wlm"]
 
 [resource]
 script = ExtResource("1_utyll")

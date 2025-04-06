@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_datjs"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/11.png" id="2_qc5m2"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_nrxsd"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/11.png" id="2_gs3ne"]
 
 [resource]
-script = ExtResource("1_datjs")
+script = ExtResource("1_nrxsd")
 gear_name = "Spinner lure"
 cost = 25
 rarity = 2
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 1,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_qc5m2")
+texture = ExtResource("2_gs3ne")

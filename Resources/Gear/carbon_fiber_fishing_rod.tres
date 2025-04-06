@@ -1,10 +1,10 @@
-[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://bp4kncneqjyag"]
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_1mu5w"]
-[ext_resource type="Texture2D" uid="uid://dr8ooyee53134" path="res://Assets/gear icons/5.png" id="2_q31py"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_dbdqn"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/5.png" id="2_1ot8l"]
 
 [resource]
-script = ExtResource("1_1mu5w")
+script = ExtResource("1_dbdqn")
 gear_name = "Carbon fiber fishing rod"
 cost = 100
 rarity = 4
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 3,
 "types_avilable": ["fish", "anglerfish", "pufferfish"]
 }
-texture = ExtResource("2_q31py")
+texture = ExtResource("2_1ot8l")

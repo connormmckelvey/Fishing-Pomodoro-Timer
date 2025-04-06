@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_3mnpw"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/1.png" id="2_1siqm"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_5bhs0"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/1.png" id="2_nvndg"]
 
 [resource]
-script = ExtResource("1_3mnpw")
+script = ExtResource("1_5bhs0")
 gear_name = "Wooden fishing rod"
 cost = 10
 rarity = 1
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 1,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_1siqm")
+texture = ExtResource("2_nvndg")

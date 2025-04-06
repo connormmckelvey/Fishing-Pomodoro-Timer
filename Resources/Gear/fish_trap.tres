@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_eggwg"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/24.png" id="2_5falg"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_0v8ge"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/24.png" id="2_t123t"]
 
 [resource]
-script = ExtResource("1_eggwg")
+script = ExtResource("1_0v8ge")
 gear_name = "Fish trap"
 cost = 25
 rarity = 2
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 2,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_5falg")
+texture = ExtResource("2_t123t")

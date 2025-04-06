@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_dgfh6"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/20.png" id="2_ymf6f"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_2sqe5"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/20.png" id="2_jf2lx"]
 
 [resource]
-script = ExtResource("1_dgfh6")
+script = ExtResource("1_2sqe5")
 gear_name = "Cork bobber"
 cost = 5
 rarity = 1
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 1,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_ymf6f")
+texture = ExtResource("2_jf2lx")

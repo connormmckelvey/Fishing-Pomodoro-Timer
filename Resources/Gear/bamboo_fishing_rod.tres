@@ -1,10 +1,10 @@
-[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://725p0btv3onx"]
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_mleh3"]
-[ext_resource type="Texture2D" uid="uid://q2j347haemsy" path="res://Assets/gear icons/2.png" id="2_5thk6"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_xliu2"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/2.png" id="2_fjag3"]
 
 [resource]
-script = ExtResource("1_mleh3")
+script = ExtResource("1_xliu2")
 gear_name = "Bamboo fishing rod"
 cost = 25
 rarity = 2
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 1,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_5thk6")
+texture = ExtResource("2_fjag3")

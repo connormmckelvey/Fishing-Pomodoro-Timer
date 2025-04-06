@@ -1,13 +1,229 @@
-[gd_scene load_steps=3 format=3 uid="uid://8gp21sfo5fw2"]
+[gd_scene load_steps=19 format=3 uid="uid://8gp21sfo5fw2"]
 
-[ext_resource type="Script" path="res://Scripts/json_to_resource.gd" id="1_6lhrg"]
-[ext_resource type="Texture2D" uid="uid://dponshptnhuk2" path="res://Resources/Catchable Textures/progenetica_texutre.tres" id="2_cbmd6"]
+[ext_resource type="Script" path="res://Scripts/Utility Scripts/json_to_resource.gd" id="1_6lhrg"]
+[ext_resource type="Texture2D" uid="uid://b03r25i7npeaw" path="res://Assets/Skybox/1.png" id="2_xvmsh"]
+[ext_resource type="Texture2D" uid="uid://btlp4ug2hn2ks" path="res://Assets/Skybox/2.png" id="3_6bkoj"]
+[ext_resource type="Texture2D" uid="uid://bw1jjlpgk1rhi" path="res://Assets/Skybox/4.png" id="4_h7kyd"]
+[ext_resource type="Texture2D" uid="uid://clpeuswtx7u6c" path="res://Assets/3 Objects/Fishing_hut.png" id="5_npp5m"]
+[ext_resource type="Texture2D" uid="uid://bxrm2e7ei3e5s" path="res://Assets/3 Objects/Water.png" id="6_fa23c"]
+[ext_resource type="Texture2D" uid="uid://3lkrhl1srlfm" path="res://Assets/Ground/Tileset.png" id="7_uxmej"]
+[ext_resource type="PackedScene" uid="uid://dnkjiu2oo4n5i" path="res://Scenes/player.tscn" id="8_kqxna"]
+[ext_resource type="Texture2D" uid="uid://ds5o60sg8t1ah" path="res://Assets/3 Objects/Boat.png" id="9_suie6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xufis"]
+size = Vector2(425, 15)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b5fm1"]
+size = Vector2(20, 141)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n4yyg"]
+size = Vector2(20, 106.167)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ligta"]
+texture = ExtResource("6_fa23c")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+1:3/0 = 0
+3:3/0 = 0
+5:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+0:5/0 = 0
+2:5/0 = 0
+4:5/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hw1os"]
+texture = ExtResource("7_uxmej")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_1rnjl"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_ligta")
+sources/1 = SubResource("TileSetAtlasSource_hw1os")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_siere"]
+size = Vector2(669, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dojna"]
+size = Vector2(20, 342)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tcyt1"]
+size = Vector2(141, 20)
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_6lhrg")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture_filter = 3
-texture = ExtResource("2_cbmd6")
-region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
+[node name="sky" type="Node2D" parent="."]
+
+[node name="1" type="Sprite2D" parent="sky"]
+texture_filter = 1
+position = Vector2(578, 325)
+scale = Vector2(2, 2)
+texture = ExtResource("2_xvmsh")
+
+[node name="2" type="Sprite2D" parent="sky"]
+texture_filter = 1
+position = Vector2(578, 326)
+scale = Vector2(2, 2)
+texture = ExtResource("3_6bkoj")
+
+[node name="4" type="Sprite2D" parent="sky"]
+texture_filter = 1
+position = Vector2(577, 326)
+scale = Vector2(2, 2)
+texture = ExtResource("4_h7kyd")
+
+[node name="FishingHut" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(493, 507)
+scale = Vector2(3, 3)
+texture = ExtResource("5_npp5m")
+
+[node name="deck_floor_colider" type="StaticBody2D" parent="FishingHut"]
+position = Vector2(-185.667, -169)
+scale = Vector2(0.333333, 0.333333)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FishingHut/deck_floor_colider"]
+position = Vector2(633.5, 517.5)
+shape = SubResource("RectangleShape2D_xufis")
+
+[node name="deck_edge_colider" type="StaticBody2D" parent="FishingHut"]
+position = Vector2(-185.667, -169)
+scale = Vector2(0.333333, 0.333333)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FishingHut/deck_edge_colider"]
+position = Vector2(856, 453.5)
+shape = SubResource("RectangleShape2D_b5fm1")
+
+[node name="stair_floor_colider" type="StaticBody2D" parent="FishingHut"]
+position = Vector2(-185.667, -162)
+scale = Vector2(0.333333, 0.333333)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FishingHut/stair_floor_colider"]
+position = Vector2(390.536, 533.464)
+rotation = 0.785398
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_n4yyg")
+
+[node name="TileMap" type="TileMap" parent="."]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_set = SubResource("TileSet_1rnjl")
+format = 2
+layer_0/name = "ground"
+layer_0/tile_data = PackedInt32Array(393221, 65537, 0, 393222, 131073, 0, 393220, 65537, 0, 393219, 65537, 0, 393218, 65537, 0, 393217, 65537, 0, 393216, 65537, 0)
+layer_1/name = "water"
+layer_1/tile_data = PackedInt32Array(393227, 0, 0, 393226, 0, 0, 393225, 0, 0, 393224, 0, 0, 393223, 0, 0, 393222, 131072, 1)
+
+[node name="Player" parent="." instance=ExtResource("8_kqxna")]
+position = Vector2(748, 448)
+scale = Vector2(2.5, 2.5)
+
+[node name="ground_colider" type="StaticBody2D" parent="."]
+position = Vector2(0, 21)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground_colider"]
+position = Vector2(334.5, 571)
+shape = SubResource("RectangleShape2D_siere")
+
+[node name="screen_edge_colider" type="StaticBody2D" parent="."]
+position = Vector2(-64, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="screen_edge_colider"]
+position = Vector2(59, 431)
+shape = SubResource("RectangleShape2D_dojna")
+
+[node name="Boat" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(1010, 558)
+scale = Vector2(3, 3)
+texture = ExtResource("9_suie6")
+
+[node name="boat_colider" type="StaticBody2D" parent="Boat"]
+position = Vector2(-358, -186)
+scale = Vector2(0.333333, 0.333333)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Boat/boat_colider"]
+position = Vector2(1063.5, 592)
+shape = SubResource("RectangleShape2D_tcyt1")

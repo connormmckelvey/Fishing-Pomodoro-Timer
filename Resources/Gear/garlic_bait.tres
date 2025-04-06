@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_qoba7"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/17.png" id="2_6b3oi"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_50dfq"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/17.png" id="2_y113r"]
 
 [resource]
-script = ExtResource("1_qoba7")
+script = ExtResource("1_50dfq")
 gear_name = "Garlic bait"
 cost = 5
 rarity = 2
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 2,
 "types_avilable": ["piranha"]
 }
-texture = ExtResource("2_6b3oi")
+texture = ExtResource("2_y113r")

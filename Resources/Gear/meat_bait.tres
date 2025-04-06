@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_ba1nk"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/14.png" id="2_ts0fp"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_f1xwc"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/14.png" id="2_4jyff"]
 
 [resource]
-script = ExtResource("1_ba1nk")
+script = ExtResource("1_f1xwc")
 gear_name = "Meat bait"
 cost = 10
 rarity = 1
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 1,
 "types_avilable": ["crab", "scorpionfish"]
 }
-texture = ExtResource("2_ts0fp")
+texture = ExtResource("2_4jyff")

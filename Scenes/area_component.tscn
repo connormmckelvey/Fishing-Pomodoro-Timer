@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://j6tapjlltfbg"]
+
+[ext_resource type="Texture2D" uid="uid://ons6if6cutl8" path="res://Assets/tilemap.png" id="1_y1ffa"]
+
+[node name="area_component" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_y1ffa")
+region_enabled = true
+region_rect = Rect2(322, 170, 17, 16)

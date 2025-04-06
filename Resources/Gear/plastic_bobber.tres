@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_nx2iv"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/21.png" id="2_3v0p6"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_3k7a4"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/21.png" id="2_gl5uc"]
 
 [resource]
-script = ExtResource("1_nx2iv")
+script = ExtResource("1_3k7a4")
 gear_name = "Plastic bobber"
 cost = 10
 rarity = 1
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 1,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_3v0p6")
+texture = ExtResource("2_gl5uc")

@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://dvaqelh1rtgm2"]
 
-[ext_resource type="Script" path="res://Scripts/Catchable.gd" id="1_jww24"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_jww24"]
 [ext_resource type="Texture2D" uid="uid://dhmkeka51078b" path="res://Assets/catchables icons/28.png" id="2_erpaf"]
 
 [resource]

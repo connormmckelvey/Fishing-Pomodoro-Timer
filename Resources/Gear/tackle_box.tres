@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Gear.gd" id="1_x8m3c"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/34.png" id="2_g4ehl"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_gje6g"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/34.png" id="2_v03nu"]
 
 [resource]
-script = ExtResource("1_x8m3c")
+script = ExtResource("1_gje6g")
 gear_name = "Tackle box"
 cost = 25
 rarity = 2
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 2,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_g4ehl")
+texture = ExtResource("2_v03nu")
