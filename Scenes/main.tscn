@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://8gp21sfo5fw2"]
+[gd_scene load_steps=26 format=3 uid="uid://8gp21sfo5fw2"]
 
 [ext_resource type="Script" path="res://Scripts/Utility Scripts/json_to_resource.gd" id="1_6lhrg"]
 [ext_resource type="Texture2D" uid="uid://b03r25i7npeaw" path="res://Assets/Skybox/1.png" id="2_xvmsh"]
@@ -9,6 +9,10 @@
 [ext_resource type="Texture2D" uid="uid://3lkrhl1srlfm" path="res://Assets/Ground/Tileset.png" id="7_uxmej"]
 [ext_resource type="PackedScene" uid="uid://dnkjiu2oo4n5i" path="res://Scenes/player.tscn" id="8_kqxna"]
 [ext_resource type="Texture2D" uid="uid://ds5o60sg8t1ah" path="res://Assets/3 Objects/Boat.png" id="9_suie6"]
+[ext_resource type="Script" path="res://Scripts/shop_area.gd" id="10_4ofxm"]
+[ext_resource type="Script" path="res://Scripts/quest_area.gd" id="11_780vc"]
+[ext_resource type="Script" path="res://Scripts/fishing_area.gd" id="12_pnmge"]
+[ext_resource type="PackedScene" uid="uid://b8qidkc2kg8kk" path="res://Scenes/tacklebox.tscn" id="13_xlhrn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xufis"]
 size = Vector2(425, 15)
@@ -131,6 +135,15 @@ size = Vector2(20, 342)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tcyt1"]
 size = Vector2(141, 20)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f6y1x"]
+size = Vector2(36, 90)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2juv5"]
+size = Vector2(43, 90)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ekaj7"]
+size = Vector2(19, 92)
+
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_6lhrg")
 
@@ -227,3 +240,29 @@ scale = Vector2(0.333333, 0.333333)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Boat/boat_colider"]
 position = Vector2(1063.5, 592)
 shape = SubResource("RectangleShape2D_tcyt1")
+
+[node name="shop_area" type="Area2D" parent="."]
+script = ExtResource("10_4ofxm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="shop_area"]
+position = Vector2(538, 465)
+shape = SubResource("RectangleShape2D_f6y1x")
+
+[node name="quest_area" type="Area2D" parent="."]
+script = ExtResource("11_780vc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="quest_area"]
+position = Vector2(354.5, 465)
+shape = SubResource("RectangleShape2D_2juv5")
+
+[node name="fishing_area" type="Area2D" parent="."]
+script = ExtResource("12_pnmge")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="fishing_area"]
+position = Vector2(772.5, 464)
+shape = SubResource("RectangleShape2D_ekaj7")
+
+[node name="fishing_area" parent="fishing_area" instance=ExtResource("13_xlhrn")]
+
+[connection signal="area_entered" from="fishing_area" to="fishing_area" method="_on_area_entered"]
+[connection signal="area_exited" from="fishing_area" to="fishing_area" method="_on_area_exited"]

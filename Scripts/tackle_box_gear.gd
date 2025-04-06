@@ -32,3 +32,7 @@ func _process(delta):
 		$ColorRect.show()
 	else:
 		$ColorRect.hide()
+
+
+func _on_pressed():
+	pass # Replace with function body.
