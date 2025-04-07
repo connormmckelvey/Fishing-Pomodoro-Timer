@@ -2,6 +2,8 @@ extends Button
 
 @export var gear: Gear
 
+signal equiped_gear(gear: Gear)
+
 const ACCESSORY_COLOR = Color("8ec07c")
 const ROD_COLOR = Color("83a598")
 const TACKLE_COLOR = Color("d3869b")
@@ -9,7 +11,7 @@ const TACKLE_COLOR = Color("d3869b")
 func _ready():
 	var original_texture = gear.texture
 	var image = original_texture.get_image()
-	image.resize(64, 64, Image.INTERPOLATE_NEAREST)
+	image.resize(128, 128, Image.INTERPOLATE_NEAREST)
 	var scaled_texture = ImageTexture.create_from_image(image)
 	icon = scaled_texture
 
@@ -28,11 +30,10 @@ func _ready():
 	$ColorRect/VBoxContainer/types.text = "Additional Types: "+", ".join(gear.bonuses["types_avilable"])
 
 func _process(delta):
-	if get_rect().has_point(get_local_mouse_position()):
+	if $ColorRect.get_rect().has_point(get_local_mouse_position()):
 		$ColorRect.show()
 	else:
 		$ColorRect.hide()
 
-
 func _on_pressed():
-	pass # Replace with function body.
+	equiped_gear.emit(gear)

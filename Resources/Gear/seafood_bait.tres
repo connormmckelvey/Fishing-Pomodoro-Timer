@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_v112t"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/18.png" id="2_cftyy"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_hebbc"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/18.png" id="2_y4ynh"]
 
 [resource]
-script = ExtResource("1_v112t")
+script = ExtResource("1_hebbc")
 gear_name = "Seafood bait"
 cost = 15
 rarity = 3
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 3,
 "types_avilable": ["crab", "anglerfish"]
 }
-texture = ExtResource("2_cftyy")
+texture = ExtResource("2_y4ynh")

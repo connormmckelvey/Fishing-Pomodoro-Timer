@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="SaveData" load_steps=12 format=3 uid="uid://ctfcytsstaxb3"]
+
+[ext_resource type="Resource" uid="uid://buh5cb3bhqb33" path="res://Resources/Gear/fishing_sonar.tres" id="1_55nkg"]
+[ext_resource type="Resource" uid="uid://bwhgevmat4ap0" path="res://Resources/Gear/carbon_fiber_fishing_rod.tres" id="2_7m8yk"]
+[ext_resource type="Resource" uid="uid://c603fsaqld6h1" path="res://Resources/Gear/meat_bait.tres" id="3_ta7a1"]
+[ext_resource type="Resource" uid="uid://blkxyx3umpj2n" path="res://Resources/Gear/cork_bobber.tres" id="4_ha6kg"]
+[ext_resource type="Resource" path="res://Resources/Gear/crankbait.tres" id="5_af8bg"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/SaveData.gd" id="5_dklpm"]
+[ext_resource type="Resource" path="res://Resources/Gear/fishing_magnet.tres" id="6_puwge"]
+[ext_resource type="Resource" path="res://Resources/Gear/fishing_spear.tres" id="7_of6x8"]
+[ext_resource type="Resource" path="res://Resources/Gear/fishing_net.tres" id="8_nni4a"]
+[ext_resource type="Resource" path="res://Resources/Gear/fishing_hook.tres" id="9_kyp2u"]
+[ext_resource type="Resource" path="res://Resources/Gear/fishing_marker.tres" id="10_ttt6t"]
+
+[resource]
+script = ExtResource("5_dklpm")
+level = 0
+equiped_tackle = ExtResource("3_ta7a1")
+equiped_rod = ExtResource("2_7m8yk")
+equiped_accessory = ExtResource("1_55nkg")
+gear_owned = Array[Resource("res://Scripts/Resource Scripts/Gear.gd")]([ExtResource("4_ha6kg"), ExtResource("3_ta7a1"), ExtResource("2_7m8yk"), ExtResource("1_55nkg"), ExtResource("5_af8bg"), ExtResource("6_puwge"), ExtResource("7_of6x8"), ExtResource("8_nni4a"), ExtResource("9_kyp2u"), ExtResource("10_ttt6t")])
+gear_not_owned = Array[Resource("res://Scripts/Resource Scripts/Gear.gd")]([])
+money = 0
+catches = Array[Resource("res://Scripts/Resource Scripts/Catchable.gd")]([])
+work_time_min = 0
+rest_time_min = 0

@@ -1,6 +1,6 @@
 [gd_scene load_steps=26 format=3 uid="uid://8gp21sfo5fw2"]
 
-[ext_resource type="Script" path="res://Scripts/Utility Scripts/json_to_resource.gd" id="1_6lhrg"]
+[ext_resource type="Script" path="res://Scripts/global.gd" id="2_hrmec"]
 [ext_resource type="Texture2D" uid="uid://b03r25i7npeaw" path="res://Assets/Skybox/1.png" id="2_xvmsh"]
 [ext_resource type="Texture2D" uid="uid://btlp4ug2hn2ks" path="res://Assets/Skybox/2.png" id="3_6bkoj"]
 [ext_resource type="Texture2D" uid="uid://bw1jjlpgk1rhi" path="res://Assets/Skybox/4.png" id="4_h7kyd"]
@@ -144,8 +144,10 @@ size = Vector2(43, 90)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ekaj7"]
 size = Vector2(19, 92)
 
-[node name="Node2D" type="Node2D"]
-script = ExtResource("1_6lhrg")
+[node name="main" type="Node2D"]
+
+[node name="global_save" type="Node" parent="."]
+script = ExtResource("2_hrmec")
 
 [node name="sky" type="Node2D" parent="."]
 
@@ -196,7 +198,6 @@ scale = Vector2(0.333333, 0.333333)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="FishingHut/stair_floor_colider"]
 position = Vector2(390.536, 533.464)
 rotation = 0.785398
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_n4yyg")
 
 [node name="TileMap" type="TileMap" parent="."]

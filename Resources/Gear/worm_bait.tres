@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_fc2yt"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/15.png" id="2_dibli"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_c8rnt"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/15.png" id="2_hvkym"]
 
 [resource]
-script = ExtResource("1_fc2yt")
+script = ExtResource("1_c8rnt")
 gear_name = "Worm bait"
 cost = 5
 rarity = 1
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 1,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_dibli")
+texture = ExtResource("2_hvkym")

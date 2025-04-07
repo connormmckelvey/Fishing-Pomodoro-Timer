@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_81mmd"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/3.png" id="2_63okp"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_0esr4"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/3.png" id="2_0nn8w"]
 
 [resource]
-script = ExtResource("1_81mmd")
+script = ExtResource("1_0esr4")
 gear_name = "Steel fishing rod"
 cost = 50
 rarity = 3
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 2,
 "types_avilable": ["fish", "pufferfish"]
 }
-texture = ExtResource("2_63okp")
+texture = ExtResource("2_0nn8w")

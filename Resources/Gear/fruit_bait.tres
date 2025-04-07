@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_4hqrd"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/16.png" id="2_t70p0"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_r3ui1"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/16.png" id="2_tn61s"]
 
 [resource]
-script = ExtResource("1_4hqrd")
+script = ExtResource("1_r3ui1")
 gear_name = "Fruit bait"
 cost = 5
 rarity = 1
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 2,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_t70p0")
+texture = ExtResource("2_tn61s")

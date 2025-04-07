@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_un8pj"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/6.png" id="2_ptotv"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_ie22h"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/6.png" id="2_dfava"]
 
 [resource]
-script = ExtResource("1_un8pj")
+script = ExtResource("1_ie22h")
 gear_name = "Fishing line"
 cost = 15
 rarity = 1
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 0,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_ptotv")
+texture = ExtResource("2_dfava")

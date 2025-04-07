@@ -1,10 +1,10 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_c6mah"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/32.png" id="2_tcacc"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_p6epe"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/32.png" id="2_tlchu"]
 
 [resource]
-script = ExtResource("1_c6mah")
+script = ExtResource("1_p6epe")
 gear_name = "Fishing bag"
 cost = 10
 rarity = 1
@@ -14,4 +14,4 @@ bonuses = {
 "rariety_score": 1,
 "types_avilable": ["fish"]
 }
-texture = ExtResource("2_tcacc")
+texture = ExtResource("2_tlchu")
