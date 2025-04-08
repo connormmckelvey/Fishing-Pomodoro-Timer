@@ -6,3 +6,4 @@ class_name Catchable
 @export var depth: int #number, higher means deeper
 @export var type: String #could be catagory like: crab, trash, orthropod
 @export var texture: Texture2D
+@export var value: int #how much this will sell for
