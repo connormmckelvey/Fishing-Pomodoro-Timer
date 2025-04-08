@@ -10,10 +10,10 @@ config_version=5
 
 [application]
 
-config/name="Fishing-pomodoro-timer"
+config/name="Fishing Pomodoro Timer"
 run/main_scene="res://Scenes/main.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
-config/icon="res://Assets/icon.svg"
+config/icon="res://Assets/4 Icons/Icons_07.png"
 
 [autoload]
 
