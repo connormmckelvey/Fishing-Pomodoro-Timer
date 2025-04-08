@@ -18,26 +18,36 @@ func _ready():
 
 func _physics_process(delta):
 	# Add the gravity.
-	if not is_on_floor():
-		velocity.y += gravity * delta
+	if state != FISHING:
+		if not is_on_floor():
+			velocity.y += gravity * delta
 
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
+		# Handle jump.
+		if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+			velocity.y = JUMP_VELOCITY
 
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var direction = Input.get_axis("ui_left", "ui_right")
-	if direction:
-		if direction < 0:
-			$AnimatedSprite2D.flip_h = true
-		elif direction > 0:
-			$AnimatedSprite2D.flip_h = false
-		state = WALKING
-		velocity.x = direction * SPEED
-	else:
-		state = IDLING
-		velocity.x = move_toward(velocity.x, 0, SPEED)
+		# Get the input direction and handle the movement/deceleration.
+		# As good practice, you should replace UI actions with custom gameplay actions.
+		var direction = Input.get_axis("ui_left", "ui_right")
+		if direction:
+			if direction < 0:
+				$AnimatedSprite2D.flip_h = true
+			elif direction > 0:
+				$AnimatedSprite2D.flip_h = false
+			state = WALKING
+			velocity.x = direction * SPEED
+		else:
+			state = IDLING
+			velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	$AnimatedSprite2D.play(state)
 	move_and_slide()
+
+func _on_tacklebox_work_started():
+	position = Vector2i(932,522)
+	state = FISHING
+	$AnimatedSprite2D.flip_h = true
+
+func _on_timer_display_done_fishing():
+	position = Vector2i(635,432)
+	state = IDLING

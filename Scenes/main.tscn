@@ -220,7 +220,7 @@ layer_1/name = "water"
 layer_1/tile_data = PackedInt32Array(393227, 0, 0, 393226, 0, 0, 393225, 0, 0, 393224, 0, 0, 393223, 0, 0, 393222, 131072, 1)
 
 [node name="Player" parent="." instance=ExtResource("8_kqxna")]
-position = Vector2(748, 448)
+position = Vector2(635, 432)
 scale = Vector2(2.5, 2.5)
 
 [node name="ground_colider" type="StaticBody2D" parent="."]
@@ -274,7 +274,7 @@ shape = SubResource("RectangleShape2D_ekaj7")
 
 [node name="tacklebox" parent="fishing_area" instance=ExtResource("13_xlhrn")]
 
-[node name="timer_display" type="Label" parent="."]
+[node name="display" type="Label" parent="."]
 offset_left = 458.0
 offset_top = 20.0
 offset_right = 700.0
@@ -290,10 +290,42 @@ horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("14_f8eyv")
 
-[node name="Timer" type="Timer" parent="timer_display"]
+[node name="Timer" type="Timer" parent="display"]
 one_shot = true
+
+[node name="clock" type="Label" parent="display"]
+offset_left = 249.0
+offset_top = 10.0
+offset_right = 402.0
+offset_bottom = 46.0
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "10/20/2004"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="date" type="Label" parent="display"]
+offset_left = -158.0
+offset_top = 10.0
+offset_right = -5.0
+offset_bottom = 46.0
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "10/20/2004"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="area_entered" from="fishing_area" to="fishing_area" method="_on_area_entered"]
 [connection signal="area_exited" from="fishing_area" to="fishing_area" method="_on_area_exited"]
-[connection signal="work_started" from="fishing_area/tacklebox" to="timer_display" method="_on_tacklebox_work_started"]
-[connection signal="timeout" from="timer_display/Timer" to="timer_display" method="_on_timer_timeout"]
+[connection signal="work_started" from="fishing_area/tacklebox" to="Player" method="_on_tacklebox_work_started"]
+[connection signal="work_started" from="fishing_area/tacklebox" to="display" method="_on_tacklebox_work_started"]
+[connection signal="done_fishing" from="display" to="Player" method="_on_timer_display_done_fishing"]
+[connection signal="timeout" from="display/Timer" to="display" method="_on_timer_timeout"]

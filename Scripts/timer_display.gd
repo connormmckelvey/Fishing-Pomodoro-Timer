@@ -1,11 +1,13 @@
 extends Label
 
 var isworking = false
+signal done_fishing
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	text = str(global.save.work_time_min)
-
+	
+	
 func _on_tacklebox_work_started():
 	isworking = true
 	$Timer.wait_time = global.save.work_time_min * 60
@@ -13,6 +15,8 @@ func _on_tacklebox_work_started():
 	
 func _process(delta):
 	text = format_seconds($Timer.time_left)
+	$date.text = Time.get_datetime_string_from_system().split("T")[0]
+	$clock.text = Time.get_datetime_string_from_system().split("T")[1]
 
 func format_seconds(seconds: int) -> String:
 	var minutes = seconds / 60
@@ -22,5 +26,6 @@ func format_seconds(seconds: int) -> String:
 func _on_timer_timeout():
 	if isworking:
 		isworking = false
+		done_fishing.emit()
 		$Timer.wait_time = global.save.rest_time_min * 60
-		$timer.start()
+		$Timer.start()
