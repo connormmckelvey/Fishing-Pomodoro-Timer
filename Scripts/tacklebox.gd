@@ -2,6 +2,11 @@ extends Control
 
 var tackleBoxGear = preload("res://Scenes/tackle_box_gear.tscn")
 
+signal work_started
+
+func _ready():
+	hide()
+
 func open_tacklebox():
 	show()
 	for node in $VBoxContainer/HBoxContainer/ScrollContainer/GridContainer.get_children():
@@ -40,3 +45,6 @@ func display_equiped():
 	add_active_gear(global.save.equiped_rod)
 	add_active_gear(global.save.equiped_accessory)
 
+func _on_go_fishing_btn_pressed():
+	work_started.emit()
+	close_tacklebox()

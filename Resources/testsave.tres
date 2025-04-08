@@ -22,5 +22,5 @@ gear_owned = Array[Resource("res://Scripts/Resource Scripts/Gear.gd")]([ExtResou
 gear_not_owned = Array[Resource("res://Scripts/Resource Scripts/Gear.gd")]([])
 money = 0
 catches = Array[Resource("res://Scripts/Resource Scripts/Catchable.gd")]([])
-work_time_min = 0
-rest_time_min = 0
+work_time_min = 2
+rest_time_min = 1

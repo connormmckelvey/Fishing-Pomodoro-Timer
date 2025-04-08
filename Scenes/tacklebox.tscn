@@ -1,11 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://b8qidkc2kg8kk"]
+[gd_scene load_steps=3 format=3 uid="uid://b8qidkc2kg8kk"]
 
-[ext_resource type="FontFile" uid="uid://d2srfwq605q6o" path="res://Assets/Pixellari.ttf" id="1_lqyg2"]
 [ext_resource type="Script" path="res://Scripts/tacklebox.gd" id="1_ywadd"]
-
-[sub_resource type="Theme" id="Theme_0nsb7"]
-default_font = ExtResource("1_lqyg2")
-default_font_size = 16
+[ext_resource type="Theme" uid="uid://hc7qb1yjfp8m" path="res://Resources/tacklebox_theme.tres" id="2_gc74u"]
 
 [node name="tacklebox" type="Control"]
 layout_mode = 3
@@ -25,11 +21,14 @@ offset_top = 123.0
 offset_right = 846.0
 offset_bottom = 499.0
 
-[node name="Label" type="Label" parent="VBoxContainer"]
+[node name="title_label" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 40)
 layout_mode = 2
-theme = SubResource("Theme_0nsb7")
+theme = ExtResource("2_gc74u")
+theme_override_font_sizes/font_size = 24
 text = "Tackle Box"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
 layout_mode = 2
@@ -44,3 +43,12 @@ horizontal_scroll_mode = 0
 [node name="GridContainer" type="GridContainer" parent="VBoxContainer/HBoxContainer/ScrollContainer"]
 layout_mode = 2
 columns = 3
+
+[node name="go_fishing_btn" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+tooltip_text = "Start Work Session"
+theme = ExtResource("2_gc74u")
+text = "Go Fishing!"
+
+[connection signal="pressed" from="VBoxContainer/go_fishing_btn" to="." method="_on_go_fishing_btn_pressed"]
