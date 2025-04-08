@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdl8skvwfofod"]
+
+[ext_resource type="Script" path="res://Scripts/shop.gd" id="1_5f8ne"]
+[ext_resource type="Theme" uid="uid://hc7qb1yjfp8m" path="res://Resources/tacklebox_theme.tres" id="2_ciqsm"]
+
+[node name="shop" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5f8ne")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 635.0
+offset_bottom = 536.0
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_ciqsm")
+theme_override_font_sizes/font_size = 24
+text = "Shop"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="buy_grid" type="GridContainer" parent="VBoxContainer/HBoxContainer/ScrollContainer"]
+layout_mode = 2
+columns = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(10, 400)
+layout_mode = 2
+color = Color(0.823529, 0.705882, 0.54902, 1)
+
+[node name="ScrollContainer2" type="ScrollContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="sell_grid" type="GridContainer" parent="VBoxContainer/HBoxContainer/ScrollContainer2"]
+layout_mode = 2
+columns = 2

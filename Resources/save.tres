@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="SaveData" load_steps=35 format=3 uid="uid://ctfcytsstaxb3"]
+[gd_resource type="Resource" script_class="SaveData" load_steps=36 format=3 uid="uid://bwtegty4xnoeq"]
 
 [ext_resource type="Resource" path="res://Resources/Gear/fishing_bag.tres" id="1_dmndr"]
+[ext_resource type="Resource" uid="uid://cw0lry7h5jdkk" path="res://Resources/Catchables/blue_tang.tres" id="1_ipyy8"]
 [ext_resource type="Resource" path="res://Resources/Gear/wooden_fishing_rod.tres" id="1_qpgnh"]
 [ext_resource type="Resource" path="res://Resources/Gear/worm_bait.tres" id="2_3dkg7"]
 [ext_resource type="Resource" path="res://Resources/Gear/bamboo_fishing_rod.tres" id="4_pq1y4"]
@@ -43,7 +44,7 @@ equiped_rod = ExtResource("1_qpgnh")
 equiped_accessory = ExtResource("1_dmndr")
 gear_owned = Array[Resource("res://Scripts/Resource Scripts/Gear.gd")]([ExtResource("1_dmndr"), ExtResource("2_3dkg7"), ExtResource("1_qpgnh")])
 gear_not_owned = Array[Resource("res://Scripts/Resource Scripts/Gear.gd")]([ExtResource("4_pq1y4"), ExtResource("5_xmm8v"), ExtResource("6_kvlco"), ExtResource("7_71ra7"), ExtResource("8_fcal5"), ExtResource("9_mor0o"), ExtResource("1_dmndr"), ExtResource("10_2oq6n"), ExtResource("11_78lkl"), ExtResource("12_x6ibl"), ExtResource("13_se0fk"), ExtResource("14_ckqjs"), ExtResource("15_uuosh"), ExtResource("16_4a6vi"), ExtResource("17_mxacc"), ExtResource("18_swm8i"), ExtResource("19_vmoit"), ExtResource("20_utcvj"), ExtResource("21_epktb"), ExtResource("22_eb0f5"), ExtResource("23_ox4cb"), ExtResource("24_5wo7b"), ExtResource("25_t5m0u"), ExtResource("26_1wjji"), ExtResource("27_qmq3w"), ExtResource("28_3wbtr"), ExtResource("29_hq1sp"), ExtResource("30_tn7w8"), ExtResource("31_ych6m"), ExtResource("32_nbfow"), ExtResource("33_pwd78"), ExtResource("1_qpgnh"), ExtResource("2_3dkg7")])
-money = 0
-catches = Array[Resource("res://Scripts/Resource Scripts/Catchable.gd")]([])
+money = 15
+catches = Array[Resource("res://Scripts/Resource Scripts/Catchable.gd")]([ExtResource("1_ipyy8")])
 work_time_min = 2
 rest_time_min = 1

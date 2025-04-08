@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=3 uid="uid://8gp21sfo5fw2"]
+[gd_scene load_steps=30 format=3 uid="uid://8gp21sfo5fw2"]
 
 [ext_resource type="Script" path="res://Scripts/global.gd" id="2_hrmec"]
 [ext_resource type="Texture2D" uid="uid://b03r25i7npeaw" path="res://Assets/Skybox/1.png" id="2_xvmsh"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://ds5o60sg8t1ah" path="res://Assets/3 Objects/Boat.png" id="9_suie6"]
 [ext_resource type="Script" path="res://Scripts/shop_area.gd" id="10_4ofxm"]
 [ext_resource type="Script" path="res://Scripts/quest_area.gd" id="11_780vc"]
+[ext_resource type="PackedScene" uid="uid://bdl8skvwfofod" path="res://Scenes/shop.tscn" id="11_dbm6f"]
 [ext_resource type="Script" path="res://Scripts/fishing_area.gd" id="12_pnmge"]
 [ext_resource type="PackedScene" uid="uid://b8qidkc2kg8kk" path="res://Scenes/tacklebox.tscn" id="13_xlhrn"]
 [ext_resource type="Script" path="res://Scripts/timer_display.gd" id="14_f8eyv"]
@@ -258,6 +259,12 @@ script = ExtResource("10_4ofxm")
 position = Vector2(538, 465)
 shape = SubResource("RectangleShape2D_f6y1x")
 
+[node name="shop" parent="shop_area" instance=ExtResource("11_dbm6f")]
+offset_left = 252.0
+offset_top = 124.0
+offset_right = 252.0
+offset_bottom = 124.0
+
 [node name="quest_area" type="Area2D" parent="."]
 script = ExtResource("11_780vc")
 
@@ -325,6 +332,8 @@ text = "10/20/2004"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[connection signal="area_entered" from="shop_area" to="shop_area" method="_on_area_entered"]
+[connection signal="area_exited" from="shop_area" to="shop_area" method="_on_area_exited"]
 [connection signal="area_entered" from="fishing_area" to="fishing_area" method="_on_area_entered"]
 [connection signal="area_exited" from="fishing_area" to="fishing_area" method="_on_area_exited"]
 [connection signal="work_started" from="fishing_area/tacklebox" to="Player" method="_on_tacklebox_work_started"]

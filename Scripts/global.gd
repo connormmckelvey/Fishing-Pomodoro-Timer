@@ -2,7 +2,6 @@ extends Node
 
 const SAVE_PATH = "res://Resources/save.tres"
 
-
 @export var gear_folder: String = "res://Resources/Gear/"
 
 @export var save := load(SAVE_PATH) as SaveData
@@ -11,7 +10,8 @@ func save_to_resource(savedata: SaveData):
 	ResourceSaver.save(savedata,SAVE_PATH)
 
 func _exit_tree():
-	save_to_resource(save)
+	pass
+	#save_to_resource(save)
 
 
 func add_gear_to_save():

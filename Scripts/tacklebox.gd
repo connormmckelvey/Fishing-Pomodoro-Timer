@@ -14,7 +14,7 @@ func open_tacklebox():
 	for gear in global.save.gear_owned:
 		add_gear(gear)
 	display_equiped()
-		
+	
 func close_tacklebox():
 	hide()
 		
