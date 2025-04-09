@@ -8,3 +8,6 @@ class_name Quest
 #to be overidden in child class to check quest progress
 func check_quest_progress():
 	return false
+
+func display_quest_progress():
+	return "none"

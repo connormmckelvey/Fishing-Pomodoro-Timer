@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1_10gim")
-amount = 10
+needed_amount = 10
 quest_name = "Amature Hour"
 description = "Catch 10 Fish!"
 level_unlock = 0
