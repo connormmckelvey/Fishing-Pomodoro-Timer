@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="TotalCollectionQuest" load_steps=2 format=3 uid="uid://c6qvway7isl1d"]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/TotalCollectionQuest.gd" id="1_10gim"]
+
+[resource]
+script = ExtResource("1_10gim")
+amount = 10
+quest_name = "Amature Hour"
+description = "Catch 10 Fish!"
+level_unlock = 0
