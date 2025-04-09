@@ -1,0 +1,92 @@
+[gd_scene load_steps=7 format=3 uid="uid://dpmrcq0tokr2d"]
+
+[ext_resource type="FontFile" uid="uid://d2srfwq605q6o" path="res://Assets/Pixellari.ttf" id="1_5vw8s"]
+[ext_resource type="Script" path="res://Scripts/quest_quest.gd" id="1_067ja"]
+[ext_resource type="Resource" uid="uid://c6qvway7isl1d" path="res://Resources/Quests/amature_hour.tres" id="2_qtu7x"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s2ll8"]
+bg_color = Color(0.513726, 0.12549, 0.145098, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.513726, 0.12549, 0.145098, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k7xo6"]
+bg_color = Color(0.713726, 0.2, 0.223529, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.513726, 0.12549, 0.145098, 1)
+
+[sub_resource type="Theme" id="Theme_6kews"]
+Button/fonts/font = ExtResource("1_5vw8s")
+Button/styles/hover = SubResource("StyleBoxFlat_s2ll8")
+Button/styles/normal = SubResource("StyleBoxFlat_k7xo6")
+Label/colors/font_color = Color(0.27451, 0.211765, 0.12549, 1)
+Label/fonts/font = ExtResource("1_5vw8s")
+
+[node name="quest_quest" type="ColorRect"]
+custom_minimum_size = Vector2(900, 100)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -252.0
+offset_bottom = -548.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_6kews")
+color = Color(0.823529, 0.705882, 0.54902, 1)
+script = ExtResource("1_067ja")
+quest = ExtResource("2_qtu7x")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 0
+offset_left = 10.0
+offset_right = 890.0
+offset_bottom = 100.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+alignment = 1
+
+[node name="quest_name" type="Label" parent="HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+
+[node name="quest_description" type="Label" parent="HBoxContainer/VBoxContainer"]
+layout_mode = 2
+autowrap_mode = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="progress" type="Label" parent="HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="money_reward" type="Label" parent="HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="gear_reward" type="Label" parent="HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 715.0
+offset_top = 11.0
+offset_right = 889.0
+offset_bottom = 85.0
+text = "Claim!"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

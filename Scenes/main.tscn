@@ -274,6 +274,10 @@ position = Vector2(354.5, 465)
 shape = SubResource("RectangleShape2D_2juv5")
 
 [node name="quest_area" parent="quest_area" instance=ExtResource("13_i7o2s")]
+offset_left = 120.0
+offset_top = 127.0
+offset_right = 120.0
+offset_bottom = 127.0
 
 [node name="fishing_area" type="Area2D" parent="."]
 script = ExtResource("12_pnmge")

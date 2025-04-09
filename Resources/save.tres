@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="SaveData" load_steps=68 format=3 uid="uid://bwtegty4xnoeq"]
+[gd_resource type="Resource" script_class="SaveData" load_steps=69 format=3 uid="uid://bwtegty4xnoeq"]
 
 [ext_resource type="Resource" uid="uid://b62c0lbrlmdhy" path="res://Resources/Gear/fishing_bag.tres" id="1_dmndr"]
 [ext_resource type="Resource" uid="uid://k5vintvgwnay" path="res://Resources/Catchables/angelfish.tres" id="1_doh78"]
@@ -67,6 +67,7 @@
 [ext_resource type="Resource" path="res://Resources/Gear/tackle_box.tres" id="32_nbfow"]
 [ext_resource type="Resource" path="res://Resources/Gear/trident.tres" id="33_pwd78"]
 [ext_resource type="Resource" uid="uid://c6qvway7isl1d" path="res://Resources/Quests/amature_hour.tres" id="67_1r0tn"]
+[ext_resource type="Resource" uid="uid://buqkxedtb7dno" path="res://Resources/Quests/finding_nemo.tres" id="68_3scuh"]
 
 [resource]
 script = ExtResource("5_dklpm")
@@ -80,6 +81,6 @@ money = 200
 catches = Array[Resource("res://Scripts/Resource Scripts/Catchable.gd")]([ExtResource("1_ipyy8")])
 catchables = Array[Resource("res://Scripts/Resource Scripts/Catchable.gd")]([ExtResource("1_doh78"), ExtResource("2_nqub0"), ExtResource("1_ipyy8"), ExtResource("4_0y8tr"), ExtResource("5_rrqoc"), ExtResource("6_j2jil"), ExtResource("7_3w002"), ExtResource("8_5gjlr"), ExtResource("9_y5eyd"), ExtResource("10_mmjaw"), ExtResource("11_ymiqi"), ExtResource("12_sfooh"), ExtResource("13_lbuqm"), ExtResource("14_53e6u"), ExtResource("15_w1nhj"), ExtResource("16_u7aox"), ExtResource("17_027c3"), ExtResource("18_wlptk"), ExtResource("19_lbr6x"), ExtResource("20_p371d"), ExtResource("21_1lq1d"), ExtResource("22_lvxo4"), ExtResource("23_50mu0"), ExtResource("24_2ccfa"), ExtResource("25_p10sg"), ExtResource("26_10hx6"), ExtResource("27_68rie"), ExtResource("28_nuo6p"), ExtResource("29_p8il4"), ExtResource("30_u2yxw"), ExtResource("31_wpihb"), ExtResource("32_cofek"), ExtResource("1_doh78"), ExtResource("2_nqub0"), ExtResource("1_ipyy8"), ExtResource("4_0y8tr"), ExtResource("5_rrqoc"), ExtResource("6_j2jil"), ExtResource("7_3w002"), ExtResource("8_5gjlr"), ExtResource("9_y5eyd"), ExtResource("10_mmjaw"), ExtResource("11_ymiqi"), ExtResource("12_sfooh"), ExtResource("13_lbuqm"), ExtResource("14_53e6u"), ExtResource("15_w1nhj"), ExtResource("16_u7aox"), ExtResource("17_027c3"), ExtResource("18_wlptk"), ExtResource("19_lbr6x"), ExtResource("20_p371d"), ExtResource("21_1lq1d"), ExtResource("22_lvxo4"), ExtResource("23_50mu0"), ExtResource("24_2ccfa"), ExtResource("25_p10sg"), ExtResource("26_10hx6"), ExtResource("27_68rie"), ExtResource("28_nuo6p"), ExtResource("29_p8il4"), ExtResource("30_u2yxw"), ExtResource("31_wpihb"), ExtResource("32_cofek")])
 completed_quests = Array[Resource("res://Scripts/Resource Scripts/Quest.gd")]([])
-uncompleted_quests = Array[Resource("res://Scripts/Resource Scripts/Quest.gd")]([ExtResource("67_1r0tn")])
+uncompleted_quests = Array[Resource("res://Scripts/Resource Scripts/Quest.gd")]([ExtResource("67_1r0tn"), ExtResource("68_3scuh")])
 work_time_min = 1
 rest_time_min = 1

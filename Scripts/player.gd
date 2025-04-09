@@ -49,7 +49,12 @@ func _on_tacklebox_work_started():
 	$AnimatedSprite2D.flip_h = true
 
 func _on_timer_display_done_fishing():
-	calculate_catch(3)
+	calculate_catch(randi_range(global.save.level,global.save.level+5))
+	for quest in global.save.uncompleted_quests:
+		if quest.check_quest_progress() == true:
+			global.save.completed_quests.append(quest)
+			global.save.uncompleted_quests.erase(quest)
+
 	position = Vector2i(635,432)
 	state = IDLING
 

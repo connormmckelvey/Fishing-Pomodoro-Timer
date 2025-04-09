@@ -5,4 +5,4 @@ func _on_area_entered(area):
 	$quest_area.open_quests()
 
 func _on_area_exited(area):
-	$quest_area.open_quests()
+	$quest_area.close_quests()
