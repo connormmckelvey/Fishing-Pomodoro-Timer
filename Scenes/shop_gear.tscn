@@ -16,6 +16,7 @@ script = ExtResource("1_f2qc8")
 gear = ExtResource("2_if5xr")
 
 [node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
 offset_left = 3.0
 offset_top = 3.0
 offset_right = 131.0

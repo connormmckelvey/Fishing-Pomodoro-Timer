@@ -17,6 +17,7 @@ func _process(delta):
 	text = format_seconds($Timer.time_left)
 	$date.text = Time.get_datetime_string_from_system().split("T")[0]
 	$clock.text = Time.get_datetime_string_from_system().split("T")[1]
+	$money.text = "$"+str(global.save.money)
 
 func format_seconds(seconds: int) -> String:
 	var minutes = seconds / 60

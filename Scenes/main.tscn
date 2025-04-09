@@ -332,6 +332,22 @@ text = "10/20/2004"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="money" type="Label" parent="display"]
+layout_mode = 0
+offset_left = 61.0
+offset_top = 60.0
+offset_right = 168.0
+offset_bottom = 96.0
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "$10"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [connection signal="area_entered" from="shop_area" to="shop_area" method="_on_area_entered"]
 [connection signal="area_exited" from="shop_area" to="shop_area" method="_on_area_exited"]
 [connection signal="area_entered" from="fishing_area" to="fishing_area" method="_on_area_entered"]

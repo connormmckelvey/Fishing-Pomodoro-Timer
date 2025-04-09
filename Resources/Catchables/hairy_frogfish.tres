@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://kgl76ggh0h17"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_iovp8"]
 [ext_resource type="Texture2D" uid="uid://bt1qqdpp6gqys" path="res://Assets/catchables icons/32.png" id="2_sxffm"]
@@ -10,3 +10,4 @@ rarity = 4
 depth = 25
 type = "frogfish"
 texture = ExtResource("2_sxffm")
+value = 45

@@ -10,3 +10,4 @@ rarity = 4
 depth = 20
 type = "salmon"
 texture = ExtResource("2_erpaf")
+value = 10

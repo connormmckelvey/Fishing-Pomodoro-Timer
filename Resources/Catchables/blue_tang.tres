@@ -10,3 +10,4 @@ rarity = 3
 depth = 15
 type = "fish"
 texture = ExtResource("2_ggpie")
+value = 8

@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://cfotunhcbq58u"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_eua2j"]
 [ext_resource type="Texture2D" uid="uid://i0fu1bxw4p02" path="res://Assets/catchables icons/25.png" id="2_an2bs"]
@@ -10,3 +10,4 @@ rarity = 3
 depth = 10
 type = "weever"
 texture = ExtResource("2_an2bs")
+value = 5

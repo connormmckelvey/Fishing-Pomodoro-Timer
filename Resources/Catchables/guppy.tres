@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://bwf881ftr53t6"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_w1en4"]
 [ext_resource type="Texture2D" uid="uid://bmjewm7y62vkp" path="res://Assets/catchables icons/23.png" id="2_evae6"]
@@ -10,3 +10,4 @@ rarity = 1
 depth = 2
 type = "fish"
 texture = ExtResource("2_evae6")
+value = 4

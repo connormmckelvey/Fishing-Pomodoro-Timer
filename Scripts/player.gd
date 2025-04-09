@@ -49,5 +49,45 @@ func _on_tacklebox_work_started():
 	$AnimatedSprite2D.flip_h = true
 
 func _on_timer_display_done_fishing():
+	calculate_catch(3)
 	position = Vector2i(635,432)
 	state = IDLING
+
+func calculate_catch(num_catches:int):
+	var total_rarity_score = global.save.equiped_tackle.bonuses["rariety_score"] + global.save.equiped_rod.bonuses["rariety_score"] + global.save.equiped_accessory.bonuses["rariety_score"]
+	var total_depth_score = global.save.equiped_tackle.bonuses["depth_score"] + global.save.equiped_rod.bonuses["depth_score"] + global.save.equiped_accessory.bonuses["depth_score"] 
+	var all_types_aviable = []
+	for type in global.save.equiped_tackle.bonuses["types_avilable"]:
+		all_types_aviable.append(type)
+	for type in global.save.equiped_rod.bonuses["types_avilable"]:
+		all_types_aviable.append(type)
+	for type in global.save.equiped_accessory.bonuses["types_avilable"]:
+		all_types_aviable.append(type)
+	all_types_aviable.sort()
+
+	var valid_catchables = get_valid_catchables(all_types_aviable, total_depth_score,total_rarity_score)
+	if valid_catchables.is_empty():
+		return
+	# Weight: common (rarity 1) = high chance, rare (rarity 5+) = low chance
+	var weights = valid_catchables.map(func(c): return 1.0 / float(c.rarity))
+	for i in num_catches:
+		var index = weighted_random_index(weights)
+		global.save.catches.append(valid_catchables[index])  # Duplicates allowed
+
+func get_valid_catchables(all_types_available: Array, depth_score: int, rarity_score:int) -> Array:
+	var filtered = []
+	for catchable in global.save.catchables:
+		if catchable.type in all_types_available and catchable.rarity <= rarity_score and catchable.depth <= depth_score:
+			filtered.append(catchable)
+	return filtered
+
+func weighted_random_index(weights: Array) -> int:
+	var total = weights.reduce(func(a, b): return a + b, 0.0)
+	var r = randf() * total
+	var accum = 0.0
+	for i in weights.size():
+		accum += weights[i]
+		if r < accum:
+			return i
+	return weights.size() - 1
+

@@ -9,5 +9,6 @@ class_name SaveData
 @export var gear_not_owned: Array[Gear]
 @export var money: int 
 @export var catches: Array[Catchable] #current inventory of catchables
+@export var catchables: Array[Catchable]
 @export var work_time_min: int
 @export var rest_time_min: int
