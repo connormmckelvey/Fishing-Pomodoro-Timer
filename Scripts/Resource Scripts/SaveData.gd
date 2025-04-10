@@ -2,6 +2,7 @@ extends Resource
 class_name SaveData
 
 @export var level: int
+@export var xp: int
 @export var equiped_tackle: Gear
 @export var equiped_rod: Gear
 @export var equiped_accessory: Gear

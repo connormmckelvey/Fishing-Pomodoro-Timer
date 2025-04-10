@@ -6,7 +6,7 @@ const JUMP_VELOCITY = -200.0
 const IDLING = "idle"
 const FISHING = "fish"
 const WALKING = "walk"
-const CATCHING = "hook"
+const CATCHIN54G = "hook"
 
 var state = IDLING
 
@@ -34,10 +34,10 @@ func _physics_process(delta):
 				$AnimatedSprite2D.flip_h = true
 			elif direction > 0:
 				$AnimatedSprite2D.flip_h = false
-			state = WALKING
+			change_state(WALKING)
 			velocity.x = direction * SPEED
 		else:
-			state = IDLING
+			change_state(IDLING)
 			velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	$AnimatedSprite2D.play(state)
@@ -45,11 +45,12 @@ func _physics_process(delta):
 
 func _on_tacklebox_work_started():
 	position = Vector2i(932,522)
-	state = FISHING
+	change_state(FISHING)
 	$AnimatedSprite2D.flip_h = true
 
 func _on_timer_display_done_fishing():
 	calculate_catch(randi_range(global.save.level,global.save.level+5))
+	calculate_levelup()
 	for quest in global.save.uncompleted_quests:
 		if quest.check_quest_progress() == true:
 			global.save.completed_quests.append(quest)
@@ -57,6 +58,13 @@ func _on_timer_display_done_fishing():
 
 	position = Vector2i(635,432)
 	state = IDLING
+
+func calculate_levelup():
+	global.save.xp += global.save.work_time_min
+	print(global.save.xp)
+	if global.save.xp >= (global.save.level + 1) * 100:
+		global.save.level += 1
+		$level_up_player.play()
 
 func calculate_catch(num_catches:int):
 	var total_rarity_score = global.save.equiped_tackle.bonuses["rariety_score"] + global.save.equiped_rod.bonuses["rariety_score"] + global.save.equiped_accessory.bonuses["rariety_score"]
@@ -96,3 +104,12 @@ func weighted_random_index(weights: Array) -> int:
 			return i
 	return weights.size() - 1
 
+func change_state(new_state: String):
+	var path = "res://Assets/Audio/"+new_state+".mp3"
+	if state != new_state:
+		$state_player.stop()
+	if ResourceLoader.exists(path) and state != new_state:
+		print("playing "+new_state)
+		$state_player.stream = load("res://Assets/Audio/"+new_state+".mp3")
+		$state_player.play()
+	state = new_state

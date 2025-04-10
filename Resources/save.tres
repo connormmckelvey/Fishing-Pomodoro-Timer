@@ -72,6 +72,7 @@
 [resource]
 script = ExtResource("5_dklpm")
 level = 1
+xp = 100
 equiped_tackle = ExtResource("2_3dkg7")
 equiped_rod = ExtResource("1_qpgnh")
 equiped_accessory = ExtResource("1_dmndr")
