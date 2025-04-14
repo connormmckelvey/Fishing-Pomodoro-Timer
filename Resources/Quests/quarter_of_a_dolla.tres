@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="TotalCollectionQuest" load_steps=2 format=3 uid="uid://3uiiqwivo8sg"]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/TotalCollectionQuest.gd" id="1_wgbjf"]
+
+[resource]
+script = ExtResource("1_wgbjf")
+needed_amount = 25
+quest_name = "Quarter Of A Dolla"
+description = "Collect 25 Fish"
+level_unlock = 1
+money_reward = 30

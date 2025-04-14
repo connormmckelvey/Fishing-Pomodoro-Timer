@@ -11,6 +11,7 @@ class_name SaveData
 @export var money: int 
 @export var catches: Array[Catchable] #current inventory of catchables
 @export var catchables: Array[Catchable]
+@export var claimed_quests: Array[Quest]
 @export var completed_quests: Array[Quest]
 @export var uncompleted_quests: Array[Quest]
 @export var work_time_min: int

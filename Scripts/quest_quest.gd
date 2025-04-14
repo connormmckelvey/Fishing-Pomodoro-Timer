@@ -1,4 +1,4 @@
-extends ColorRect
+extends Label
 
 @export var quest: Quest
 

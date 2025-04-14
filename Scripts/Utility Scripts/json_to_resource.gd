@@ -7,6 +7,7 @@ var catchables_json = [
 	"catchable_name": "Progenetica",
 	"rarity": 5,
 	"depth": 10,
+	"value": 10,
 	"type": "fish"
   },
   {

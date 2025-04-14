@@ -1,11 +1,18 @@
 extends Node
 
-const SAVE_PATH = "res://Resources/save.tres"
+const SAVE_PATH = "user://save.tres"
 
 @export var gear_folder: String = "res://Resources/Gear/"
 @export var catchable_folder: String = "res://Resources/Catchables/"
 
-@export var save := load(SAVE_PATH) as SaveData
+@export var save: SaveData
+
+func _enter_tree():
+	save = load("res://Resources/save.tres") as SaveData
+	#if ResourceLoader.exists(SAVE_PATH):
+		#save = load(SAVE_PATH) as SaveData
+	#else:
+		#save = load("res://Resources/save.tres")
 
 func save_to_resource(savedata: SaveData):
 	ResourceSaver.save(savedata,SAVE_PATH)

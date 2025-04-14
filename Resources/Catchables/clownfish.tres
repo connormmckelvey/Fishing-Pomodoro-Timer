@@ -10,4 +10,4 @@ rarity = 2
 depth = 5
 type = "fish"
 texture = ExtResource("2_oy1u6")
-value = 5
+value = 15
