@@ -1,13 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_noag8"]
-[ext_resource type="Texture2D" path="res://Assets/objects icon/18.png" id="2_cwnrf"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_qdcyu"]
+[ext_resource type="Texture2D" path="res://Assets/objects icon/18.png" id="2_tk8p8"]
 
 [resource]
-script = ExtResource("1_noag8")
+script = ExtResource("1_qdcyu")
 catchable_name = "Rusty key"
 rarity = 8
 depth = 600
 type = "special"
-texture = ExtResource("2_cwnrf")
-value = 0
+texture = ExtResource("2_tk8p8")
+value = 30

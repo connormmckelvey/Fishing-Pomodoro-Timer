@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://b0jay2etbam4u"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_xytox"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/45.png" id="2_eruf4"]
+[ext_resource type="Texture2D" uid="uid://cmxle1ts05hgj" path="res://Assets/catchables icons/45.png" id="2_eruf4"]
 
 [resource]
 script = ExtResource("1_xytox")
@@ -10,4 +10,4 @@ rarity = 7
 depth = 4
 type = "Dangerous Discoveries"
 texture = ExtResource("2_eruf4")
-value = 0
+value = 43

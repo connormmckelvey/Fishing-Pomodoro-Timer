@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://bbd51plklukxv"]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_f24js"]
-[ext_resource type="Texture2D" path="res://Assets/objects icon/12.png" id="2_8i424"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_s0axv"]
+[ext_resource type="Texture2D" uid="uid://4v8b3c8f1760" path="res://Assets/objects icon/12.png" id="2_j2wd0"]
 
 [resource]
-script = ExtResource("1_f24js")
+script = ExtResource("1_s0axv")
 catchable_name = "Underwater treasure"
 rarity = 14
 depth = 2000
 type = "special"
-texture = ExtResource("2_8i424")
-value = 0
+texture = ExtResource("2_j2wd0")
+value = 100

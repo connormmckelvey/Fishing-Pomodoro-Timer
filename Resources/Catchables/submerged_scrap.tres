@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://b23lno3tq5m5i"]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_sk1wx"]
-[ext_resource type="Texture2D" path="res://Assets/objects icon/9.png" id="2_gvyye"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_7b73e"]
+[ext_resource type="Texture2D" uid="uid://dy2x8mfnruxhw" path="res://Assets/objects icon/9.png" id="2_qjkn3"]
 
 [resource]
-script = ExtResource("1_sk1wx")
+script = ExtResource("1_7b73e")
 catchable_name = "Submerged scrap"
 rarity = 4
 depth = 350
 type = "trash"
-texture = ExtResource("2_gvyye")
-value = 0
+texture = ExtResource("2_qjkn3")
+value = 10

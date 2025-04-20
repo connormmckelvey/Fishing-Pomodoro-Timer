@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://csjb8tthy1nsd"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_4t2ma"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/55.png" id="2_aqemx"]
+[ext_resource type="Texture2D" uid="uid://bwq3gvt8uw7il" path="res://Assets/catchables icons/55.png" id="2_aqemx"]
 
 [resource]
 script = ExtResource("1_4t2ma")
@@ -10,4 +10,4 @@ rarity = 7
 depth = 700
 type = "Common Fish"
 texture = ExtResource("2_aqemx")
-value = 0
+value = 56

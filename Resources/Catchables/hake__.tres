@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://dxf2gy54axdyw"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_3wxrv"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/52.png" id="2_othlk"]
+[ext_resource type="Texture2D" uid="uid://hajbrbrgl8tf" path="res://Assets/catchables icons/52.png" id="2_othlk"]
 
 [resource]
 script = ExtResource("1_3wxrv")
@@ -10,4 +10,4 @@ rarity = 8
 depth = 80
 type = "tropical"
 texture = ExtResource("2_othlk")
-value = 0
+value = 52

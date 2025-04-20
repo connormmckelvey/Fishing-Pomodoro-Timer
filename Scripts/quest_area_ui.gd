@@ -8,6 +8,7 @@ func _ready():
 	
 func open_quests():
 	show()
+	audio_manager.play_sound(load("res://Assets/Audio/ui-click-43196.mp3"))
 	for node in $VBoxContainer/ScrollContainer/VBoxContainer.get_children():
 		node.queue_free()
 	for quest in global.save.completed_quests:
@@ -17,7 +18,8 @@ func open_quests():
 	
 func close_quests():
 	hide()
-
+	audio_manager.play_sound(load("res://Assets/Audio/ui-click-43196.mp3"))
+	
 func add_quest(quest: Quest):
 	var q = questQuest.instantiate()
 	q.quest = quest

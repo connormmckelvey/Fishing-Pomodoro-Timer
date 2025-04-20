@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=3 uid="uid://8gp21sfo5fw2"]
+[gd_scene load_steps=33 format=3 uid="uid://8gp21sfo5fw2"]
 
 [ext_resource type="Script" path="res://Scripts/global.gd" id="2_hrmec"]
 [ext_resource type="Texture2D" uid="uid://b03r25i7npeaw" path="res://Assets/Skybox/1.png" id="2_xvmsh"]
@@ -18,7 +18,6 @@
 [ext_resource type="Script" path="res://Scripts/timer_display.gd" id="14_f8eyv"]
 [ext_resource type="FontFile" uid="uid://d2srfwq605q6o" path="res://Assets/Pixellari.ttf" id="14_moku3"]
 [ext_resource type="Script" path="res://Scripts/AudioStreamPlayer2D.gd" id="18_4twtr"]
-[ext_resource type="AudioStream" uid="uid://bxpv7q4483444" path="res://Assets/Audio/wind-and-waves-307526.mp3" id="18_7qk3m"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xufis"]
 size = Vector2(425, 15)
@@ -164,6 +163,9 @@ bg_color = Color(1, 0.219608, 0.294118, 1)
 
 [node name="global_save" type="Node" parent="."]
 script = ExtResource("2_hrmec")
+
+[node name="audio_manager" type="Node" parent="."]
+script = ExtResource("18_4twtr")
 
 [node name="sky" type="Node2D" parent="."]
 
@@ -368,11 +370,6 @@ offset_right = 690.0
 offset_bottom = 620.0
 theme_override_styles/fill = SubResource("StyleBoxFlat_aercw")
 show_percentage = false
-
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("18_7qk3m")
-autoplay = true
-script = ExtResource("18_4twtr")
 
 [connection signal="area_entered" from="shop_area" to="shop_area" method="_on_area_entered"]
 [connection signal="area_exited" from="shop_area" to="shop_area" method="_on_area_exited"]

@@ -12,8 +12,8 @@ func _ready():
 	catchables_json = json["catchables"]
 	gear_json = json["gear"]
 	quests_json = json["quests"]
-	create_gear_resources(gear_json)
-
+	#create_gear_resources(gear_json)
+	create_catchable_resources(catchables_json)
 
 
 
@@ -24,6 +24,7 @@ func create_catchable_resources(catchables_json: Array):
 		c_resource.depth = catchables_json[i]["depth"]
 		c_resource.rarity = catchables_json[i]["rarity"]
 		c_resource.type = catchables_json[i]["type"]
+		c_resource.value = int(catchables_json[i]["value"])
 		if i < 144:
 			c_resource.texture = load("res://Assets/catchables icons/"+str(i+1)+".png")
 		else:

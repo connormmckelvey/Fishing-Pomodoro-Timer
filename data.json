@@ -1289,7 +1289,8 @@
 	  "name": "Rubber duck",
 	  "rarity": "3",
 	  "depth": "250",
-	  "type": "trash"
+	  "type": "trash",
+	  "value": "1000"
 	}
   ],
   "gear": [

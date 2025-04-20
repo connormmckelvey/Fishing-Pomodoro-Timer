@@ -17,11 +17,11 @@ func _ready():
 
 	var style = get_theme_stylebox("normal") as StyleBoxFlat
 	match gear.type:
-		"Accessory":
+		"accessory":
 			style.border_color = ACCESSORY_COLOR
-		"Rod":
+		"rod":
 			style.border_color = ROD_COLOR
-		"Tackle":
+		"tackle":
 			style.border_color = TACKLE_COLOR
 
 	$ColorRect/VBoxContainer/name.text = gear.gear_name

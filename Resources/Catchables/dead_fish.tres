@@ -1,13 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_yagw6"]
-[ext_resource type="Texture2D" path="res://Assets/objects icon/4.png" id="2_51bkn"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_8d60w"]
+[ext_resource type="Texture2D" path="res://Assets/objects icon/4.png" id="2_4ig4s"]
 
 [resource]
-script = ExtResource("1_yagw6")
+script = ExtResource("1_8d60w")
 catchable_name = "Dead fish"
 rarity = 2
 depth = 50
 type = "trash"
-texture = ExtResource("2_51bkn")
-value = 0
+texture = ExtResource("2_4ig4s")
+value = 2

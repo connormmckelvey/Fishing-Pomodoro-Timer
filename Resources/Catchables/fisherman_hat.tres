@@ -1,13 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_pec0r"]
-[ext_resource type="Texture2D" path="res://Assets/objects icon/6.png" id="2_sye3a"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_aeqlb"]
+[ext_resource type="Texture2D" path="res://Assets/objects icon/6.png" id="2_k0qqp"]
 
 [resource]
-script = ExtResource("1_pec0r")
+script = ExtResource("1_aeqlb")
 catchable_name = "Fisherman hat"
 rarity = 6
 depth = 400
 type = "clothes"
-texture = ExtResource("2_sye3a")
-value = 0
+texture = ExtResource("2_k0qqp")
+value = 15

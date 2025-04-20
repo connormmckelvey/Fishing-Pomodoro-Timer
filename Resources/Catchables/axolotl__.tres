@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://jn77i32uu3wn"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_3ytve"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/127.png" id="2_30scb"]
+[ext_resource type="Texture2D" uid="uid://bequnwt8lflv5" path="res://Assets/catchables icons/127.png" id="2_30scb"]
 
 [resource]
 script = ExtResource("1_3ytve")
@@ -10,4 +10,4 @@ rarity = 19
 depth = 10
 type = "Warm Blooded"
 texture = ExtResource("2_30scb")
-value = 0
+value = 116

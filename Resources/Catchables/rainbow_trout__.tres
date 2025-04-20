@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://c6og33e7i0cbw"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_4isbk"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/60.png" id="2_n4l55"]
+[ext_resource type="Texture2D" uid="uid://il167kn1vcmn" path="res://Assets/catchables icons/60.png" id="2_n4l55"]
 
 [resource]
 script = ExtResource("1_4isbk")
@@ -10,4 +10,4 @@ rarity = 14
 depth = 7
 type = "riverfish"
 texture = ExtResource("2_n4l55")
-value = 0
+value = 114

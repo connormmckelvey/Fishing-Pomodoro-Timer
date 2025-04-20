@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://4gkg4380224b"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_qhkdy"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/132.png" id="2_vytpe"]
+[ext_resource type="Texture2D" uid="uid://cjlg0s3wbv8ww" path="res://Assets/catchables icons/132.png" id="2_vytpe"]
 
 [resource]
 script = ExtResource("1_qhkdy")
@@ -10,4 +10,4 @@ rarity = 14
 depth = 25
 type = "crustation"
 texture = ExtResource("2_vytpe")
-value = 0
+value = 82

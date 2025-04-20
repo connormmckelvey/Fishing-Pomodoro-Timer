@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://dkilw10obe8iv"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_7lcah"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/98.png" id="2_i0sh4"]
+[ext_resource type="Texture2D" uid="uid://x4kssxpbxiph" path="res://Assets/catchables icons/98.png" id="2_i0sh4"]
 
 [resource]
 script = ExtResource("1_7lcah")
@@ -10,4 +10,4 @@ rarity = 3
 depth = 15
 type = "shellfish"
 texture = ExtResource("2_i0sh4")
-value = 0
+value = 16

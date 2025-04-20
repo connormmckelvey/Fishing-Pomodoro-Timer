@@ -1,13 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_63qme"]
-[ext_resource type="Texture2D" path="res://Assets/objects icon/19.png" id="2_4w0by"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_agrx4"]
+[ext_resource type="Texture2D" path="res://Assets/objects icon/19.png" id="2_g35uh"]
 
 [resource]
-script = ExtResource("1_63qme")
+script = ExtResource("1_agrx4")
 catchable_name = "Float"
 rarity = 4
 depth = 1000
 type = "trash"
-texture = ExtResource("2_4w0by")
-value = 0
+texture = ExtResource("2_g35uh")
+value = 25

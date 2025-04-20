@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://dqllwnk8itoht"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_fl530"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/94.png" id="2_3ugro"]
+[ext_resource type="Texture2D" uid="uid://ckbr5446spnce" path="res://Assets/catchables icons/94.png" id="2_3ugro"]
 
 [resource]
 script = ExtResource("1_fl530")
@@ -10,4 +10,4 @@ rarity = 13
 depth = 2
 type = "Freshwater Fish"
 texture = ExtResource("2_3ugro")
-value = 0
+value = 97

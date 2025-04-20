@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://cnl2sm72rtchb"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_cknmh"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/54.png" id="2_hroxq"]
+[ext_resource type="Texture2D" uid="uid://dhqarjmi500oj" path="res://Assets/catchables icons/54.png" id="2_hroxq"]
 
 [resource]
 script = ExtResource("1_cknmh")
@@ -10,4 +10,4 @@ rarity = 11
 depth = 65
 type = "Coldwater"
 texture = ExtResource("2_hroxq")
-value = 0
+value = 62

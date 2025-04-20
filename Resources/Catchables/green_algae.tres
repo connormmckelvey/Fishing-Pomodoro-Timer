@@ -1,13 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_1amkx"]
-[ext_resource type="Texture2D" path="res://Assets/objects icon/1.png" id="2_xdoqh"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_uescx"]
+[ext_resource type="Texture2D" path="res://Assets/objects icon/1.png" id="2_2wg4g"]
 
 [resource]
-script = ExtResource("1_1amkx")
+script = ExtResource("1_uescx")
 catchable_name = "Green algae"
 rarity = 3
 depth = 200
 type = "algae"
-texture = ExtResource("2_xdoqh")
-value = 0
+texture = ExtResource("2_2wg4g")
+value = 5

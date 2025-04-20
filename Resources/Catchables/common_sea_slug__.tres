@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://xn2sol0civc3"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_7mtrs"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/134.png" id="2_ylcff"]
+[ext_resource type="Texture2D" uid="uid://kdnmoaoh6sgr" path="res://Assets/catchables icons/134.png" id="2_ylcff"]
 
 [resource]
 script = ExtResource("1_7mtrs")
@@ -10,4 +10,4 @@ rarity = 3
 depth = 60
 type = "Creepers"
 texture = ExtResource("2_ylcff")
-value = 0
+value = 19

@@ -1,13 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_t1a1s"]
-[ext_resource type="Texture2D" path="res://Assets/objects icon/13.png" id="2_n8hgy"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_1k0cp"]
+[ext_resource type="Texture2D" path="res://Assets/objects icon/13.png" id="2_bemqp"]
 
 [resource]
-script = ExtResource("1_t1a1s")
+script = ExtResource("1_1k0cp")
 catchable_name = "Gold coin"
 rarity = 13
 depth = 1500
 type = "special"
-texture = ExtResource("2_n8hgy")
-value = 0
+texture = ExtResource("2_bemqp")
+value = 90

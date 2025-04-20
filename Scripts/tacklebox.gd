@@ -9,6 +9,7 @@ func _ready():
 
 func open_tacklebox():
 	show()
+	audio_manager.play_sound(load("res://Assets/Audio/ui-click-43196.mp3"))
 	for node in $VBoxContainer/HBoxContainer/ScrollContainer/GridContainer.get_children():
 		node.queue_free()
 	for gear in global.save.gear_owned:
@@ -17,6 +18,7 @@ func open_tacklebox():
 	
 func close_tacklebox():
 	hide()
+	audio_manager.play_sound(load("res://Assets/Audio/ui-click-43196.mp3"))
 		
 func add_gear(gear):
 	var tbg = tackleBoxGear.instantiate()
@@ -30,9 +32,9 @@ func add_active_gear(gear):
 	$VBoxContainer/HBoxContainer/VBoxContainer.add_child(tbg)
  
 func equip_gear(gear: Gear):
-	if gear.type == "Tackle":
+	if gear.type == "tackle":
 		global.save.equiped_tackle = gear
-	elif gear.type == "Rod":
+	elif gear.type == "rod":
 		global.save.equiped_rod = gear
 	else:
 		global.save.equiped_accessory = gear

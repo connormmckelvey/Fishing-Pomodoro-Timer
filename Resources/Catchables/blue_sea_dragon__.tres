@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://c7ckdl1np4qw1"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_jfwcx"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/130.png" id="2_vt38h"]
+[ext_resource type="Texture2D" uid="uid://dedfpayvtd1o" path="res://Assets/catchables icons/130.png" id="2_vt38h"]
 
 [resource]
 script = ExtResource("1_jfwcx")
@@ -10,4 +10,4 @@ rarity = 20
 depth = 9
 type = "jelly"
 texture = ExtResource("2_vt38h")
-value = 0
+value = 144

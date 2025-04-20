@@ -6,6 +6,7 @@ signal done_fishing
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	text = str(global.save.work_time_min)
+	audio_manager.play_sound(load("res://Assets/Audio/wind-and-waves-307526.mp3"),true)
 	
 	
 func _on_tacklebox_work_started():

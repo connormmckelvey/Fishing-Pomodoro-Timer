@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://bdu0n5gg7xa3x"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_tighf"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/31.png" id="2_5y8gy"]
+[ext_resource type="Texture2D" uid="uid://bd5kc6p3fs2er" path="res://Assets/catchables icons/31.png" id="2_5y8gy"]
 
 [resource]
 script = ExtResource("1_tighf")
@@ -10,4 +10,4 @@ rarity = 13
 depth = 9800
 type = "Deep-Sea Creatures"
 texture = ExtResource("2_5y8gy")
-value = 0
+value = 76

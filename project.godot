@@ -19,9 +19,11 @@ config/icon="res://Assets/4 Icons/Icons_07.png"
 [autoload]
 
 global="*res://Scripts/global.gd"
+audio_manager="*res://Scripts/AudioStreamPlayer2D.gd"
 
 [display]
 
+window/size/mode=2
 window/stretch/mode="viewport"
 
 [input]

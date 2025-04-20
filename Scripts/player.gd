@@ -52,9 +52,8 @@ func _on_tacklebox_work_started():
 func _on_timer_display_done_fishing():
 	var total_rarity_score = global.save.equiped_tackle.bonuses["rariety_score"] + global.save.equiped_rod.bonuses["rariety_score"] + global.save.equiped_accessory.bonuses["rariety_score"]
 	var total_depth_score = global.save.equiped_tackle.bonuses["depth_score"] + global.save.equiped_rod.bonuses["depth_score"] + global.save.equiped_accessory.bonuses["depth_score"] 
-
-	#calculate_catch(randi_range(global.save.level,global.save.level+5))
-	calculate_catch_2(global.save.level,total_rarity_score,total_depth_score,global.save.work_time_min,get_valid_catchables())
+	
+	calculate_catch_2(global.save.level,total_rarity_score,total_depth_score,global.save.work_time_min + 10,get_valid_catchables())
 	calculate_levelup()
 	for quest in global.save.uncompleted_quests:
 		if quest.check_quest_progress() == true:
@@ -69,7 +68,7 @@ func calculate_levelup():
 	print(global.save.xp)
 	if global.save.xp >= (global.save.level + 1) * 100:
 		global.save.level += 1
-		$level_up_player.play()
+		audio_manager.play_sound(load("res://Assets/Audio/level-up-4-243762.mp3"))
 
 func calculate_catch(num_catches:int):
 	var total_rarity_score = global.save.equiped_tackle.bonuses["rariety_score"] + global.save.equiped_rod.bonuses["rariety_score"] + global.save.equiped_accessory.bonuses["rariety_score"]
@@ -95,14 +94,13 @@ func calculate_catch(num_catches:int):
 #calculates catch for a third of min in duration, based on finding fish that are close to rarity and depth equiped
 func calculate_catch_2(level: int, rarity_score: int, depth_score: int, duration: int, fish_list: Array):
 	var caught_fish := []
-
-	for i in int(duration/3):
-		var shuffled_fish = fish_list.duplicate()
+	for i in int(duration*3):
+		var shuffled_fish = fish_list
 		shuffled_fish.shuffle()
 
 		for fish in shuffled_fish:
-			var fish_rarity = fish["rarity"]
-			var fish_depth = fish["depth"]
+			var fish_rarity = fish.rarity
+			var fish_depth = fish.depth
 
 			# Rarity logic
 			var rarity_diff = abs(fish_rarity - rarity_score)
@@ -117,11 +115,14 @@ func calculate_catch_2(level: int, rarity_score: int, depth_score: int, duration
 
 			if randi() % 100 + 1 <= catch_chance:
 				caught_fish.append(fish)
+				print(fish.catchable_name + "caught")
 				break  # Only one fish per tick
+			else:
+				print(fish.catchable_name)
 
 	print(caught_fish)
 	for catch in caught_fish:
-		global.save.catches += catch
+		global.save.catches.append(catch)
 
 #returns all catchables that have a type that can be caught
 func get_valid_catchables() -> Array:

@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://bnrx340wc8xic"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_pdl3c"]
-[ext_resource type="Texture2D" path="res://Assets/catchables icons/109.png" id="2_nm8gb"]
+[ext_resource type="Texture2D" uid="uid://b0l80t8vw5idj" path="res://Assets/catchables icons/109.png" id="2_nm8gb"]
 
 [resource]
 script = ExtResource("1_pdl3c")
@@ -10,4 +10,4 @@ rarity = 7
 depth = 5
 type = "mollusk"
 texture = ExtResource("2_nm8gb")
-value = 0
+value = 51
