@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_7jurd"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/38.png" id="2_yd108"]
+
+[resource]
+script = ExtResource("1_7jurd")
+catchable_name = "Emperor tetra  "
+rarity = 15
+depth = 8
+type = "Tetra"
+texture = ExtResource("2_yd108")
+value = 0

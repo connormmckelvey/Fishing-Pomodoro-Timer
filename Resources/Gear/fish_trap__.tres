@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_kvk8a"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/24.png" id="2_6qxja"]
+
+[resource]
+script = ExtResource("1_kvk8a")
+gear_name = "Fish trap  "
+cost = 200
+rarity = "Uncommon"
+type = "rod"
+bonuses = {
+"depth_score": 1200,
+"rariety_score": 1,
+"types_avilable": PackedStringArray("riverfish", "crustation")
+}
+texture = ExtResource("2_6qxja")

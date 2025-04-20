@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_0dw1t"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/101.png" id="2_3yyx5"]
+
+[resource]
+script = ExtResource("1_0dw1t")
+catchable_name = "Mediterranean mussel  "
+rarity = 18
+depth = 180
+type = "shellfish"
+texture = ExtResource("2_3yyx5")
+value = 0

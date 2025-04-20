@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_hbohw"]
+[ext_resource type="Texture2D" path="res://Assets/objects icon/10.png" id="2_flbkq"]
+
+[resource]
+script = ExtResource("1_hbohw")
+catchable_name = "Floating log"
+rarity = 5
+depth = 500
+type = "trash"
+texture = ExtResource("2_flbkq")
+value = 0

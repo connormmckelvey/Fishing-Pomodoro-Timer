@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_7sdpw"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/57.png" id="2_mel1u"]
+
+[resource]
+script = ExtResource("1_7sdpw")
+catchable_name = "Cherry barb  "
+rarity = 15
+depth = 2400
+type = "Exotic Catch"
+texture = ExtResource("2_mel1u")
+value = 0

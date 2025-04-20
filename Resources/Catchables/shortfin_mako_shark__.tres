@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_4a4ki"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/75.png" id="2_jmdsb"]
+
+[resource]
+script = ExtResource("1_4a4ki")
+catchable_name = "Shortfin mako shark  "
+rarity = 8
+depth = 60
+type = "Warm Blooded"
+texture = ExtResource("2_jmdsb")
+value = 0

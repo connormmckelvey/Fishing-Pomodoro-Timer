@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_ou144"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/68.png" id="2_dlt6i"]
+
+[resource]
+script = ExtResource("1_ou144")
+catchable_name = "Saddled bichir  "
+rarity = 12
+depth = 5000
+type = "Dangerous Discoveries"
+texture = ExtResource("2_dlt6i")
+value = 0

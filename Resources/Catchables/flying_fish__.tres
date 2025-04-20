@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_i5qqf"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/22.png" id="2_0abtg"]
+
+[resource]
+script = ExtResource("1_i5qqf")
+catchable_name = "Flying fish  "
+rarity = 4
+depth = 150
+type = "Exotic Catch"
+texture = ExtResource("2_0abtg")
+value = 0

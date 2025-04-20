@@ -26,7 +26,7 @@ func _ready():
 
 	$ColorRect/VBoxContainer/name.text = gear.gear_name
 	$ColorRect/VBoxContainer/cost.text = "Cost: "+str(gear.cost)
-	$ColorRect/VBoxContainer/rarity.text = "Rarity: "+ stars_string(gear.rarity)
+	$ColorRect/VBoxContainer/rarity.text = "Rarity: "+ str(gear.rarity)
 
 func _process(delta):
 	if $ColorRect.get_rect().has_point(get_local_mouse_position()):

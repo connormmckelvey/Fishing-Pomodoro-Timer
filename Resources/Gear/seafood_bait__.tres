@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_rfocq"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/18.png" id="2_xnrgv"]
+
+[resource]
+script = ExtResource("1_rfocq")
+gear_name = "Seafood bait  "
+cost = 1000
+rarity = "Rare"
+type = "tackle"
+bonuses = {
+"depth_score": 4800,
+"rariety_score": 2,
+"types_avilable": PackedStringArray("Rare Aquatic Creatures", "special")
+}
+texture = ExtResource("2_xnrgv")

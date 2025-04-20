@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_vqwy8"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/4.png" id="2_rll3u"]
+
+[resource]
+script = ExtResource("1_vqwy8")
+gear_name = "Glass fiber fishing rod  "
+cost = 450
+rarity = "Rare"
+type = "rod"
+bonuses = {
+"depth_score": 3200,
+"rariety_score": 2,
+"types_avilable": PackedStringArray("Tetra", "Exotic Catch")
+}
+texture = ExtResource("2_rll3u")

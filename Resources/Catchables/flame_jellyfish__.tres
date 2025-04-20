@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_23q1n"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/108.png" id="2_fo2jg"]
+
+[resource]
+script = ExtResource("1_23q1n")
+catchable_name = "Flame jellyfish  "
+rarity = 3
+depth = 30
+type = "jelly"
+texture = ExtResource("2_fo2jg")
+value = 0

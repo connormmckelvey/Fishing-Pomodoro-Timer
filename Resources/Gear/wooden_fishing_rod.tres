@@ -7,7 +7,7 @@
 script = ExtResource("1_p0qs4")
 gear_name = "Wooden fishing rod"
 cost = 10
-rarity = 1
+rarity = ""
 type = "Rod"
 bonuses = {
 "depth_score": 2,

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_3wxrv"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/52.png" id="2_othlk"]
+
+[resource]
+script = ExtResource("1_3wxrv")
+catchable_name = "Hake  "
+rarity = 8
+depth = 80
+type = "tropical"
+texture = ExtResource("2_othlk")
+value = 0

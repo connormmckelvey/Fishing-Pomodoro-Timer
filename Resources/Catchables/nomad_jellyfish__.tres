@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_gt4n3"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/105.png" id="2_6maoy"]
+
+[resource]
+script = ExtResource("1_gt4n3")
+catchable_name = "Nomad jellyfish  "
+rarity = 10
+depth = 40
+type = "jelly"
+texture = ExtResource("2_6maoy")
+value = 0

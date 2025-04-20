@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_e1w5e"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/123.png" id="2_o7p6e"]
+
+[resource]
+script = ExtResource("1_e1w5e")
+catchable_name = "Common lobster  "
+rarity = 13
+depth = 35
+type = "crustation"
+texture = ExtResource("2_o7p6e")
+value = 0

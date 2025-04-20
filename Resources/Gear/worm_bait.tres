@@ -7,7 +7,7 @@
 script = ExtResource("1_c8rnt")
 gear_name = "Worm bait"
 cost = 5
-rarity = 1
+rarity = ""
 type = "Tackle"
 bonuses = {
 "depth_score": 0,

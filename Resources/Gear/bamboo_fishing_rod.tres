@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://bllp1gwfo8ku5"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_u1anr"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/2.png" id="2_3lkgl"]
+[ext_resource type="Texture2D" uid="uid://q2j347haemsy" path="res://Assets/gear icons/2.png" id="2_3lkgl"]
 
 [resource]
 script = ExtResource("1_u1anr")
 gear_name = "Bamboo fishing rod"
 cost = 25
-rarity = 2
+rarity = ""
 type = "Rod"
 bonuses = {
 "depth_score": 3,

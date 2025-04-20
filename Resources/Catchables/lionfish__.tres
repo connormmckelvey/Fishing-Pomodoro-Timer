@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_73j8w"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/19.png" id="2_hj858"]
+
+[resource]
+script = ExtResource("1_73j8w")
+catchable_name = "Lionfish  "
+rarity = 12
+depth = 110
+type = "Rare Aquatic Creatures"
+texture = ExtResource("2_hj858")
+value = 0

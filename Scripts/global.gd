@@ -30,7 +30,7 @@ func add_gear_to_save():
 	dir.list_dir_begin()
 	var file = dir.get_next()
 	while file != "":
-		if not dir.current_is_dir() and (file.ends_with(".tres") or file.ends_with(".res")):
+		if not dir.current_is_dir() and (file.ends_with("__.tres") or file.ends_with(".res")):
 			var path = gear_folder + file
 			var res = load(path)
 			if res and res is Gear:
@@ -47,7 +47,7 @@ func add_catchables_to_save():
 	dir.list_dir_begin()
 	var file = dir.get_next()
 	while file != "":
-		if not dir.current_is_dir() and (file.ends_with(".tres") or file.ends_with(".res")):
+		if not dir.current_is_dir() and (file.ends_with("__.tres") or file.ends_with(".res")):
 			var path = catchable_folder + file
 			var res = load(path)
 			if res and res is Catchable:

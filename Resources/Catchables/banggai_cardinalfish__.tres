@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_srt83"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/89.png" id="2_tjo0o"]
+
+[resource]
+script = ExtResource("1_srt83")
+catchable_name = "Banggai cardinalfish  "
+rarity = 15
+depth = 14
+type = "Tropical"
+texture = ExtResource("2_tjo0o")
+value = 0

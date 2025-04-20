@@ -1,1731 +1,1731 @@
 {
   "catchables": [
-    {
-      "T#": "1",
-      "name": "Progenetica  ",
-      "rarity": "4",
-      "depth": "479",
-      "type": "tropical",
-      "value": "28"
-    },
-    {
-      "T#": "2",
-      "name": "Clownfish  ",
-      "rarity": "6",
-      "depth": "12",
-      "type": "tropical",
-      "value": "46"
-    },
-    {
-      "T#": "3",
-      "name": "Blue tang / Blue surgeonfish  ",
-      "rarity": "8",
-      "depth": "18",
-      "type": "tropical",
-      "value": "78"
-    },
-    {
-      "T#": "4",
-      "name": "Yellow tang / Somber surgeonfish  ",
-      "rarity": "12",
-      "depth": "20",
-      "type": "tropical",
-      "value": "68"
-    },
-    {
-      "T#": "5",
-      "name": "Gem tang / Spotted tang  ",
-      "rarity": "10",
-      "depth": "21",
-      "type": "tropical",
-      "value": "52"
-    },
-    {
-      "T#": "6",
-      "name": "Sailfin tang / Sailfin surgeonfish  ",
-      "rarity": "5",
-      "depth": "25",
-      "type": "tropical",
-      "value": "30"
-    },
-    {
-      "T#": "7",
-      "name": "Angelfish  ",
-      "rarity": "14",
-      "depth": "15",
-      "type": "tropical",
-      "value": "123"
-    },
-    {
-      "T#": "8",
-      "name": "Queen angelfish  ",
-      "rarity": "13",
-      "depth": "22",
-      "type": "tropical",
-      "value": "129"
-    },
-    {
-      "T#": "9",
-      "name": "French angelfish  ",
-      "rarity": "2",
-      "depth": "23",
-      "type": "tropical",
-      "value": "13"
-    },
-    {
-      "T#": "10",
-      "name": "Goldfish  ",
-      "rarity": "3",
-      "depth": "5",
-      "type": "Common Fish",
-      "value": "28"
-    },
-    {
-      "T#": "11",
-      "name": "Fighting fish  ",
-      "rarity": "7",
-      "depth": "4",
-      "type": "Common Fish",
-      "value": "63"
-    },
-    {
-      "T#": "12",
-      "name": "Catfish  ",
-      "rarity": "11",
-      "depth": "60",
-      "type": "Common Fish",
-      "value": "89"
-    },
-    {
-      "T#": "13",
-      "name": "Porcupinefish / Blowfish  ",
-      "rarity": "9",
-      "depth": "80",
-      "type": "tropical",
-      "value": "50"
-    },
-    {
-      "T#": "14",
-      "name": "Spotted pufferfish  ",
-      "rarity": "15",
-      "depth": "77",
-      "type": "Exotic Catch",
-      "value": "150"
-    },
-    {
-      "T#": "15",
-      "name": "Ocean sunfish  ",
-      "rarity": "16",
-      "depth": "450",
-      "type": "Exotic Catch",
-      "value": "158"
-    },
-    {
-      "T#": "16",
-      "name": "Mahi mahi / Dorado dolphinfish  ",
-      "rarity": "17",
-      "depth": "130",
-      "type": "Coldwater",
-      "value": "118"
-    },
-    {
-      "T#": "17",
-      "name": "Roule’s goby  ",
-      "rarity": "7",
-      "depth": "6",
-      "type": "tropical",
-      "value": "59"
-    },
-    {
-      "T#": "18",
-      "name": "Red piranha  ",
-      "rarity": "9",
-      "depth": "50",
-      "type": "Dangerous Discoveries",
-      "value": "67"
-    },
-    {
-      "T#": "19",
-      "name": "Lionfish  ",
-      "rarity": "12",
-      "depth": "110",
-      "type": "Rare Aquatic Creatures",
-      "value": "64"
-    },
-    {
-      "T#": "20",
-      "name": "Red scorpionfish  ",
-      "rarity": "10",
-      "depth": "95",
-      "type": "Dangerous Discoveries",
-      "value": "86"
-    },
-    {
-      "T#": "21",
-      "name": "Stonefish  ",
-      "rarity": "6",
-      "depth": "120",
-      "type": "Dangerous Discoveries",
-      "value": "52"
-    },
-    {
-      "T#": "22",
-      "name": "Flying fish  ",
-      "rarity": "4",
-      "depth": "150",
-      "type": "Exotic Catch",
-      "value": "35"
-    },
-    {
-      "T#": "23",
-      "name": "Guppy  ",
-      "rarity": "3",
-      "depth": "3",
-      "type": "Common Fish",
-      "value": "26"
-    },
-    {
-      "T#": "24",
-      "name": "Sailfin molly  ",
-      "rarity": "10",
-      "depth": "5",
-      "type": "Common Fish",
-      "value": "72"
-    },
-    {
-      "T#": "25",
-      "name": "Greater weever  ",
-      "rarity": "8",
-      "depth": "38",
-      "type": "Common Fish",
-      "value": "45"
-    },
-    {
-      "T#": "26",
-      "name": "Sockeye salmon / Red salmon  ",
-      "rarity": "9",
-      "depth": "150",
-      "type": "Freshwater Fish",
-      "value": "49"
-    },
-    {
-      "T#": "27",
-      "name": "Taimen  ",
-      "rarity": "12",
-      "depth": "220",
-      "type": "Freshwater Fish",
-      "value": "68"
-    },
-    {
-      "T#": "28",
-      "name": "Atlantic salmon  ",
-      "rarity": "10",
-      "depth": "160",
-      "type": "Freshwater Fish",
-      "value": "61"
-    },
-    {
-      "T#": "29",
-      "name": "Masu / Japanese trout  ",
-      "rarity": "16",
-      "depth": "140",
-      "type": "Freshwater Fish",
-      "value": "85"
-    },
-    {
-      "T#": "30",
-      "name": "European angler / Monkfish  ",
-      "rarity": "14",
-      "depth": "900",
-      "type": "Deep-Sea Creatures",
-      "value": "93"
-    },
-    {
-      "T#": "31",
-      "name": "Humpback anglerfish  ",
-      "rarity": "13",
-      "depth": "9800",
-      "type": "Deep-Sea Creatures",
-      "value": "76"
-    },
-    {
-      "T#": "32",
-      "name": "Hairy frogfish  ",
-      "rarity": "8",
-      "depth": "780",
-      "type": "Deep-Sea Creatures",
-      "value": "71"
-    },
-    {
-      "T#": "33",
-      "name": "Common carp / European carp  ",
-      "rarity": "7",
-      "depth": "45",
-      "type": "Freshwater Fish",
-      "value": "59"
-    },
-    {
-      "T#": "34",
-      "name": "Tench / Golden tench  ",
-      "rarity": "6",
-      "depth": "18",
-      "type": "Freshwater Fish",
-      "value": "49"
-    },
-    {
-      "T#": "35",
-      "name": "Koi carp / Koi  ",
-      "rarity": "5",
-      "depth": "12",
-      "type": "Exotic Catch",
-      "value": "44"
-    },
-    {
-      "T#": "36",
-      "name": "Barracuda  ",
-      "rarity": "4",
-      "depth": "14",
-      "type": "Dangerous Discoveries",
-      "value": "22"
-    },
-    {
-      "T#": "37",
-      "name": "Cardinal tetra  ",
-      "rarity": "12",
-      "depth": "40",
-      "type": "Tetra",
-      "value": "71"
-    },
-    {
-      "T#": "38",
-      "name": "Emperor tetra  ",
-      "rarity": "15",
-      "depth": "8",
-      "type": "Tetra",
-      "value": "89"
-    },
-    {
-      "T#": "39",
-      "name": "Zebrafish / Zebra danio  ",
-      "rarity": "20",
-      "depth": "1100",
-      "type": "Exotic Catch",
-      "value": "115"
-    },
-    {
-      "T#": "40",
-      "name": "Petticoat tetra  ",
-      "rarity": "9",
-      "depth": "2100",
-      "type": "Tetra",
-      "value": "54"
-    },
-    {
-      "T#": "41",
-      "name": "Perch / European perch / Common perch  ",
-      "rarity": "8",
-      "depth": "60",
-      "type": "Common Fish",
-      "value": "65"
-    },
-    {
-      "T#": "42",
-      "name": "Starry sturgeon  ",
-      "rarity": "6",
-      "depth": "1500",
-      "type": "Coldwater",
-      "value": "50"
-    },
-    {
-      "T#": "43",
-      "name": "Lake sturgeon  ",
-      "rarity": "14",
-      "depth": "60",
-      "type": "Freshwater Fish",
-      "value": "96"
-    },
-    {
-      "T#": "44",
-      "name": "Striped marlin  ",
-      "rarity": "12",
-      "depth": "3",
-      "type": "Coldwater",
-      "value": "109"
-    },
-    {
-      "T#": "45",
-      "name": "Swordfish  ",
-      "rarity": "7",
-      "depth": "4",
-      "type": "Dangerous Discoveries",
-      "value": "43"
-    },
-    {
-      "T#": "46",
-      "name": "Garfish / Sea needle  ",
-      "rarity": "6",
-      "depth": "11",
-      "type": "Dangerous Discoveries",
-      "value": "42"
-    },
-    {
-      "T#": "47",
-      "name": "European pilchard / Sardine  ",
-      "rarity": "5",
-      "depth": "9",
-      "type": "Coldwater",
-      "value": "31"
-    },
-    {
-      "T#": "48",
-      "name": "Atlantic herring  ",
-      "rarity": "8",
-      "depth": "70",
-      "type": "Coldwater",
-      "value": "53"
-    },
-    {
-      "T#": "49",
-      "name": "Blackspot seabream / Besugo  ",
-      "rarity": "7",
-      "depth": "1300",
-      "type": "Exotic Catch",
-      "value": "35"
-    },
-    {
-      "T#": "50",
-      "name": "Silver seabream / Gilthead  ",
-      "rarity": "9",
-      "depth": "1900",
-      "type": "Exotic Catch",
-      "value": "83"
-    },
-    {
-      "T#": "51",
-      "name": "Atlantic cod  ",
-      "rarity": "15",
-      "depth": "60",
-      "type": "Coldwater",
-      "value": "123"
-    },
-    {
-      "T#": "52",
-      "name": "Hake  ",
-      "rarity": "8",
-      "depth": "80",
-      "type": "tropical",
-      "value": "52"
-    },
-    {
-      "T#": "53",
-      "name": "Bluefin tuna  ",
-      "rarity": "12",
-      "depth": "35",
-      "type": "Coldwater",
-      "value": "70"
-    },
-    {
-      "T#": "54",
-      "name": "Pike  ",
-      "rarity": "11",
-      "depth": "65",
-      "type": "Coldwater",
-      "value": "62"
-    },
-    {
-      "T#": "55",
-      "name": "Common barbel  ",
-      "rarity": "7",
-      "depth": "700",
-      "type": "Common Fish",
-      "value": "56"
-    },
-    {
-      "T#": "56",
-      "name": "Tiger barb  ",
-      "rarity": "6",
-      "depth": "300",
-      "type": "Tetra",
-      "value": "60"
-    },
-    {
-      "T#": "57",
-      "name": "Cherry barb  ",
-      "rarity": "15",
-      "depth": "2400",
-      "type": "Exotic Catch",
-      "value": "149"
-    },
-    {
-      "T#": "58",
-      "name": "Opah / Moonfish  ",
-      "rarity": "10",
-      "depth": "85",
-      "type": "Exotic Catch",
-      "value": "93"
-    },
-    {
-      "T#": "59",
-      "name": "Blue discus  ",
-      "rarity": "8",
-      "depth": "30",
-      "type": "Exotic Catch",
-      "value": "79"
-    },
-    {
-      "T#": "60",
-      "name": "Rainbow trout  ",
-      "rarity": "14",
-      "depth": "7",
-      "type": "riverfish",
-      "value": "114"
-    },
-    {
-      "T#": "61",
-      "name": "Ribbon eel  ",
-      "rarity": "12",
-      "depth": "5",
-      "type": "eel",
-      "value": "79"
-    },
-    {
-      "T#": "62",
-      "name": "Giant moray eel  ",
-      "rarity": "16",
-      "depth": "600",
-      "type": "eel",
-      "value": "90"
-    },
-    {
-      "T#": "63",
-      "name": "European conger  ",
-      "rarity": "20",
-      "depth": "50",
-      "type": "eel",
-      "value": "158"
-    },
-    {
-      "T#": "64",
-      "name": "Harlequin snake eel  ",
-      "rarity": "14",
-      "depth": "140",
-      "type": "eel",
-      "value": "128"
-    },
-    {
-      "T#": "65",
-      "name": "Oarfish  ",
-      "rarity": "12",
-      "depth": "430",
-      "type": "eel",
-      "value": "75"
-    },
-    {
-      "T#": "66",
-      "name": "African coelacanth  ",
-      "rarity": "10",
-      "depth": "1150",
-      "type": "Rare Aquatic Creatures",
-      "value": "53"
-    },
-    {
-      "T#": "67",
-      "name": "Longnose gar  ",
-      "rarity": "7",
-      "depth": "2900",
-      "type": "Dangerous Discoveries",
-      "value": "45"
-    },
-    {
-      "T#": "68",
-      "name": "Saddled bichir  ",
-      "rarity": "12",
-      "depth": "5000",
-      "type": "Dangerous Discoveries",
-      "value": "104"
-    },
-    {
-      "T#": "69",
-      "name": "Senegal bichir / Gray bichir  ",
-      "rarity": "9",
-      "depth": "1500",
-      "type": "Freshwater Fish",
-      "value": "55"
-    },
-    {
-      "T#": "70",
-      "name": "Turbot  ",
-      "rarity": "6",
-      "depth": "900",
-      "type": "Coldwater",
-      "value": "43"
-    },
-    {
-      "T#": "71",
-      "name": "European seabass  ",
-      "rarity": "6",
-      "depth": "1000",
-      "type": "Coldwater",
-      "value": "37"
-    },
-    {
-      "T#": "72",
-      "name": "European anchovy  ",
-      "rarity": "7",
-      "depth": "35",
-      "type": "Common Fish",
-      "value": "60"
-    },
-    {
-      "T#": "73",
-      "name": "Humphead wrasse  ",
-      "rarity": "6",
-      "depth": "150",
-      "type": "Tropical",
-      "value": "39"
-    },
-    {
-      "T#": "74",
-      "name": "Common stingray  ",
-      "rarity": "10",
-      "depth": "90",
-      "type": "Dangerous Discoveries",
-      "value": "59"
-    },
-    {
-      "T#": "75",
-      "name": "Shortfin mako shark  ",
-      "rarity": "8",
-      "depth": "60",
-      "type": "Warm Blooded",
-      "value": "68"
-    },
-    {
-      "T#": "76",
-      "name": "River lamprey  ",
-      "rarity": "7",
-      "depth": "270",
-      "type": "eel",
-      "value": "64"
-    },
-    {
-      "T#": "77",
-      "name": "Racoon butterfish  ",
-      "rarity": "5",
-      "depth": "800",
-      "type": "Tropical",
-      "value": "40"
-    },
-    {
-      "T#": "78",
-      "name": "Atlantic trumpetfish  ",
-      "rarity": "3",
-      "depth": "120",
-      "type": "Coldwater",
-      "value": "23"
-    },
-    {
-      "T#": "79",
-      "name": "Bartlett’s anthias / Lyretail anthias  ",
-      "rarity": "4",
-      "depth": "4500",
-      "type": "Deep-Sea Creatures",
-      "value": "37"
-    },
-    {
-      "T#": "80",
-      "name": "Fire goby  ",
-      "rarity": "6",
-      "depth": "7800",
-      "type": "Deep-Sea Creatures",
-      "value": "55"
-    },
-    {
-      "T#": "81",
-      "name": "Atlantic spadefish  ",
-      "rarity": "13",
-      "depth": "40",
-      "type": "Coldwater",
-      "value": "125"
-    },
-    {
-      "T#": "82",
-      "name": "Blue acara  ",
-      "rarity": "7",
-      "depth": "2500",
-      "type": "Deep-Sea Creatures",
-      "value": "59"
-    },
-    {
-      "T#": "83",
-      "name": "Oscar  ",
-      "rarity": "6",
-      "depth": "6000",
-      "type": "Deep-Sea Creatures",
-      "value": "41"
-    },
-    {
-      "T#": "84",
-      "name": "Dwarf Gourami  ",
-      "rarity": "6",
-      "depth": "400",
-      "type": "Tropical",
-      "value": "44"
-    },
-    {
-      "T#": "85",
-      "name": "Clown loach  ",
-      "rarity": "10",
-      "depth": "3100",
-      "type": "Deep-Sea Creatures",
-      "value": "82"
-    },
-    {
-      "T#": "86",
-      "name": "Arapaima / Pirarucu  ",
-      "rarity": "5",
-      "depth": "500",
-      "type": "Freshwater Fish",
-      "value": "48"
-    },
-    {
-      "T#": "87",
-      "name": "Asian arowana  ",
-      "rarity": "13",
-      "depth": "40",
-      "type": "Exotic Catch",
-      "value": "87"
-    },
-    {
-      "T#": "88",
-      "name": "Moorish idol  ",
-      "rarity": "7",
-      "depth": "7",
-      "type": "Tropical",
-      "value": "46"
-    },
-    {
-      "T#": "89",
-      "name": "Banggai cardinalfish  ",
-      "rarity": "15",
-      "depth": "14",
-      "type": "Tropical",
-      "value": "100"
-    },
-    {
-      "T#": "90",
-      "name": "Longhorn cowfish  ",
-      "rarity": "18",
-      "depth": "9",
-      "type": "Tropical",
-      "value": "178"
-    },
-    {
-      "T#": "91",
-      "name": "Hogfish  ",
-      "rarity": "9",
-      "depth": "2",
-      "type": "Tropical",
-      "value": "70"
-    },
-    {
-      "T#": "92",
-      "name": "Bluehead wrasse  ",
-      "rarity": "7",
-      "depth": "1",
-      "type": "Tropical",
-      "value": "51"
-    },
-    {
-      "T#": "93",
-      "name": "Lumpfish  ",
-      "rarity": "6",
-      "depth": "3",
-      "type": "Tropical",
-      "value": "55"
-    },
-    {
-      "T#": "94",
-      "name": "Boeseman’s rainbowfish  ",
-      "rarity": "13",
-      "depth": "2",
-      "type": "Freshwater Fish",
-      "value": "97"
-    },
-    {
-      "T#": "95",
-      "name": "Hillstream loach  ",
-      "rarity": "10",
-      "depth": "6",
-      "type": "riverfish",
-      "value": "90"
-    },
-    {
-      "T#": "96",
-      "name": "Seahorse  ",
-      "rarity": "15",
-      "depth": "4",
-      "type": "shellfish",
-      "value": "99"
-    },
-    {
-      "T#": "97",
-      "name": "Pacific oyster  ",
-      "rarity": "7",
-      "depth": "12",
-      "type": "shellfish",
-      "value": "51"
-    },
-    {
-      "T#": "98",
-      "name": "Pearl oyster  ",
-      "rarity": "3",
-      "depth": "15",
-      "type": "shellfish",
-      "value": "16"
-    },
-    {
-      "T#": "99",
-      "name": "Hard clam  ",
-      "rarity": "4",
-      "depth": "19",
-      "type": "shellfish",
-      "value": "34"
-    },
-    {
-      "T#": "100",
-      "name": "Giant clam  ",
-      "rarity": "6",
-      "depth": "80",
-      "type": "shellfish",
-      "value": "52"
-    },
-    {
-      "T#": "101",
-      "name": "Mediterranean mussel  ",
-      "rarity": "18",
-      "depth": "180",
-      "type": "shellfish",
-      "value": "100"
-    },
-    {
-      "T#": "102",
-      "name": "Great scallop  ",
-      "rarity": "15",
-      "depth": "600",
-      "type": "shellfish",
-      "value": "93"
-    },
-    {
-      "T#": "103",
-      "name": "Spiny cockle  ",
-      "rarity": "5",
-      "depth": "900",
-      "type": "shellfish",
-      "value": "42"
-    },
-    {
-      "T#": "104",
-      "name": "Mediterranean jelly / fried egg jellyfish  ",
-      "rarity": "18",
-      "depth": "20",
-      "type": "jelly",
-      "value": "106"
-    },
-    {
-      "T#": "105",
-      "name": "Nomad jellyfish  ",
-      "rarity": "10",
-      "depth": "40",
-      "type": "jelly",
-      "value": "87"
-    },
-    {
-      "T#": "106",
-      "name": "Portuguese man o’ war  ",
-      "rarity": "9",
-      "depth": "120",
-      "type": "jelly",
-      "value": "65"
-    },
-    {
-      "T#": "107",
-      "name": "Common jellyfish / Moon jelly  ",
-      "rarity": "6",
-      "depth": "140",
-      "type": "jelly",
-      "value": "59"
-    },
-    {
-      "T#": "108",
-      "name": "Flame jellyfish  ",
-      "rarity": "3",
-      "depth": "30",
-      "type": "jelly",
-      "value": "18"
-    },
-    {
-      "T#": "109",
-      "name": "Common octopus  ",
-      "rarity": "7",
-      "depth": "5",
-      "type": "mollusk",
-      "value": "51"
-    },
-    {
-      "T#": "110",
-      "name": "Flapjack octopus / Adorabilis  ",
-      "rarity": "18",
-      "depth": "60",
-      "type": "mollusk",
-      "value": "91"
-    },
-    {
-      "T#": "111",
-      "name": "Atlantic giant squid  ",
-      "rarity": "17",
-      "depth": "50",
-      "type": "mollusk",
-      "value": "164"
-    },
-    {
-      "T#": "112",
-      "name": "Common squid / European squid  ",
-      "rarity": "10",
-      "depth": "45",
-      "type": "mollusk",
-      "value": "96"
-    },
-    {
-      "T#": "113",
-      "name": "Cushion star  ",
-      "rarity": "5",
-      "depth": "70",
-      "type": "shellfish",
-      "value": "31"
-    },
-    {
-      "T#": "114",
-      "name": "Common starfish  ",
-      "rarity": "3",
-      "depth": "12",
-      "type": "algae",
-      "value": "27"
-    },
-    {
-      "T#": "115",
-      "name": "Sea sponge  ",
-      "rarity": "2",
-      "depth": "40",
-      "type": "shellfish",
-      "value": "17"
-    },
-    {
-      "T#": "116",
-      "name": "Sea urchin  ",
-      "rarity": "4",
-      "depth": "70",
-      "type": "Dangerous Discoveries",
-      "value": "35"
-    },
-    {
-      "T#": "117",
-      "name": "Red king crab  ",
-      "rarity": "12",
-      "depth": "900",
-      "type": "crustation",
-      "value": "71"
-    },
-    {
-      "T#": "118",
-      "name": "Common Hermit crab  ",
-      "rarity": "6",
-      "depth": "5",
-      "type": "crustation",
-      "value": "31"
-    },
-    {
-      "T#": "119",
-      "name": "Blue crab  ",
-      "rarity": "7",
-      "depth": "60",
-      "type": "crustation",
-      "value": "62"
-    },
-    {
-      "T#": "120",
-      "name": "Yeti crab  ",
-      "rarity": "16",
-      "depth": "200",
-      "type": "crustation",
-      "value": "95"
-    },
-    {
-      "T#": "121",
-      "name": "Atlantic horseshoe crab  ",
-      "rarity": "9",
-      "depth": "2400",
-      "type": "crustation",
-      "value": "79"
-    },
-    {
-      "T#": "122",
-      "name": "Atlantic crayfish  ",
-      "rarity": "8",
-      "depth": "15",
-      "type": "crustation",
-      "value": "71"
-    },
-    {
-      "T#": "123",
-      "name": "Common lobster  ",
-      "rarity": "13",
-      "depth": "35",
-      "type": "crustation",
-      "value": "110"
-    },
-    {
-      "T#": "124",
-      "name": "Spiny lobster  ",
-      "rarity": "14",
-      "depth": "18",
-      "type": "crustation",
-      "value": "117"
-    },
-    {
-      "T#": "125",
-      "name": "Shrimp  ",
-      "rarity": "5",
-      "depth": "120",
-      "type": "crustation",
-      "value": "28"
-    },
-    {
-      "T#": "126",
-      "name": "Green sea turtle  ",
-      "rarity": "11",
-      "depth": "8",
-      "type": "Warm Blooded",
-      "value": "93"
-    },
-    {
-      "T#": "127",
-      "name": "Axolotl  ",
-      "rarity": "19",
-      "depth": "10",
-      "type": "Warm Blooded",
-      "value": "116"
-    },
-    {
-      "T#": "128",
-      "name": "Chambered nautilus  ",
-      "rarity": "15",
-      "depth": "4",
-      "type": "shellfish",
-      "value": "97"
-    },
-    {
-      "T#": "129",
-      "name": "Goose barnacle  ",
-      "rarity": "6",
-      "depth": "0",
-      "type": "shellfish",
-      "value": "54"
-    },
-    {
-      "T#": "130",
-      "name": "Blue sea dragon  ",
-      "rarity": "20",
-      "depth": "9",
-      "type": "jelly",
-      "value": "144"
-    },
-    {
-      "T#": "131",
-      "name": "Sea butterfly  ",
-      "rarity": "13",
-      "depth": "13",
-      "type": "mollusk",
-      "value": "105"
-    },
-    {
-      "T#": "132",
-      "name": "Giant cuttlefish  ",
-      "rarity": "14",
-      "depth": "25",
-      "type": "crustation",
-      "value": "82"
-    },
-    {
-      "T#": "133",
-      "name": "Sea cucumber  ",
-      "rarity": "8",
-      "depth": "7",
-      "type": "Creepers",
-      "value": "59"
-    },
-    {
-      "T#": "134",
-      "name": "Common sea slug  ",
-      "rarity": "3",
-      "depth": "60",
-      "type": "Creepers",
-      "value": "19"
-    },
-    {
-      "T#": "135",
-      "name": "Emerald sea slug  ",
-      "rarity": "7",
-      "depth": "2",
-      "type": "Creepers",
-      "value": "69"
-    },
-    {
-      "T#": "136",
-      "name": "Leaf slug / leaf sheep  ",
-      "rarity": "10",
-      "depth": "11",
-      "type": "Creepers",
-      "value": "77"
-    },
-    {
-      "T#": "137",
-      "name": "Sea bunny  ",
-      "rarity": "9",
-      "depth": "5",
-      "type": "Creepers",
-      "value": "82"
-    },
-    {
-      "T#": "138",
-      "name": "Giant isopod  ",
-      "rarity": "18",
-      "depth": "6",
-      "type": "Creepers",
-      "value": "128"
-    },
-    {
-      "T#": "139",
-      "name": "Queen conch / Queen sea snail  ",
-      "rarity": "11",
-      "depth": "1",
-      "type": "Exotic Catch",
-      "value": "104"
-    },
-    {
-      "T#": "140",
-      "name": "Purple cone snail  ",
-      "rarity": "15",
-      "depth": "1",
-      "type": "Creepers",
-      "value": "102"
-    },
-    {
-      "T#": "141",
-      "name": "Fireworm  ",
-      "rarity": "4",
-      "depth": "30",
-      "type": "Creepers",
-      "value": "40"
-    },
-    {
-      "T#": "142",
-      "name": "Spoon worm / Bonelia  ",
-      "rarity": "6",
-      "depth": "80",
-      "type": "Creepers",
-      "value": "57"
-    },
-    {
-      "T#": "143",
-      "name": "Planaria  ",
-      "rarity": "2",
-      "depth": "2",
-      "type": "algae",
-      "value": "12"
-    },
-    {
-      "T#": "144",
-      "name": "Medicinal leech  ",
-      "rarity": "1",
-      "depth": "1",
-      "type": "Creepers",
-      "value": "9"
-    },
-    {
-      "name": "Green algae",
-      "rarity": "3",
-      "depth": "200",
-      "type": "algae",
-      "value": "5"
-    },
-    {
-      "name": "Red algae",
-      "rarity": "4",
-      "depth": "300",
-      "type": "algae",
-      "value": "10"
-    },
-    {
-      "name": "Seaweed",
-      "rarity": "5",
-      "depth": "500",
-      "type": "algae",
-      "value": "12"
-    },
-    {
-      "name": "Dead fish",
-      "rarity": "2",
-      "depth": "50",
-      "type": "trash",
-      "value": "2"
-    },
-    {
-      "name": "Boot",
-      "rarity": "1",
-      "depth": "30",
-      "type": "clothes",
-      "value": "1"
-    },
-    {
-      "name": "Fisherman hat",
-      "rarity": "6",
-      "depth": "400",
-      "type": "clothes",
-      "value": "15"
-    },
-    {
-      "name": "Swim trunks",
-      "rarity": "3",
-      "depth": "150",
-      "type": "clothes",
-      "value": "8"
-    },
-    {
-      "name": "Floating plastic",
-      "rarity": "2",
-      "depth": "200",
-      "type": "trash",
-      "value": "5"
-    },
-    {
-      "name": "Submerged scrap",
-      "rarity": "4",
-      "depth": "350",
-      "type": "trash",
-      "value": "10"
-    },
-    {
-      "name": "Floating log",
-      "rarity": "5",
-      "depth": "500",
-      "type": "trash",
-      "value": "12"
-    },
-    {
-      "name": "Bottle with message",
-      "rarity": "7",
-      "depth": "700",
-      "type": "special",
-      "value": "20"
-    },
-    {
-      "name": "Underwater treasure",
-      "rarity": "14",
-      "depth": "2000",
-      "type": "special",
-      "value": "100"
-    },
-    {
-      "name": "Gold coin",
-      "rarity": "13",
-      "depth": "1500",
-      "type": "special",
-      "value": "90"
-    },
-    {
-      "name": "Broken phone",
-      "rarity": "6",
-      "depth": "400",
-      "type": "trash",
-      "value": "15"
-    },
-    {
-      "name": "Rusty can",
-      "rarity": "2",
-      "depth": "100",
-      "type": "trash",
-      "value": "5"
-    },
-    {
-      "name": "Rusty safe",
-      "rarity": "17",
-      "depth": "3500",
-      "type": "special",
-      "value": "200"
-    },
-    {
-      "name": "Jewelry box",
-      "rarity": "11",
-      "depth": "1200",
-      "type": "special",
-      "value": "50"
-    },
-    {
-      "name": "Rusty key",
-      "rarity": "8",
-      "depth": "600",
-      "type": "special",
-      "value": "30"
-    },
-    {
-      "name": "Float",
-      "rarity": "4",
-      "depth": "1000",
-      "type": "trash",
-      "value": "25"
-    },
-    {
-      "name": "Rubber duck",
-      "rarity": "3",
-      "depth": "250",
-      "type": "trash"
-    }
+	{
+	  "T#": "1",
+	  "name": "Progenetica  ",
+	  "rarity": "4",
+	  "depth": "479",
+	  "type": "tropical",
+	  "value": "28"
+	},
+	{
+	  "T#": "2",
+	  "name": "Clownfish  ",
+	  "rarity": "6",
+	  "depth": "12",
+	  "type": "tropical",
+	  "value": "46"
+	},
+	{
+	  "T#": "3",
+	  "name": "Blue tang / Blue surgeonfish  ",
+	  "rarity": "8",
+	  "depth": "18",
+	  "type": "tropical",
+	  "value": "78"
+	},
+	{
+	  "T#": "4",
+	  "name": "Yellow tang / Somber surgeonfish  ",
+	  "rarity": "12",
+	  "depth": "20",
+	  "type": "tropical",
+	  "value": "68"
+	},
+	{
+	  "T#": "5",
+	  "name": "Gem tang / Spotted tang  ",
+	  "rarity": "10",
+	  "depth": "21",
+	  "type": "tropical",
+	  "value": "52"
+	},
+	{
+	  "T#": "6",
+	  "name": "Sailfin tang / Sailfin surgeonfish  ",
+	  "rarity": "5",
+	  "depth": "25",
+	  "type": "tropical",
+	  "value": "30"
+	},
+	{
+	  "T#": "7",
+	  "name": "Angelfish  ",
+	  "rarity": "14",
+	  "depth": "15",
+	  "type": "tropical",
+	  "value": "123"
+	},
+	{
+	  "T#": "8",
+	  "name": "Queen angelfish  ",
+	  "rarity": "13",
+	  "depth": "22",
+	  "type": "tropical",
+	  "value": "129"
+	},
+	{
+	  "T#": "9",
+	  "name": "French angelfish  ",
+	  "rarity": "2",
+	  "depth": "23",
+	  "type": "tropical",
+	  "value": "13"
+	},
+	{
+	  "T#": "10",
+	  "name": "Goldfish  ",
+	  "rarity": "3",
+	  "depth": "5",
+	  "type": "Common Fish",
+	  "value": "28"
+	},
+	{
+	  "T#": "11",
+	  "name": "Fighting fish  ",
+	  "rarity": "7",
+	  "depth": "4",
+	  "type": "Common Fish",
+	  "value": "63"
+	},
+	{
+	  "T#": "12",
+	  "name": "Catfish  ",
+	  "rarity": "11",
+	  "depth": "60",
+	  "type": "Common Fish",
+	  "value": "89"
+	},
+	{
+	  "T#": "13",
+	  "name": "Porcupinefish / Blowfish  ",
+	  "rarity": "9",
+	  "depth": "80",
+	  "type": "tropical",
+	  "value": "50"
+	},
+	{
+	  "T#": "14",
+	  "name": "Spotted pufferfish  ",
+	  "rarity": "15",
+	  "depth": "77",
+	  "type": "Exotic Catch",
+	  "value": "150"
+	},
+	{
+	  "T#": "15",
+	  "name": "Ocean sunfish  ",
+	  "rarity": "16",
+	  "depth": "450",
+	  "type": "Exotic Catch",
+	  "value": "158"
+	},
+	{
+	  "T#": "16",
+	  "name": "Mahi mahi / Dorado dolphinfish  ",
+	  "rarity": "17",
+	  "depth": "130",
+	  "type": "Coldwater",
+	  "value": "118"
+	},
+	{
+	  "T#": "17",
+	  "name": "Roule’s goby  ",
+	  "rarity": "7",
+	  "depth": "6",
+	  "type": "tropical",
+	  "value": "59"
+	},
+	{
+	  "T#": "18",
+	  "name": "Red piranha  ",
+	  "rarity": "9",
+	  "depth": "50",
+	  "type": "Dangerous Discoveries",
+	  "value": "67"
+	},
+	{
+	  "T#": "19",
+	  "name": "Lionfish  ",
+	  "rarity": "12",
+	  "depth": "110",
+	  "type": "Rare Aquatic Creatures",
+	  "value": "64"
+	},
+	{
+	  "T#": "20",
+	  "name": "Red scorpionfish  ",
+	  "rarity": "10",
+	  "depth": "95",
+	  "type": "Dangerous Discoveries",
+	  "value": "86"
+	},
+	{
+	  "T#": "21",
+	  "name": "Stonefish  ",
+	  "rarity": "6",
+	  "depth": "120",
+	  "type": "Dangerous Discoveries",
+	  "value": "52"
+	},
+	{
+	  "T#": "22",
+	  "name": "Flying fish  ",
+	  "rarity": "4",
+	  "depth": "150",
+	  "type": "Exotic Catch",
+	  "value": "35"
+	},
+	{
+	  "T#": "23",
+	  "name": "Guppy  ",
+	  "rarity": "3",
+	  "depth": "3",
+	  "type": "Common Fish",
+	  "value": "26"
+	},
+	{
+	  "T#": "24",
+	  "name": "Sailfin molly  ",
+	  "rarity": "10",
+	  "depth": "5",
+	  "type": "Common Fish",
+	  "value": "72"
+	},
+	{
+	  "T#": "25",
+	  "name": "Greater weever  ",
+	  "rarity": "8",
+	  "depth": "38",
+	  "type": "Common Fish",
+	  "value": "45"
+	},
+	{
+	  "T#": "26",
+	  "name": "Sockeye salmon / Red salmon  ",
+	  "rarity": "9",
+	  "depth": "150",
+	  "type": "Freshwater Fish",
+	  "value": "49"
+	},
+	{
+	  "T#": "27",
+	  "name": "Taimen  ",
+	  "rarity": "12",
+	  "depth": "220",
+	  "type": "Freshwater Fish",
+	  "value": "68"
+	},
+	{
+	  "T#": "28",
+	  "name": "Atlantic salmon  ",
+	  "rarity": "10",
+	  "depth": "160",
+	  "type": "Freshwater Fish",
+	  "value": "61"
+	},
+	{
+	  "T#": "29",
+	  "name": "Masu / Japanese trout  ",
+	  "rarity": "16",
+	  "depth": "140",
+	  "type": "Freshwater Fish",
+	  "value": "85"
+	},
+	{
+	  "T#": "30",
+	  "name": "European angler / Monkfish  ",
+	  "rarity": "14",
+	  "depth": "900",
+	  "type": "Deep-Sea Creatures",
+	  "value": "93"
+	},
+	{
+	  "T#": "31",
+	  "name": "Humpback anglerfish  ",
+	  "rarity": "13",
+	  "depth": "9800",
+	  "type": "Deep-Sea Creatures",
+	  "value": "76"
+	},
+	{
+	  "T#": "32",
+	  "name": "Hairy frogfish  ",
+	  "rarity": "8",
+	  "depth": "780",
+	  "type": "Deep-Sea Creatures",
+	  "value": "71"
+	},
+	{
+	  "T#": "33",
+	  "name": "Common carp / European carp  ",
+	  "rarity": "7",
+	  "depth": "45",
+	  "type": "Freshwater Fish",
+	  "value": "59"
+	},
+	{
+	  "T#": "34",
+	  "name": "Tench / Golden tench  ",
+	  "rarity": "6",
+	  "depth": "18",
+	  "type": "Freshwater Fish",
+	  "value": "49"
+	},
+	{
+	  "T#": "35",
+	  "name": "Koi carp / Koi  ",
+	  "rarity": "5",
+	  "depth": "12",
+	  "type": "Exotic Catch",
+	  "value": "44"
+	},
+	{
+	  "T#": "36",
+	  "name": "Barracuda  ",
+	  "rarity": "4",
+	  "depth": "14",
+	  "type": "Dangerous Discoveries",
+	  "value": "22"
+	},
+	{
+	  "T#": "37",
+	  "name": "Cardinal tetra  ",
+	  "rarity": "12",
+	  "depth": "40",
+	  "type": "Tetra",
+	  "value": "71"
+	},
+	{
+	  "T#": "38",
+	  "name": "Emperor tetra  ",
+	  "rarity": "15",
+	  "depth": "8",
+	  "type": "Tetra",
+	  "value": "89"
+	},
+	{
+	  "T#": "39",
+	  "name": "Zebrafish / Zebra danio  ",
+	  "rarity": "20",
+	  "depth": "1100",
+	  "type": "Exotic Catch",
+	  "value": "115"
+	},
+	{
+	  "T#": "40",
+	  "name": "Petticoat tetra  ",
+	  "rarity": "9",
+	  "depth": "2100",
+	  "type": "Tetra",
+	  "value": "54"
+	},
+	{
+	  "T#": "41",
+	  "name": "Perch / European perch / Common perch  ",
+	  "rarity": "8",
+	  "depth": "60",
+	  "type": "Common Fish",
+	  "value": "65"
+	},
+	{
+	  "T#": "42",
+	  "name": "Starry sturgeon  ",
+	  "rarity": "6",
+	  "depth": "1500",
+	  "type": "Coldwater",
+	  "value": "50"
+	},
+	{
+	  "T#": "43",
+	  "name": "Lake sturgeon  ",
+	  "rarity": "14",
+	  "depth": "60",
+	  "type": "Freshwater Fish",
+	  "value": "96"
+	},
+	{
+	  "T#": "44",
+	  "name": "Striped marlin  ",
+	  "rarity": "12",
+	  "depth": "3",
+	  "type": "Coldwater",
+	  "value": "109"
+	},
+	{
+	  "T#": "45",
+	  "name": "Swordfish  ",
+	  "rarity": "7",
+	  "depth": "4",
+	  "type": "Dangerous Discoveries",
+	  "value": "43"
+	},
+	{
+	  "T#": "46",
+	  "name": "Garfish / Sea needle  ",
+	  "rarity": "6",
+	  "depth": "11",
+	  "type": "Dangerous Discoveries",
+	  "value": "42"
+	},
+	{
+	  "T#": "47",
+	  "name": "European pilchard / Sardine  ",
+	  "rarity": "5",
+	  "depth": "9",
+	  "type": "Coldwater",
+	  "value": "31"
+	},
+	{
+	  "T#": "48",
+	  "name": "Atlantic herring  ",
+	  "rarity": "8",
+	  "depth": "70",
+	  "type": "Coldwater",
+	  "value": "53"
+	},
+	{
+	  "T#": "49",
+	  "name": "Blackspot seabream / Besugo  ",
+	  "rarity": "7",
+	  "depth": "1300",
+	  "type": "Exotic Catch",
+	  "value": "35"
+	},
+	{
+	  "T#": "50",
+	  "name": "Silver seabream / Gilthead  ",
+	  "rarity": "9",
+	  "depth": "1900",
+	  "type": "Exotic Catch",
+	  "value": "83"
+	},
+	{
+	  "T#": "51",
+	  "name": "Atlantic cod  ",
+	  "rarity": "15",
+	  "depth": "60",
+	  "type": "Coldwater",
+	  "value": "123"
+	},
+	{
+	  "T#": "52",
+	  "name": "Hake  ",
+	  "rarity": "8",
+	  "depth": "80",
+	  "type": "tropical",
+	  "value": "52"
+	},
+	{
+	  "T#": "53",
+	  "name": "Bluefin tuna  ",
+	  "rarity": "12",
+	  "depth": "35",
+	  "type": "Coldwater",
+	  "value": "70"
+	},
+	{
+	  "T#": "54",
+	  "name": "Pike  ",
+	  "rarity": "11",
+	  "depth": "65",
+	  "type": "Coldwater",
+	  "value": "62"
+	},
+	{
+	  "T#": "55",
+	  "name": "Common barbel  ",
+	  "rarity": "7",
+	  "depth": "700",
+	  "type": "Common Fish",
+	  "value": "56"
+	},
+	{
+	  "T#": "56",
+	  "name": "Tiger barb  ",
+	  "rarity": "6",
+	  "depth": "300",
+	  "type": "Tetra",
+	  "value": "60"
+	},
+	{
+	  "T#": "57",
+	  "name": "Cherry barb  ",
+	  "rarity": "15",
+	  "depth": "2400",
+	  "type": "Exotic Catch",
+	  "value": "149"
+	},
+	{
+	  "T#": "58",
+	  "name": "Opah / Moonfish  ",
+	  "rarity": "10",
+	  "depth": "85",
+	  "type": "Exotic Catch",
+	  "value": "93"
+	},
+	{
+	  "T#": "59",
+	  "name": "Blue discus  ",
+	  "rarity": "8",
+	  "depth": "30",
+	  "type": "Exotic Catch",
+	  "value": "79"
+	},
+	{
+	  "T#": "60",
+	  "name": "Rainbow trout  ",
+	  "rarity": "14",
+	  "depth": "7",
+	  "type": "riverfish",
+	  "value": "114"
+	},
+	{
+	  "T#": "61",
+	  "name": "Ribbon eel  ",
+	  "rarity": "12",
+	  "depth": "5",
+	  "type": "eel",
+	  "value": "79"
+	},
+	{
+	  "T#": "62",
+	  "name": "Giant moray eel  ",
+	  "rarity": "16",
+	  "depth": "600",
+	  "type": "eel",
+	  "value": "90"
+	},
+	{
+	  "T#": "63",
+	  "name": "European conger  ",
+	  "rarity": "20",
+	  "depth": "50",
+	  "type": "eel",
+	  "value": "158"
+	},
+	{
+	  "T#": "64",
+	  "name": "Harlequin snake eel  ",
+	  "rarity": "14",
+	  "depth": "140",
+	  "type": "eel",
+	  "value": "128"
+	},
+	{
+	  "T#": "65",
+	  "name": "Oarfish  ",
+	  "rarity": "12",
+	  "depth": "430",
+	  "type": "eel",
+	  "value": "75"
+	},
+	{
+	  "T#": "66",
+	  "name": "African coelacanth  ",
+	  "rarity": "10",
+	  "depth": "1150",
+	  "type": "Rare Aquatic Creatures",
+	  "value": "53"
+	},
+	{
+	  "T#": "67",
+	  "name": "Longnose gar  ",
+	  "rarity": "7",
+	  "depth": "2900",
+	  "type": "Dangerous Discoveries",
+	  "value": "45"
+	},
+	{
+	  "T#": "68",
+	  "name": "Saddled bichir  ",
+	  "rarity": "12",
+	  "depth": "5000",
+	  "type": "Dangerous Discoveries",
+	  "value": "104"
+	},
+	{
+	  "T#": "69",
+	  "name": "Senegal bichir / Gray bichir  ",
+	  "rarity": "9",
+	  "depth": "1500",
+	  "type": "Freshwater Fish",
+	  "value": "55"
+	},
+	{
+	  "T#": "70",
+	  "name": "Turbot  ",
+	  "rarity": "6",
+	  "depth": "900",
+	  "type": "Coldwater",
+	  "value": "43"
+	},
+	{
+	  "T#": "71",
+	  "name": "European seabass  ",
+	  "rarity": "6",
+	  "depth": "1000",
+	  "type": "Coldwater",
+	  "value": "37"
+	},
+	{
+	  "T#": "72",
+	  "name": "European anchovy  ",
+	  "rarity": "7",
+	  "depth": "35",
+	  "type": "Common Fish",
+	  "value": "60"
+	},
+	{
+	  "T#": "73",
+	  "name": "Humphead wrasse  ",
+	  "rarity": "6",
+	  "depth": "150",
+	  "type": "Tropical",
+	  "value": "39"
+	},
+	{
+	  "T#": "74",
+	  "name": "Common stingray  ",
+	  "rarity": "10",
+	  "depth": "90",
+	  "type": "Dangerous Discoveries",
+	  "value": "59"
+	},
+	{
+	  "T#": "75",
+	  "name": "Shortfin mako shark  ",
+	  "rarity": "8",
+	  "depth": "60",
+	  "type": "Warm Blooded",
+	  "value": "68"
+	},
+	{
+	  "T#": "76",
+	  "name": "River lamprey  ",
+	  "rarity": "7",
+	  "depth": "270",
+	  "type": "eel",
+	  "value": "64"
+	},
+	{
+	  "T#": "77",
+	  "name": "Racoon butterfish  ",
+	  "rarity": "5",
+	  "depth": "800",
+	  "type": "Tropical",
+	  "value": "40"
+	},
+	{
+	  "T#": "78",
+	  "name": "Atlantic trumpetfish  ",
+	  "rarity": "3",
+	  "depth": "120",
+	  "type": "Coldwater",
+	  "value": "23"
+	},
+	{
+	  "T#": "79",
+	  "name": "Bartlett’s anthias / Lyretail anthias  ",
+	  "rarity": "4",
+	  "depth": "4500",
+	  "type": "Deep-Sea Creatures",
+	  "value": "37"
+	},
+	{
+	  "T#": "80",
+	  "name": "Fire goby  ",
+	  "rarity": "6",
+	  "depth": "7800",
+	  "type": "Deep-Sea Creatures",
+	  "value": "55"
+	},
+	{
+	  "T#": "81",
+	  "name": "Atlantic spadefish  ",
+	  "rarity": "13",
+	  "depth": "40",
+	  "type": "Coldwater",
+	  "value": "125"
+	},
+	{
+	  "T#": "82",
+	  "name": "Blue acara  ",
+	  "rarity": "7",
+	  "depth": "2500",
+	  "type": "Deep-Sea Creatures",
+	  "value": "59"
+	},
+	{
+	  "T#": "83",
+	  "name": "Oscar  ",
+	  "rarity": "6",
+	  "depth": "6000",
+	  "type": "Deep-Sea Creatures",
+	  "value": "41"
+	},
+	{
+	  "T#": "84",
+	  "name": "Dwarf Gourami  ",
+	  "rarity": "6",
+	  "depth": "400",
+	  "type": "Tropical",
+	  "value": "44"
+	},
+	{
+	  "T#": "85",
+	  "name": "Clown loach  ",
+	  "rarity": "10",
+	  "depth": "3100",
+	  "type": "Deep-Sea Creatures",
+	  "value": "82"
+	},
+	{
+	  "T#": "86",
+	  "name": "Arapaima / Pirarucu  ",
+	  "rarity": "5",
+	  "depth": "500",
+	  "type": "Freshwater Fish",
+	  "value": "48"
+	},
+	{
+	  "T#": "87",
+	  "name": "Asian arowana  ",
+	  "rarity": "13",
+	  "depth": "40",
+	  "type": "Exotic Catch",
+	  "value": "87"
+	},
+	{
+	  "T#": "88",
+	  "name": "Moorish idol  ",
+	  "rarity": "7",
+	  "depth": "7",
+	  "type": "Tropical",
+	  "value": "46"
+	},
+	{
+	  "T#": "89",
+	  "name": "Banggai cardinalfish  ",
+	  "rarity": "15",
+	  "depth": "14",
+	  "type": "Tropical",
+	  "value": "100"
+	},
+	{
+	  "T#": "90",
+	  "name": "Longhorn cowfish  ",
+	  "rarity": "18",
+	  "depth": "9",
+	  "type": "Tropical",
+	  "value": "178"
+	},
+	{
+	  "T#": "91",
+	  "name": "Hogfish  ",
+	  "rarity": "9",
+	  "depth": "2",
+	  "type": "Tropical",
+	  "value": "70"
+	},
+	{
+	  "T#": "92",
+	  "name": "Bluehead wrasse  ",
+	  "rarity": "7",
+	  "depth": "1",
+	  "type": "Tropical",
+	  "value": "51"
+	},
+	{
+	  "T#": "93",
+	  "name": "Lumpfish  ",
+	  "rarity": "6",
+	  "depth": "3",
+	  "type": "Tropical",
+	  "value": "55"
+	},
+	{
+	  "T#": "94",
+	  "name": "Boeseman’s rainbowfish  ",
+	  "rarity": "13",
+	  "depth": "2",
+	  "type": "Freshwater Fish",
+	  "value": "97"
+	},
+	{
+	  "T#": "95",
+	  "name": "Hillstream loach  ",
+	  "rarity": "10",
+	  "depth": "6",
+	  "type": "riverfish",
+	  "value": "90"
+	},
+	{
+	  "T#": "96",
+	  "name": "Seahorse  ",
+	  "rarity": "15",
+	  "depth": "4",
+	  "type": "shellfish",
+	  "value": "99"
+	},
+	{
+	  "T#": "97",
+	  "name": "Pacific oyster  ",
+	  "rarity": "7",
+	  "depth": "12",
+	  "type": "shellfish",
+	  "value": "51"
+	},
+	{
+	  "T#": "98",
+	  "name": "Pearl oyster  ",
+	  "rarity": "3",
+	  "depth": "15",
+	  "type": "shellfish",
+	  "value": "16"
+	},
+	{
+	  "T#": "99",
+	  "name": "Hard clam  ",
+	  "rarity": "4",
+	  "depth": "19",
+	  "type": "shellfish",
+	  "value": "34"
+	},
+	{
+	  "T#": "100",
+	  "name": "Giant clam  ",
+	  "rarity": "6",
+	  "depth": "80",
+	  "type": "shellfish",
+	  "value": "52"
+	},
+	{
+	  "T#": "101",
+	  "name": "Mediterranean mussel  ",
+	  "rarity": "18",
+	  "depth": "180",
+	  "type": "shellfish",
+	  "value": "100"
+	},
+	{
+	  "T#": "102",
+	  "name": "Great scallop  ",
+	  "rarity": "15",
+	  "depth": "600",
+	  "type": "shellfish",
+	  "value": "93"
+	},
+	{
+	  "T#": "103",
+	  "name": "Spiny cockle  ",
+	  "rarity": "5",
+	  "depth": "900",
+	  "type": "shellfish",
+	  "value": "42"
+	},
+	{
+	  "T#": "104",
+	  "name": "Mediterranean jelly / fried egg jellyfish  ",
+	  "rarity": "18",
+	  "depth": "20",
+	  "type": "jelly",
+	  "value": "106"
+	},
+	{
+	  "T#": "105",
+	  "name": "Nomad jellyfish  ",
+	  "rarity": "10",
+	  "depth": "40",
+	  "type": "jelly",
+	  "value": "87"
+	},
+	{
+	  "T#": "106",
+	  "name": "Portuguese man o’ war  ",
+	  "rarity": "9",
+	  "depth": "120",
+	  "type": "jelly",
+	  "value": "65"
+	},
+	{
+	  "T#": "107",
+	  "name": "Common jellyfish / Moon jelly  ",
+	  "rarity": "6",
+	  "depth": "140",
+	  "type": "jelly",
+	  "value": "59"
+	},
+	{
+	  "T#": "108",
+	  "name": "Flame jellyfish  ",
+	  "rarity": "3",
+	  "depth": "30",
+	  "type": "jelly",
+	  "value": "18"
+	},
+	{
+	  "T#": "109",
+	  "name": "Common octopus  ",
+	  "rarity": "7",
+	  "depth": "5",
+	  "type": "mollusk",
+	  "value": "51"
+	},
+	{
+	  "T#": "110",
+	  "name": "Flapjack octopus / Adorabilis  ",
+	  "rarity": "18",
+	  "depth": "60",
+	  "type": "mollusk",
+	  "value": "91"
+	},
+	{
+	  "T#": "111",
+	  "name": "Atlantic giant squid  ",
+	  "rarity": "17",
+	  "depth": "50",
+	  "type": "mollusk",
+	  "value": "164"
+	},
+	{
+	  "T#": "112",
+	  "name": "Common squid / European squid  ",
+	  "rarity": "10",
+	  "depth": "45",
+	  "type": "mollusk",
+	  "value": "96"
+	},
+	{
+	  "T#": "113",
+	  "name": "Cushion star  ",
+	  "rarity": "5",
+	  "depth": "70",
+	  "type": "shellfish",
+	  "value": "31"
+	},
+	{
+	  "T#": "114",
+	  "name": "Common starfish  ",
+	  "rarity": "3",
+	  "depth": "12",
+	  "type": "algae",
+	  "value": "27"
+	},
+	{
+	  "T#": "115",
+	  "name": "Sea sponge  ",
+	  "rarity": "2",
+	  "depth": "40",
+	  "type": "shellfish",
+	  "value": "17"
+	},
+	{
+	  "T#": "116",
+	  "name": "Sea urchin  ",
+	  "rarity": "4",
+	  "depth": "70",
+	  "type": "Dangerous Discoveries",
+	  "value": "35"
+	},
+	{
+	  "T#": "117",
+	  "name": "Red king crab  ",
+	  "rarity": "12",
+	  "depth": "900",
+	  "type": "crustation",
+	  "value": "71"
+	},
+	{
+	  "T#": "118",
+	  "name": "Common Hermit crab  ",
+	  "rarity": "6",
+	  "depth": "5",
+	  "type": "crustation",
+	  "value": "31"
+	},
+	{
+	  "T#": "119",
+	  "name": "Blue crab  ",
+	  "rarity": "7",
+	  "depth": "60",
+	  "type": "crustation",
+	  "value": "62"
+	},
+	{
+	  "T#": "120",
+	  "name": "Yeti crab  ",
+	  "rarity": "16",
+	  "depth": "200",
+	  "type": "crustation",
+	  "value": "95"
+	},
+	{
+	  "T#": "121",
+	  "name": "Atlantic horseshoe crab  ",
+	  "rarity": "9",
+	  "depth": "2400",
+	  "type": "crustation",
+	  "value": "79"
+	},
+	{
+	  "T#": "122",
+	  "name": "Atlantic crayfish  ",
+	  "rarity": "8",
+	  "depth": "15",
+	  "type": "crustation",
+	  "value": "71"
+	},
+	{
+	  "T#": "123",
+	  "name": "Common lobster  ",
+	  "rarity": "13",
+	  "depth": "35",
+	  "type": "crustation",
+	  "value": "110"
+	},
+	{
+	  "T#": "124",
+	  "name": "Spiny lobster  ",
+	  "rarity": "14",
+	  "depth": "18",
+	  "type": "crustation",
+	  "value": "117"
+	},
+	{
+	  "T#": "125",
+	  "name": "Shrimp  ",
+	  "rarity": "5",
+	  "depth": "120",
+	  "type": "crustation",
+	  "value": "28"
+	},
+	{
+	  "T#": "126",
+	  "name": "Green sea turtle  ",
+	  "rarity": "11",
+	  "depth": "8",
+	  "type": "Warm Blooded",
+	  "value": "93"
+	},
+	{
+	  "T#": "127",
+	  "name": "Axolotl  ",
+	  "rarity": "19",
+	  "depth": "10",
+	  "type": "Warm Blooded",
+	  "value": "116"
+	},
+	{
+	  "T#": "128",
+	  "name": "Chambered nautilus  ",
+	  "rarity": "15",
+	  "depth": "4",
+	  "type": "shellfish",
+	  "value": "97"
+	},
+	{
+	  "T#": "129",
+	  "name": "Goose barnacle  ",
+	  "rarity": "6",
+	  "depth": "0",
+	  "type": "shellfish",
+	  "value": "54"
+	},
+	{
+	  "T#": "130",
+	  "name": "Blue sea dragon  ",
+	  "rarity": "20",
+	  "depth": "9",
+	  "type": "jelly",
+	  "value": "144"
+	},
+	{
+	  "T#": "131",
+	  "name": "Sea butterfly  ",
+	  "rarity": "13",
+	  "depth": "13",
+	  "type": "mollusk",
+	  "value": "105"
+	},
+	{
+	  "T#": "132",
+	  "name": "Giant cuttlefish  ",
+	  "rarity": "14",
+	  "depth": "25",
+	  "type": "crustation",
+	  "value": "82"
+	},
+	{
+	  "T#": "133",
+	  "name": "Sea cucumber  ",
+	  "rarity": "8",
+	  "depth": "7",
+	  "type": "Creepers",
+	  "value": "59"
+	},
+	{
+	  "T#": "134",
+	  "name": "Common sea slug  ",
+	  "rarity": "3",
+	  "depth": "60",
+	  "type": "Creepers",
+	  "value": "19"
+	},
+	{
+	  "T#": "135",
+	  "name": "Emerald sea slug  ",
+	  "rarity": "7",
+	  "depth": "2",
+	  "type": "Creepers",
+	  "value": "69"
+	},
+	{
+	  "T#": "136",
+	  "name": "Leaf slug / leaf sheep  ",
+	  "rarity": "10",
+	  "depth": "11",
+	  "type": "Creepers",
+	  "value": "77"
+	},
+	{
+	  "T#": "137",
+	  "name": "Sea bunny  ",
+	  "rarity": "9",
+	  "depth": "5",
+	  "type": "Creepers",
+	  "value": "82"
+	},
+	{
+	  "T#": "138",
+	  "name": "Giant isopod  ",
+	  "rarity": "18",
+	  "depth": "6",
+	  "type": "Creepers",
+	  "value": "128"
+	},
+	{
+	  "T#": "139",
+	  "name": "Queen conch / Queen sea snail  ",
+	  "rarity": "11",
+	  "depth": "1",
+	  "type": "Exotic Catch",
+	  "value": "104"
+	},
+	{
+	  "T#": "140",
+	  "name": "Purple cone snail  ",
+	  "rarity": "15",
+	  "depth": "1",
+	  "type": "Creepers",
+	  "value": "102"
+	},
+	{
+	  "T#": "141",
+	  "name": "Fireworm  ",
+	  "rarity": "4",
+	  "depth": "30",
+	  "type": "Creepers",
+	  "value": "40"
+	},
+	{
+	  "T#": "142",
+	  "name": "Spoon worm / Bonelia  ",
+	  "rarity": "6",
+	  "depth": "80",
+	  "type": "Creepers",
+	  "value": "57"
+	},
+	{
+	  "T#": "143",
+	  "name": "Planaria  ",
+	  "rarity": "2",
+	  "depth": "2",
+	  "type": "algae",
+	  "value": "12"
+	},
+	{
+	  "T#": "144",
+	  "name": "Medicinal leech  ",
+	  "rarity": "1",
+	  "depth": "1",
+	  "type": "Creepers",
+	  "value": "9"
+	},
+	{
+	  "name": "Green algae",
+	  "rarity": "3",
+	  "depth": "200",
+	  "type": "algae",
+	  "value": "5"
+	},
+	{
+	  "name": "Red algae",
+	  "rarity": "4",
+	  "depth": "300",
+	  "type": "algae",
+	  "value": "10"
+	},
+	{
+	  "name": "Seaweed",
+	  "rarity": "5",
+	  "depth": "500",
+	  "type": "algae",
+	  "value": "12"
+	},
+	{
+	  "name": "Dead fish",
+	  "rarity": "2",
+	  "depth": "50",
+	  "type": "trash",
+	  "value": "2"
+	},
+	{
+	  "name": "Boot",
+	  "rarity": "1",
+	  "depth": "30",
+	  "type": "clothes",
+	  "value": "1"
+	},
+	{
+	  "name": "Fisherman hat",
+	  "rarity": "6",
+	  "depth": "400",
+	  "type": "clothes",
+	  "value": "15"
+	},
+	{
+	  "name": "Swim trunks",
+	  "rarity": "3",
+	  "depth": "150",
+	  "type": "clothes",
+	  "value": "8"
+	},
+	{
+	  "name": "Floating plastic",
+	  "rarity": "2",
+	  "depth": "200",
+	  "type": "trash",
+	  "value": "5"
+	},
+	{
+	  "name": "Submerged scrap",
+	  "rarity": "4",
+	  "depth": "350",
+	  "type": "trash",
+	  "value": "10"
+	},
+	{
+	  "name": "Floating log",
+	  "rarity": "5",
+	  "depth": "500",
+	  "type": "trash",
+	  "value": "12"
+	},
+	{
+	  "name": "Bottle with message",
+	  "rarity": "7",
+	  "depth": "700",
+	  "type": "special",
+	  "value": "20"
+	},
+	{
+	  "name": "Underwater treasure",
+	  "rarity": "14",
+	  "depth": "2000",
+	  "type": "special",
+	  "value": "100"
+	},
+	{
+	  "name": "Gold coin",
+	  "rarity": "13",
+	  "depth": "1500",
+	  "type": "special",
+	  "value": "90"
+	},
+	{
+	  "name": "Broken phone",
+	  "rarity": "6",
+	  "depth": "400",
+	  "type": "trash",
+	  "value": "15"
+	},
+	{
+	  "name": "Rusty can",
+	  "rarity": "2",
+	  "depth": "100",
+	  "type": "trash",
+	  "value": "5"
+	},
+	{
+	  "name": "Rusty safe",
+	  "rarity": "17",
+	  "depth": "3500",
+	  "type": "special",
+	  "value": "200"
+	},
+	{
+	  "name": "Jewelry box",
+	  "rarity": "11",
+	  "depth": "1200",
+	  "type": "special",
+	  "value": "50"
+	},
+	{
+	  "name": "Rusty key",
+	  "rarity": "8",
+	  "depth": "600",
+	  "type": "special",
+	  "value": "30"
+	},
+	{
+	  "name": "Float",
+	  "rarity": "4",
+	  "depth": "1000",
+	  "type": "trash",
+	  "value": "25"
+	},
+	{
+	  "name": "Rubber duck",
+	  "rarity": "3",
+	  "depth": "250",
+	  "type": "trash"
+	}
   ],
   "gear": [
-    {
-      "#": "1",
-      "name": "Wooden fishing rod  ",
-      "type": "rod",
-      "cost": "0",
-      "rarity": "Common",
-      "depth bonus": "0",
-      "rarity bonus": "0",
-      "types": "Common Fish"
-    },
-    {
-      "#": "2",
-      "name": "Bamboo fishing rod  ",
-      "type": "rod",
-      "cost": "200",
-      "rarity": "Uncommon",
-      "depth bonus": "900",
-      "rarity bonus": "1",
-      "types": "Freshwater Fish,riverfish"
-    },
-    {
-      "#": "3",
-      "name": "Steel fishing rod  ",
-      "type": "rod",
-      "cost": "500",
-      "rarity": "Rare",
-      "depth bonus": "3000",
-      "rarity bonus": "2",
-      "types": "Rare Aquatic Creatures,Tetra"
-    },
-    {
-      "#": "4",
-      "name": "Glass fiber fishing rod  ",
-      "type": "rod",
-      "cost": "450",
-      "rarity": "Rare",
-      "depth bonus": "3200",
-      "rarity bonus": "2",
-      "types": "Tetra,Exotic Catch"
-    },
-    {
-      "#": "5",
-      "name": "Carbon fiber fishing rod  ",
-      "type": "rod",
-      "cost": "2000",
-      "rarity": "Legendary",
-      "depth bonus": "6200",
-      "rarity bonus": "4",
-      "types": "Deep-Sea Creatures,Dangerous Discoveries"
-    },
-    {
-      "#": "6",
-      "name": "Fishing line  ",
-      "type": "accessory",
-      "cost": "9",
-      "rarity": "Common",
-      "depth bonus": "-200",
-      "rarity bonus": "0",
-      "types": "fish"
-    },
-    {
-      "#": "7",
-      "name": "Fishing hook  ",
-      "type": "tackle",
-      "cost": "99",
-      "rarity": "Common",
-      "depth bonus": "-100",
-      "rarity bonus": "0",
-      "types": "fish"
-    },
-    {
-      "#": "8",
-      "name": "Jig lure  ",
-      "type": "tackle",
-      "cost": "450",
-      "rarity": "Rare",
-      "depth bonus": "3500",
-      "rarity bonus": "2",
-      "types": "jelly,Tetra"
-    },
-    {
-      "#": "9",
-      "name": "Fly lure  ",
-      "type": "tackle",
-      "cost": "550",
-      "rarity": "Rare",
-      "depth bonus": "3800",
-      "rarity bonus": "2",
-      "types": "mollusk,Tetra"
-    },
-    {
-      "#": "10",
-      "name": "Crankbait  ",
-      "type": "tackle",
-      "cost": "1800",
-      "rarity": "Legendary",
-      "depth bonus": "6800",
-      "rarity bonus": "4",
-      "types": "Exotic Catch,Rare Aquatic Creatures"
-    },
-    {
-      "#": "11",
-      "name": "Spinner lure  ",
-      "type": "tackle",
-      "cost": "900",
-      "rarity": "Rare",
-      "depth bonus": "3600",
-      "rarity bonus": "2",
-      "types": "tropical"
-    },
-    {
-      "#": "12",
-      "name": "Fishing magnet  ",
-      "type": "accessory",
-      "cost": "300",
-      "rarity": "Uncommon",
-      "depth bonus": "1800",
-      "rarity bonus": "1",
-      "types": "eel,riverfish"
-    },
-    {
-      "#": "13",
-      "name": "Fishing lead / Sinker  ",
-      "type": "accessory",
-      "cost": "100",
-      "rarity": "Uncommon",
-      "depth bonus": "2500",
-      "rarity bonus": "1",
-      "types": "shellfish,crustation"
-    },
-    {
-      "#": "14",
-      "name": "Meat bait  ",
-      "type": "tackle",
-      "cost": "100",
-      "rarity": "Uncommon",
-      "depth bonus": "800",
-      "rarity bonus": "1",
-      "types": "algae"
-    },
-    {
-      "#": "15",
-      "name": "Worm bait  ",
-      "type": "tackle",
-      "cost": "20",
-      "rarity": "Common",
-      "depth bonus": "0",
-      "rarity bonus": "0",
-      "types": "fish"
-    },
-    {
-      "#": "16",
-      "name": "Fruit bait  ",
-      "type": "tackle",
-      "cost": "80",
-      "rarity": "Uncommon",
-      "depth bonus": "600",
-      "rarity bonus": "1",
-      "types": "algae,trash"
-    },
-    {
-      "#": "17",
-      "name": "Garlic bait  ",
-      "type": "tackle",
-      "cost": "800",
-      "rarity": "Rare",
-      "depth bonus": "4200",
-      "rarity bonus": "2",
-      "types": "Warm Blooded,mollusk"
-    },
-    {
-      "#": "18",
-      "name": "Seafood bait  ",
-      "type": "tackle",
-      "cost": "1000",
-      "rarity": "Rare",
-      "depth bonus": "4800",
-      "rarity bonus": "2",
-      "types": "Rare Aquatic Creatures,special"
-    },
-    {
-      "#": "19",
-      "name": "Bait catapult / Bait slingshot  ",
-      "type": "accessory",
-      "cost": "1200",
-      "rarity": "Rare",
-      "depth bonus": "4300",
-      "rarity bonus": "2",
-      "types": "tropical,special"
-    },
-    {
-      "#": "20",
-      "name": "Cork bobber  ",
-      "type": "tackle",
-      "cost": "75",
-      "rarity": "Uncommon",
-      "depth bonus": "1900",
-      "rarity bonus": "1",
-      "types": "Tetra,Common Fish"
-    },
-    {
-      "#": "21",
-      "name": "Plastic bobber  ",
-      "type": "tackle",
-      "cost": "60",
-      "rarity": "Common",
-      "depth bonus": "0",
-      "rarity bonus": "0",
-      "types": "fish"
-    },
-    {
-      "#": "22",
-      "name": "Fish weight machine  ",
-      "type": "accessory",
-      "cost": "770",
-      "rarity": "Rare",
-      "depth bonus": "3900",
-      "rarity bonus": "2",
-      "types": "Rare Aquatic Creatures,Deep-Sea Creatures"
-    },
-    {
-      "#": "23",
-      "name": "Fishing net  ",
-      "type": "accessory",
-      "cost": "120",
-      "rarity": "Uncommon",
-      "depth bonus": "2200",
-      "rarity bonus": "1",
-      "types": "shellfish,trash"
-    },
-    {
-      "#": "24",
-      "name": "Fish trap  ",
-      "type": "rod",
-      "cost": "200",
-      "rarity": "Uncommon",
-      "depth bonus": "1200",
-      "rarity bonus": "1",
-      "types": "riverfish,crustation"
-    },
-    {
-      "#": "25",
-      "name": "Crab trap  ",
-      "type": "rod",
-      "cost": "400",
-      "rarity": "Rare",
-      "depth bonus": "3100",
-      "rarity bonus": "2",
-      "types": "shellfish,crustation"
-    },
-    {
-      "#": "26",
-      "name": "Harpoon gun / Spear gun  ",
-      "type": "rod",
-      "cost": "2200",
-      "rarity": "Legendary",
-      "depth bonus": "7000",
-      "rarity bonus": "4",
-      "types": "Dangerous Discoveries,Exotic Catch"
-    },
-    {
-      "#": "27",
-      "name": "Harpoon  ",
-      "type": "rod",
-      "cost": "150",
-      "rarity": "Uncommon",
-      "depth bonus": "1000",
-      "rarity bonus": "1",
-      "types": "eel"
-    },
-    {
-      "#": "28",
-      "name": "Fork harpoon  ",
-      "type": "rod",
-      "cost": "200",
-      "rarity": "Rare",
-      "depth bonus": "2800",
-      "rarity bonus": "2",
-      "types": "eel,Creepers"
-    },
-    {
-      "#": "29",
-      "name": "Fishing spear  ",
-      "type": "rod",
-      "cost": "250",
-      "rarity": "Rare",
-      "depth bonus": "2700",
-      "rarity bonus": "2",
-      "types": "Creepers,jelly"
-    },
-    {
-      "#": "30",
-      "name": "Trident  ",
-      "type": "rod",
-      "cost": "3500",
-      "rarity": "Mythic",
-      "depth bonus": "9200",
-      "rarity bonus": "5",
-      "types": "Dangerous Discoveries,Warm Blooded"
-    },
-    {
-      "#": "31",
-      "name": "Bucket  ",
-      "type": "accessory",
-      "cost": "25",
-      "rarity": "Common",
-      "depth bonus": "0",
-      "rarity bonus": "0",
-      "types": "fish"
-    },
-    {
-      "#": "32",
-      "name": "Fishing bag  ",
-      "type": "accessory",
-      "cost": "50",
-      "rarity": "Common",
-      "depth bonus": "100",
-      "rarity bonus": "0",
-      "types": "fish"
-    },
-    {
-      "#": "33",
-      "name": "Portable fridge  ",
-      "type": "accessory",
-      "cost": "800",
-      "rarity": "Rare",
-      "depth bonus": "3500",
-      "rarity bonus": "2",
-      "types": "Coldwater,Freshwater Fish"
-    },
-    {
-      "#": "34",
-      "name": "Tackle box  ",
-      "type": "accessory",
-      "cost": "1000",
-      "rarity": "Rare",
-      "depth bonus": "3400",
-      "rarity bonus": "2",
-      "types": "tropical,Common Fish"
-    },
-    {
-      "#": "35",
-      "name": "Fishing marker  ",
-      "type": "accessory",
-      "cost": "3000",
-      "rarity": "Legendary",
-      "depth bonus": "6000",
-      "rarity bonus": "3",
-      "types": "Deep-Sea Creatures,special"
-    },
-    {
-      "#": "36",
-      "name": "Fishing sonar  ",
-      "type": "accessory",
-      "cost": "4900",
-      "rarity": "Legendary",
-      "depth bonus": "7500",
-      "rarity bonus": "4",
-      "types": "Dangerous Discoveries,Exotic Catch"
-    }
+	{
+	  "#": "1",
+	  "name": "Wooden fishing rod  ",
+	  "type": "rod",
+	  "cost": "0",
+	  "rarity": "Common",
+	  "depth bonus": "0",
+	  "rarity bonus": "0",
+	  "types": "Common Fish"
+	},
+	{
+	  "#": "2",
+	  "name": "Bamboo fishing rod  ",
+	  "type": "rod",
+	  "cost": "200",
+	  "rarity": "Uncommon",
+	  "depth bonus": "900",
+	  "rarity bonus": "1",
+	  "types": "Freshwater Fish,riverfish"
+	},
+	{
+	  "#": "3",
+	  "name": "Steel fishing rod  ",
+	  "type": "rod",
+	  "cost": "500",
+	  "rarity": "Rare",
+	  "depth bonus": "3000",
+	  "rarity bonus": "2",
+	  "types": "Rare Aquatic Creatures,Tetra"
+	},
+	{
+	  "#": "4",
+	  "name": "Glass fiber fishing rod  ",
+	  "type": "rod",
+	  "cost": "450",
+	  "rarity": "Rare",
+	  "depth bonus": "3200",
+	  "rarity bonus": "2",
+	  "types": "Tetra,Exotic Catch"
+	},
+	{
+	  "#": "5",
+	  "name": "Carbon fiber fishing rod  ",
+	  "type": "rod",
+	  "cost": "2000",
+	  "rarity": "Legendary",
+	  "depth bonus": "6200",
+	  "rarity bonus": "4",
+	  "types": "Deep-Sea Creatures,Dangerous Discoveries"
+	},
+	{
+	  "#": "6",
+	  "name": "Fishing line  ",
+	  "type": "accessory",
+	  "cost": "9",
+	  "rarity": "Common",
+	  "depth bonus": "-200",
+	  "rarity bonus": "0",
+	  "types": "fish"
+	},
+	{
+	  "#": "7",
+	  "name": "Fishing hook  ",
+	  "type": "tackle",
+	  "cost": "99",
+	  "rarity": "Common",
+	  "depth bonus": "-100",
+	  "rarity bonus": "0",
+	  "types": "fish"
+	},
+	{
+	  "#": "8",
+	  "name": "Jig lure  ",
+	  "type": "tackle",
+	  "cost": "450",
+	  "rarity": "Rare",
+	  "depth bonus": "3500",
+	  "rarity bonus": "2",
+	  "types": "jelly,Tetra"
+	},
+	{
+	  "#": "9",
+	  "name": "Fly lure  ",
+	  "type": "tackle",
+	  "cost": "550",
+	  "rarity": "Rare",
+	  "depth bonus": "3800",
+	  "rarity bonus": "2",
+	  "types": "mollusk,Tetra"
+	},
+	{
+	  "#": "10",
+	  "name": "Crankbait  ",
+	  "type": "tackle",
+	  "cost": "1800",
+	  "rarity": "Legendary",
+	  "depth bonus": "6800",
+	  "rarity bonus": "4",
+	  "types": "Exotic Catch,Rare Aquatic Creatures"
+	},
+	{
+	  "#": "11",
+	  "name": "Spinner lure  ",
+	  "type": "tackle",
+	  "cost": "900",
+	  "rarity": "Rare",
+	  "depth bonus": "3600",
+	  "rarity bonus": "2",
+	  "types": "tropical"
+	},
+	{
+	  "#": "12",
+	  "name": "Fishing magnet  ",
+	  "type": "accessory",
+	  "cost": "300",
+	  "rarity": "Uncommon",
+	  "depth bonus": "1800",
+	  "rarity bonus": "1",
+	  "types": "eel,riverfish"
+	},
+	{
+	  "#": "13",
+	  "name": "Fishing lead / Sinker  ",
+	  "type": "accessory",
+	  "cost": "100",
+	  "rarity": "Uncommon",
+	  "depth bonus": "2500",
+	  "rarity bonus": "1",
+	  "types": "shellfish,crustation"
+	},
+	{
+	  "#": "14",
+	  "name": "Meat bait  ",
+	  "type": "tackle",
+	  "cost": "100",
+	  "rarity": "Uncommon",
+	  "depth bonus": "800",
+	  "rarity bonus": "1",
+	  "types": "algae"
+	},
+	{
+	  "#": "15",
+	  "name": "Worm bait  ",
+	  "type": "tackle",
+	  "cost": "20",
+	  "rarity": "Common",
+	  "depth bonus": "0",
+	  "rarity bonus": "0",
+	  "types": "fish"
+	},
+	{
+	  "#": "16",
+	  "name": "Fruit bait  ",
+	  "type": "tackle",
+	  "cost": "80",
+	  "rarity": "Uncommon",
+	  "depth bonus": "600",
+	  "rarity bonus": "1",
+	  "types": "algae,trash"
+	},
+	{
+	  "#": "17",
+	  "name": "Garlic bait  ",
+	  "type": "tackle",
+	  "cost": "800",
+	  "rarity": "Rare",
+	  "depth bonus": "4200",
+	  "rarity bonus": "2",
+	  "types": "Warm Blooded,mollusk"
+	},
+	{
+	  "#": "18",
+	  "name": "Seafood bait  ",
+	  "type": "tackle",
+	  "cost": "1000",
+	  "rarity": "Rare",
+	  "depth bonus": "4800",
+	  "rarity bonus": "2",
+	  "types": "Rare Aquatic Creatures,special"
+	},
+	{
+	  "#": "19",
+	  "name": "Bait catapult / Bait slingshot  ",
+	  "type": "accessory",
+	  "cost": "1200",
+	  "rarity": "Rare",
+	  "depth bonus": "4300",
+	  "rarity bonus": "2",
+	  "types": "tropical,special"
+	},
+	{
+	  "#": "20",
+	  "name": "Cork bobber  ",
+	  "type": "tackle",
+	  "cost": "75",
+	  "rarity": "Uncommon",
+	  "depth bonus": "1900",
+	  "rarity bonus": "1",
+	  "types": "Tetra,Common Fish"
+	},
+	{
+	  "#": "21",
+	  "name": "Plastic bobber  ",
+	  "type": "tackle",
+	  "cost": "60",
+	  "rarity": "Common",
+	  "depth bonus": "0",
+	  "rarity bonus": "0",
+	  "types": "fish"
+	},
+	{
+	  "#": "22",
+	  "name": "Fish weight machine  ",
+	  "type": "accessory",
+	  "cost": "770",
+	  "rarity": "Rare",
+	  "depth bonus": "3900",
+	  "rarity bonus": "2",
+	  "types": "Rare Aquatic Creatures,Deep-Sea Creatures"
+	},
+	{
+	  "#": "23",
+	  "name": "Fishing net  ",
+	  "type": "accessory",
+	  "cost": "120",
+	  "rarity": "Uncommon",
+	  "depth bonus": "2200",
+	  "rarity bonus": "1",
+	  "types": "shellfish,trash"
+	},
+	{
+	  "#": "24",
+	  "name": "Fish trap  ",
+	  "type": "rod",
+	  "cost": "200",
+	  "rarity": "Uncommon",
+	  "depth bonus": "1200",
+	  "rarity bonus": "1",
+	  "types": "riverfish,crustation"
+	},
+	{
+	  "#": "25",
+	  "name": "Crab trap  ",
+	  "type": "rod",
+	  "cost": "400",
+	  "rarity": "Rare",
+	  "depth bonus": "3100",
+	  "rarity bonus": "2",
+	  "types": "shellfish,crustation"
+	},
+	{
+	  "#": "26",
+	  "name": "Harpoon gun / Spear gun  ",
+	  "type": "rod",
+	  "cost": "2200",
+	  "rarity": "Legendary",
+	  "depth bonus": "7000",
+	  "rarity bonus": "4",
+	  "types": "Dangerous Discoveries,Exotic Catch"
+	},
+	{
+	  "#": "27",
+	  "name": "Harpoon  ",
+	  "type": "rod",
+	  "cost": "150",
+	  "rarity": "Uncommon",
+	  "depth bonus": "1000",
+	  "rarity bonus": "1",
+	  "types": "eel"
+	},
+	{
+	  "#": "28",
+	  "name": "Fork harpoon  ",
+	  "type": "rod",
+	  "cost": "200",
+	  "rarity": "Rare",
+	  "depth bonus": "2800",
+	  "rarity bonus": "2",
+	  "types": "eel,Creepers"
+	},
+	{
+	  "#": "29",
+	  "name": "Fishing spear  ",
+	  "type": "rod",
+	  "cost": "250",
+	  "rarity": "Rare",
+	  "depth bonus": "2700",
+	  "rarity bonus": "2",
+	  "types": "Creepers,jelly"
+	},
+	{
+	  "#": "30",
+	  "name": "Trident  ",
+	  "type": "rod",
+	  "cost": "3500",
+	  "rarity": "Mythic",
+	  "depth bonus": "9200",
+	  "rarity bonus": "5",
+	  "types": "Dangerous Discoveries,Warm Blooded"
+	},
+	{
+	  "#": "31",
+	  "name": "Bucket  ",
+	  "type": "accessory",
+	  "cost": "25",
+	  "rarity": "Common",
+	  "depth bonus": "0",
+	  "rarity bonus": "0",
+	  "types": "fish"
+	},
+	{
+	  "#": "32",
+	  "name": "Fishing bag  ",
+	  "type": "accessory",
+	  "cost": "50",
+	  "rarity": "Common",
+	  "depth bonus": "100",
+	  "rarity bonus": "0",
+	  "types": "fish"
+	},
+	{
+	  "#": "33",
+	  "name": "Portable fridge  ",
+	  "type": "accessory",
+	  "cost": "800",
+	  "rarity": "Rare",
+	  "depth bonus": "3500",
+	  "rarity bonus": "2",
+	  "types": "Coldwater,Freshwater Fish"
+	},
+	{
+	  "#": "34",
+	  "name": "Tackle box  ",
+	  "type": "accessory",
+	  "cost": "1000",
+	  "rarity": "Rare",
+	  "depth bonus": "3400",
+	  "rarity bonus": "2",
+	  "types": "tropical,Common Fish"
+	},
+	{
+	  "#": "35",
+	  "name": "Fishing marker  ",
+	  "type": "accessory",
+	  "cost": "3000",
+	  "rarity": "Legendary",
+	  "depth bonus": "6000",
+	  "rarity bonus": "3",
+	  "types": "Deep-Sea Creatures,special"
+	},
+	{
+	  "#": "36",
+	  "name": "Fishing sonar  ",
+	  "type": "accessory",
+	  "cost": "4900",
+	  "rarity": "Legendary",
+	  "depth bonus": "7500",
+	  "rarity bonus": "4",
+	  "types": "Dangerous Discoveries,Exotic Catch"
+	}
   ],
   "quests": [
-    {
-      "Name": "Amature Hour",
-      "description": "Catch 10 Fish",
-      "level unlock": "0",
-      "money reward": "20",
-      "type": "TotalCollectionQuest",
-      "need amt": "10"
-    },
-    {
-      "Name": "Finding Nemo",
-      "description": "Catch 3 Clownfish",
-      "level unlock": "0",
-      "money reward": "30",
-      "type": "NameCollectionQuest",
-      "need amt": "3",
-      "name": "Clownfish"
-    },
-    {
-      "Name": "One Hundo",
-      "description": "Catch 100 Fish",
-      "level unlock": "2",
-      "money reward": "100",
-      "type": "TotalCollectionQuest",
-      "need amt": "100"
-    },
-    {
-      "Name": "Quart of a Dolla",
-      "description": "Its pretty obvious no?",
-      "level unlock": "1",
-      "money reward": "25",
-      "type": "TotalCollectionQuest",
-      "need amt": "25"
-    }
+	{
+	  "Name": "Amature Hour",
+	  "description": "Catch 10 Fish",
+	  "level unlock": "0",
+	  "money reward": "20",
+	  "type": "TotalCollectionQuest",
+	  "need amt": "10"
+	},
+	{
+	  "Name": "Finding Nemo",
+	  "description": "Catch 3 Clownfish",
+	  "level unlock": "0",
+	  "money reward": "30",
+	  "type": "NameCollectionQuest",
+	  "need amt": "3",
+	  "name": "Clownfish"
+	},
+	{
+	  "Name": "One Hundo",
+	  "description": "Catch 100 Fish",
+	  "level unlock": "2",
+	  "money reward": "100",
+	  "type": "TotalCollectionQuest",
+	  "need amt": "100"
+	},
+	{
+	  "Name": "Quart of a Dolla",
+	  "description": "Its pretty obvious no?",
+	  "level unlock": "1",
+	  "money reward": "25",
+	  "type": "TotalCollectionQuest",
+	  "need amt": "25"
+	}
   ],
   "Dropdowns": [
-    {
-      "Quest Types": "TotalCollectionQuest",
-      "Fish Regions": "Epipelagic",
-      "Fish Depths (up to m)": "400",
-      "Gear Rarities": "Common",
-      "G Rarities Represent": "1"
-    },
-    {
-      "Quest Types": "NameCollectionQuest",
-      "Fish Regions": "Mesopelagic",
-      "Fish Depths (up to m)": "1000",
-      "Gear Rarities": "Uncommon",
-      "G Rarities Represent": "2"
-    },
-    {
-      "Quest Types": "TypeCollectionQuest",
-      "Fish Regions": "Bthypelagic",
-      "Fish Depths (up to m)": "4000",
-      "Gear Rarities": "Rare",
-      "G Rarities Represent": "3"
-    },
-    {
-      "Fish Regions": "Abyssopelagic",
-      "Fish Depths (up to m)": "6000",
-      "Gear Rarities": "Legendary",
-      "G Rarities Represent": "4"
-    },
-    {
-      "Fish Regions": "Hadalpelagic",
-      "Fish Depths (up to m)": "10000",
-      "Gear Rarities": "Mythic",
-      "G Rarities Represent": "5"
-    },
-    {
-      "Gear Rarities": "Exotic",
-      "G Rarities Represent": "6"
-    }
+	{
+	  "Quest Types": "TotalCollectionQuest",
+	  "Fish Regions": "Epipelagic",
+	  "Fish Depths (up to m)": "400",
+	  "Gear Rarities": "Common",
+	  "G Rarities Represent": "1"
+	},
+	{
+	  "Quest Types": "NameCollectionQuest",
+	  "Fish Regions": "Mesopelagic",
+	  "Fish Depths (up to m)": "1000",
+	  "Gear Rarities": "Uncommon",
+	  "G Rarities Represent": "2"
+	},
+	{
+	  "Quest Types": "TypeCollectionQuest",
+	  "Fish Regions": "Bthypelagic",
+	  "Fish Depths (up to m)": "4000",
+	  "Gear Rarities": "Rare",
+	  "G Rarities Represent": "3"
+	},
+	{
+	  "Fish Regions": "Abyssopelagic",
+	  "Fish Depths (up to m)": "6000",
+	  "Gear Rarities": "Legendary",
+	  "G Rarities Represent": "4"
+	},
+	{
+	  "Fish Regions": "Hadalpelagic",
+	  "Fish Depths (up to m)": "10000",
+	  "Gear Rarities": "Mythic",
+	  "G Rarities Represent": "5"
+	},
+	{
+	  "Gear Rarities": "Exotic",
+	  "G Rarities Represent": "6"
+	}
   ]
 }

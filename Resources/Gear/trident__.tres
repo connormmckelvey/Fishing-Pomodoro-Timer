@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_xkp3t"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/30.png" id="2_cv671"]
+
+[resource]
+script = ExtResource("1_xkp3t")
+gear_name = "Trident  "
+cost = 3500
+rarity = "Mythic"
+type = "rod"
+bonuses = {
+"depth_score": 9200,
+"rariety_score": 5,
+"types_avilable": PackedStringArray("Dangerous Discoveries", "Warm Blooded")
+}
+texture = ExtResource("2_cv671")

@@ -15,7 +15,7 @@ func _ready():
 	style.border_color = Color(10 + (catchable.rarity * 10),0,0)
 
 	$ColorRect/VBoxContainer/name.text = catchable.catchable_name
-	$ColorRect/VBoxContainer/rarity.text = "Rarity: "+ stars_string(catchable.rarity)
+	$ColorRect/VBoxContainer/rarity.text = "Rarity: "+ str(catchable.rarity)
 	$ColorRect/VBoxContainer/cost.text = "Sell For: "+str(catchable.value)
 	$ColorRect/VBoxContainer/type.text = "Type: "+str(catchable.type)
 

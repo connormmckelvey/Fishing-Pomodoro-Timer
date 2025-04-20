@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_w8w34"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/10.png" id="2_ih18w"]
+
+[resource]
+script = ExtResource("1_w8w34")
+catchable_name = "Goldfish  "
+rarity = 3
+depth = 5
+type = "Common Fish"
+texture = ExtResource("2_ih18w")
+value = 0

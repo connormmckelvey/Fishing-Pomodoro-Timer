@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_f45xk"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/48.png" id="2_fg08g"]
+
+[resource]
+script = ExtResource("1_f45xk")
+catchable_name = "Atlantic herring  "
+rarity = 8
+depth = 70
+type = "Coldwater"
+texture = ExtResource("2_fg08g")
+value = 0

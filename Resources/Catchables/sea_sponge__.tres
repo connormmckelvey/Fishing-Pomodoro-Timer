@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_vtfg2"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/115.png" id="2_ubjae"]
+
+[resource]
+script = ExtResource("1_vtfg2")
+catchable_name = "Sea sponge  "
+rarity = 2
+depth = 40
+type = "shellfish"
+texture = ExtResource("2_ubjae")
+value = 0

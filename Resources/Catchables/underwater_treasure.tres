@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_f24js"]
+[ext_resource type="Texture2D" path="res://Assets/objects icon/12.png" id="2_8i424"]
+
+[resource]
+script = ExtResource("1_f24js")
+catchable_name = "Underwater treasure"
+rarity = 14
+depth = 2000
+type = "special"
+texture = ExtResource("2_8i424")
+value = 0

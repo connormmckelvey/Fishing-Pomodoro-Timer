@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_psj7h"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/95.png" id="2_c4wa0"]
+
+[resource]
+script = ExtResource("1_psj7h")
+catchable_name = "Hillstream loach  "
+rarity = 10
+depth = 6
+type = "riverfish"
+texture = ExtResource("2_c4wa0")
+value = 0

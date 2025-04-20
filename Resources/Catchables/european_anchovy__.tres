@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_vgcxt"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/72.png" id="2_ffo4n"]
+
+[resource]
+script = ExtResource("1_vgcxt")
+catchable_name = "European anchovy  "
+rarity = 7
+depth = 35
+type = "Common Fish"
+texture = ExtResource("2_ffo4n")
+value = 0

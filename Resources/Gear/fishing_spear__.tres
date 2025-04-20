@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_66edk"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/29.png" id="2_frp3y"]
+
+[resource]
+script = ExtResource("1_66edk")
+gear_name = "Fishing spear  "
+cost = 250
+rarity = "Rare"
+type = "rod"
+bonuses = {
+"depth_score": 2700,
+"rariety_score": 2,
+"types_avilable": PackedStringArray("Creepers", "jelly")
+}
+texture = ExtResource("2_frp3y")

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_augsr"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/23.png" id="2_xbrtl"]
+
+[resource]
+script = ExtResource("1_augsr")
+gear_name = "Fishing net  "
+cost = 120
+rarity = "Uncommon"
+type = "accessory"
+bonuses = {
+"depth_score": 2200,
+"rariety_score": 1,
+"types_avilable": PackedStringArray("shellfish", "trash")
+}
+texture = ExtResource("2_xbrtl")

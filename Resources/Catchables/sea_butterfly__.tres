@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_u2cky"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/131.png" id="2_428hf"]
+
+[resource]
+script = ExtResource("1_u2cky")
+catchable_name = "Sea butterfly  "
+rarity = 13
+depth = 13
+type = "mollusk"
+texture = ExtResource("2_428hf")
+value = 0

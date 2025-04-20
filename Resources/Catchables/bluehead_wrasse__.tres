@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_i4twa"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/92.png" id="2_ukp21"]
+
+[resource]
+script = ExtResource("1_i4twa")
+catchable_name = "Bluehead wrasse  "
+rarity = 7
+depth = 1
+type = "Tropical"
+texture = ExtResource("2_ukp21")
+value = 0

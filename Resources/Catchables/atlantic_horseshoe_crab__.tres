@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_jekor"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/121.png" id="2_c0hus"]
+
+[resource]
+script = ExtResource("1_jekor")
+catchable_name = "Atlantic horseshoe crab  "
+rarity = 9
+depth = 2400
+type = "crustation"
+texture = ExtResource("2_c0hus")
+value = 0

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_qg4sd"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/1.png" id="2_vpmmx"]
+
+[resource]
+script = ExtResource("1_qg4sd")
+catchable_name = "Progenetica  "
+rarity = 4
+depth = 479
+type = "tropical"
+texture = ExtResource("2_vpmmx")
+value = 0
