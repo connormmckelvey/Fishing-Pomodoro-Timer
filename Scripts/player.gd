@@ -15,6 +15,7 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 func _ready():
 	pass
+	#_on_timer_display_done_fishing()
 
 func _physics_process(delta):
 	# Add the gravity.
@@ -23,12 +24,12 @@ func _physics_process(delta):
 			velocity.y += gravity * delta
 
 		# Handle jump.
-		if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+		if Input.is_action_just_pressed("up") and is_on_floor():
 			velocity.y = JUMP_VELOCITY
 
 		# Get the input direction and handle the movement/deceleration.
 		# As good practice, you should replace UI actions with custom gameplay actions.
-		var direction = Input.get_axis("ui_left", "ui_right")
+		var direction = Input.get_axis("left", "right")
 		if direction:
 			if direction < 0:
 				$AnimatedSprite2D.flip_h = true
@@ -49,7 +50,11 @@ func _on_tacklebox_work_started():
 	$AnimatedSprite2D.flip_h = true
 
 func _on_timer_display_done_fishing():
-	calculate_catch(randi_range(global.save.level,global.save.level+5))
+	var total_rarity_score = global.save.equiped_tackle.bonuses["rariety_score"] + global.save.equiped_rod.bonuses["rariety_score"] + global.save.equiped_accessory.bonuses["rariety_score"]
+	var total_depth_score = global.save.equiped_tackle.bonuses["depth_score"] + global.save.equiped_rod.bonuses["depth_score"] + global.save.equiped_accessory.bonuses["depth_score"] 
+
+	#calculate_catch(randi_range(global.save.level,global.save.level+5))
+	calculate_catch_2(global.save.level,total_rarity_score,total_depth_score,global.save.work_time_min,get_valid_catchables())
 	calculate_levelup()
 	for quest in global.save.uncompleted_quests:
 		if quest.check_quest_progress() == true:
@@ -78,7 +83,7 @@ func calculate_catch(num_catches:int):
 		all_types_aviable.append(type)
 	all_types_aviable.sort()
 
-	var valid_catchables = get_valid_catchables(all_types_aviable, total_depth_score,total_rarity_score)
+	var valid_catchables = get_valid_catchables()
 	if valid_catchables.is_empty():
 		return
 	# Weight: common (rarity 1) = high chance, rare (rarity 5+) = low chance
@@ -87,10 +92,51 @@ func calculate_catch(num_catches:int):
 		var index = weighted_random_index(weights)
 		global.save.catches.append(valid_catchables[index])  # Duplicates allowed
 
-func get_valid_catchables(all_types_available: Array, depth_score: int, rarity_score:int) -> Array:
+#calculates catch for a third of min in duration, based on finding fish that are close to rarity and depth equiped
+func calculate_catch_2(level: int, rarity_score: int, depth_score: int, duration: int, fish_list: Array):
+	var caught_fish := []
+
+	for i in int(duration/3):
+		var shuffled_fish = fish_list.duplicate()
+		shuffled_fish.shuffle()
+
+		for fish in shuffled_fish:
+			var fish_rarity = fish["rarity"]
+			var fish_depth = fish["depth"]
+
+			# Rarity logic
+			var rarity_diff = abs(fish_rarity - rarity_score)
+			var rarity_chance = max(1, 25 - rarity_diff - int(level / 2))
+
+			# Depth logic
+			var depth_diff = abs(fish_depth - depth_score)
+			var depth_modifier = max(1, 20 - int(depth_diff / 50))
+
+			# Final catch chance
+			var catch_chance = rarity_chance + depth_modifier + level
+
+			if randi() % 100 + 1 <= catch_chance:
+				caught_fish.append(fish)
+				break  # Only one fish per tick
+
+	print(caught_fish)
+	for catch in caught_fish:
+		global.save.catches += catch
+
+#returns all catchables that have a type that can be caught
+func get_valid_catchables() -> Array:
+	var all_types_aviable = []
 	var filtered = []
+	for type in global.save.equiped_tackle.bonuses["types_avilable"]:
+		all_types_aviable.append(type)
+	for type in global.save.equiped_rod.bonuses["types_avilable"]:
+		all_types_aviable.append(type)
+	for type in global.save.equiped_accessory.bonuses["types_avilable"]:
+		all_types_aviable.append(type)
+	all_types_aviable.sort()
+	
 	for catchable in global.save.catchables:
-		if catchable.type in all_types_available and catchable.rarity <= rarity_score and catchable.depth <= depth_score:
+		if catchable.type in all_types_aviable:
 			filtered.append(catchable)
 	return filtered
 
