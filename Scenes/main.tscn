@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://8gp21sfo5fw2"]
+[gd_scene load_steps=34 format=3 uid="uid://8gp21sfo5fw2"]
 
 [ext_resource type="Script" path="res://Scripts/global.gd" id="2_hrmec"]
 [ext_resource type="Texture2D" uid="uid://b03r25i7npeaw" path="res://Assets/Skybox/1.png" id="2_xvmsh"]
@@ -18,6 +18,7 @@
 [ext_resource type="Script" path="res://Scripts/timer_display.gd" id="14_f8eyv"]
 [ext_resource type="FontFile" uid="uid://d2srfwq605q6o" path="res://Assets/Pixellari.ttf" id="14_moku3"]
 [ext_resource type="Script" path="res://Scripts/AudioStreamPlayer2D.gd" id="18_4twtr"]
+[ext_resource type="Script" path="res://Scripts/time_change_btn.gd" id="19_sor7g"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xufis"]
 size = Vector2(425, 15)
@@ -371,6 +372,193 @@ offset_bottom = 620.0
 theme_override_styles/fill = SubResource("StyleBoxFlat_aercw")
 show_percentage = false
 
+[node name="HBoxContainer" type="HBoxContainer" parent="display"]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 115.0
+offset_right = 243.0
+offset_bottom = 503.0
+alignment = 1
+
+[node name="work_times" type="VBoxContainer" parent="display/HBoxContainer"]
+layout_mode = 2
+
+[node name="worklbl" type="Label" parent="display/HBoxContainer/work_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "Work"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="10" type="Button" parent="display/HBoxContainer/work_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "10"
+script = ExtResource("19_sor7g")
+
+[node name="25" type="Button" parent="display/HBoxContainer/work_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "25"
+script = ExtResource("19_sor7g")
+
+[node name="30" type="Button" parent="display/HBoxContainer/work_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "30"
+script = ExtResource("19_sor7g")
+
+[node name="45" type="Button" parent="display/HBoxContainer/work_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "45"
+script = ExtResource("19_sor7g")
+
+[node name="60" type="Button" parent="display/HBoxContainer/work_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "60"
+script = ExtResource("19_sor7g")
+
+[node name="90" type="Button" parent="display/HBoxContainer/work_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "90"
+script = ExtResource("19_sor7g")
+
+[node name="rest_times" type="VBoxContainer" parent="display/HBoxContainer"]
+layout_mode = 2
+
+[node name="restlbl" type="Label" parent="display/HBoxContainer/rest_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "Rest"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="2" type="Button" parent="display/HBoxContainer/rest_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "2"
+script = ExtResource("19_sor7g")
+
+[node name="5" type="Button" parent="display/HBoxContainer/rest_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "5"
+script = ExtResource("19_sor7g")
+
+[node name="10" type="Button" parent="display/HBoxContainer/rest_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "10"
+script = ExtResource("19_sor7g")
+
+[node name="15" type="Button" parent="display/HBoxContainer/rest_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "15
+"
+script = ExtResource("19_sor7g")
+
+[node name="25" type="Button" parent="display/HBoxContainer/rest_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "25
+"
+script = ExtResource("19_sor7g")
+
+[node name="30" type="Button" parent="display/HBoxContainer/rest_times"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
+text = "30
+"
+script = ExtResource("19_sor7g")
+
 [connection signal="area_entered" from="shop_area" to="shop_area" method="_on_area_entered"]
 [connection signal="area_exited" from="shop_area" to="shop_area" method="_on_area_exited"]
 [connection signal="area_entered" from="quest_area" to="quest_area" method="_on_area_entered"]
@@ -380,4 +568,29 @@ show_percentage = false
 [connection signal="work_started" from="fishing_area/tacklebox" to="Player" method="_on_tacklebox_work_started"]
 [connection signal="work_started" from="fishing_area/tacklebox" to="display" method="_on_tacklebox_work_started"]
 [connection signal="done_fishing" from="display" to="Player" method="_on_timer_display_done_fishing"]
+[connection signal="mouse_entered" from="display" to="display" method="_on_mouse_entered"]
 [connection signal="timeout" from="display/Timer" to="display" method="_on_timer_timeout"]
+[connection signal="change_time" from="display/HBoxContainer/work_times/10" to="display" method="change_work_time"]
+[connection signal="pressed" from="display/HBoxContainer/work_times/10" to="display/HBoxContainer/work_times/10" method="_on_pressed"]
+[connection signal="change_time" from="display/HBoxContainer/work_times/25" to="display" method="change_work_time"]
+[connection signal="pressed" from="display/HBoxContainer/work_times/25" to="display/HBoxContainer/work_times/25" method="_on_pressed"]
+[connection signal="change_time" from="display/HBoxContainer/work_times/30" to="display" method="change_work_time"]
+[connection signal="pressed" from="display/HBoxContainer/work_times/30" to="display/HBoxContainer/work_times/30" method="_on_pressed"]
+[connection signal="change_time" from="display/HBoxContainer/work_times/45" to="display" method="change_work_time"]
+[connection signal="pressed" from="display/HBoxContainer/work_times/45" to="display/HBoxContainer/work_times/45" method="_on_pressed"]
+[connection signal="change_time" from="display/HBoxContainer/work_times/60" to="display" method="change_work_time"]
+[connection signal="pressed" from="display/HBoxContainer/work_times/60" to="display/HBoxContainer/work_times/60" method="_on_pressed"]
+[connection signal="change_time" from="display/HBoxContainer/work_times/90" to="display" method="change_work_time"]
+[connection signal="pressed" from="display/HBoxContainer/work_times/90" to="display/HBoxContainer/work_times/90" method="_on_pressed"]
+[connection signal="change_time" from="display/HBoxContainer/rest_times/2" to="display" method="change_rest_time"]
+[connection signal="pressed" from="display/HBoxContainer/rest_times/2" to="display/HBoxContainer/rest_times/2" method="_on_pressed"]
+[connection signal="change_time" from="display/HBoxContainer/rest_times/5" to="display" method="change_rest_time"]
+[connection signal="pressed" from="display/HBoxContainer/rest_times/5" to="display/HBoxContainer/rest_times/5" method="_on_pressed"]
+[connection signal="change_time" from="display/HBoxContainer/rest_times/10" to="display" method="change_rest_time"]
+[connection signal="pressed" from="display/HBoxContainer/rest_times/10" to="display/HBoxContainer/rest_times/10" method="_on_pressed"]
+[connection signal="change_time" from="display/HBoxContainer/rest_times/15" to="display" method="change_rest_time"]
+[connection signal="pressed" from="display/HBoxContainer/rest_times/15" to="display/HBoxContainer/rest_times/15" method="_on_pressed"]
+[connection signal="change_time" from="display/HBoxContainer/rest_times/25" to="display" method="change_rest_time"]
+[connection signal="pressed" from="display/HBoxContainer/rest_times/25" to="display/HBoxContainer/rest_times/25" method="_on_pressed"]
+[connection signal="change_time" from="display/HBoxContainer/rest_times/30" to="display" method="change_rest_time"]
+[connection signal="pressed" from="display/HBoxContainer/rest_times/30" to="display/HBoxContainer/rest_times/30" method="_on_pressed"]
