@@ -1,6 +1,6 @@
-[gd_resource type="Resource" script_class="TypeCollectionQuest" load_steps=3 format=3 uid="uid://bd2o3pha5smrk"]
+[gd_resource type="Resource" script_class="TypeCollectionQuest" load_steps=3 format=3]
 
-[ext_resource type="Resource" uid="uid://cgamht2kfhf" path="res://Resources/Gear/fruit_bait.tres" id="1_ghb3o"]
+[ext_resource type="Resource" path="res://Resources/Gear/fruit_bait.tres" id="1_ghb3o"]
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/TypeCollectionQuest.gd" id="1_owg7s"]
 
 [resource]

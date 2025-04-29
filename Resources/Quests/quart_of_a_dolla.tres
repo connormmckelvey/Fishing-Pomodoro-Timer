@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="TotalCollectionQuest" load_steps=2 format=3 uid="uid://gr4b10sld8xa"]
+[gd_resource type="Resource" script_class="TotalCollectionQuest" load_steps=2 format=3]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/TotalCollectionQuest.gd" id="1_ssie3"]
 

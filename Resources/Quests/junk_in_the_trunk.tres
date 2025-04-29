@@ -1,6 +1,6 @@
-[gd_resource type="Resource" script_class="TypeCollectionQuest" load_steps=3 format=3 uid="uid://bs0xqx4w33dor"]
+[gd_resource type="Resource" script_class="TypeCollectionQuest" load_steps=3 format=3]
 
-[ext_resource type="Resource" uid="uid://drym2gskq35q" path="res://Resources/Gear/fishing_net.tres" id="1_8oxf4"]
+[ext_resource type="Resource" path="res://Resources/Gear/fishing_net.tres" id="1_8oxf4"]
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/TypeCollectionQuest.gd" id="1_kj834"]
 
 [resource]

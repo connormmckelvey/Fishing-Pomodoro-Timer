@@ -19,6 +19,7 @@ func _on_tacklebox_work_started():
 	isworking = true
 	$Timer.wait_time = global.save.work_time_min * 60
 	$Timer.start()
+	$icons.hide()
 	
 func _process(delta):
 	text = format_seconds($Timer.time_left)
@@ -51,6 +52,7 @@ func _on_timer_timeout():
 		done_fishing.emit()
 		$Timer.wait_time = global.save.rest_time_min * 60
 		$Timer.start()
+		$icons.show()
 
 func change_work_time(minutes: int):
 	global.save.work_time_min = minutes
