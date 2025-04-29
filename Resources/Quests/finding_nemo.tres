@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="NameCollectionQuest" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="NameCollectionQuest" load_steps=2 format=3 uid="uid://km5gmbw5ce1x"]
 
 [ext_resource type="Script" path="res://Scripts/Resource Scripts/NameCollectionQuest.gd" id="1_mshag"]
 
