@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="TypeCollectionQuest" load_steps=3 format=3]
+
+[ext_resource type="Resource" path="res://Resources/Gear/fruit_bait.tres" id="1_ghb3o"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/TypeCollectionQuest.gd" id="1_owg7s"]
+
+[resource]
+script = ExtResource("1_owg7s")
+needed_amount = 10
+type = "tropical"
+quest_name = "Warm Waters Only"
+description = "Catch 10 tropical fish"
+level_unlock = 0
+money_reward = 0
+gear_reward = ExtResource("1_ghb3o")

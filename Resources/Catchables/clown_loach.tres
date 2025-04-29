@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_nm2l7"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/85.png" id="2_dxhq3"]
+
+[resource]
+script = ExtResource("1_nm2l7")
+catchable_name = "Clown loach  "
+rarity = 10
+depth = 3100
+type = "Deep-Sea Creatures"
+texture = ExtResource("2_dxhq3")
+value = 67

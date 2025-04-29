@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_oy6pt"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/113.png" id="2_wnxfh"]
+
+[resource]
+script = ExtResource("1_oy6pt")
+catchable_name = "Cushion star  "
+rarity = 5
+depth = 70
+type = "shellfish"
+texture = ExtResource("2_wnxfh")
+value = 46

@@ -1,17 +1,17 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_r3ui1"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/16.png" id="2_tn61s"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_iy0ed"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/16.png" id="2_cnhx0"]
 
 [resource]
-script = ExtResource("1_r3ui1")
-gear_name = "Fruit bait"
-cost = 5
-rarity = 1
-type = "Tackle"
+script = ExtResource("1_iy0ed")
+gear_name = "Fruit bait  "
+cost = 80
+rarity = "Uncommon"
+type = "tackle"
 bonuses = {
-"depth_score": 0,
-"rariety_score": 2,
-"types_avilable": ["fish"]
+"depth_score": 600,
+"rariety_score": 1,
+"types_avilable": PackedStringArray("algae", "trash")
 }
-texture = ExtResource("2_tn61s")
+texture = ExtResource("2_cnhx0")

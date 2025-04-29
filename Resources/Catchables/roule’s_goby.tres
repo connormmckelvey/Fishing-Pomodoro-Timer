@@ -1,12 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_1fgkd"]
-[ext_resource type="Texture2D" uid="uid://d34njjxotly21" path="res://Assets/catchables icons/17.png" id="2_guwgu"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_rh0mm"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/17.png" id="2_lc1ip"]
 
 [resource]
-script = ExtResource("1_1fgkd")
-catchable_name = "Roule’s goby"
-rarity = 2
-depth = 5
-type = "goby"
-texture = ExtResource("2_guwgu")
+script = ExtResource("1_rh0mm")
+catchable_name = "Roule’s goby  "
+rarity = 7
+depth = 6
+type = "tropical"
+texture = ExtResource("2_lc1ip")
+value = 64

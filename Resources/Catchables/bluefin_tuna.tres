@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_7w142"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/53.png" id="2_b78as"]
+
+[resource]
+script = ExtResource("1_7w142")
+catchable_name = "Bluefin tuna  "
+rarity = 12
+depth = 35
+type = "Coldwater"
+texture = ExtResource("2_b78as")
+value = 89

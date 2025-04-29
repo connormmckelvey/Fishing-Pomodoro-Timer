@@ -1,12 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_q6lq3"]
-[ext_resource type="Texture2D" uid="uid://dqh8mnm51sdek" path="res://Assets/catchables icons/14.png" id="2_350s1"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_n0csd"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/14.png" id="2_uvash"]
 
 [resource]
-script = ExtResource("1_q6lq3")
-catchable_name = "Spotted pufferfish"
-rarity = 3
-depth = 15
-type = "pufferfish"
-texture = ExtResource("2_350s1")
+script = ExtResource("1_n0csd")
+catchable_name = "Spotted pufferfish  "
+rarity = 15
+depth = 77
+type = "Exotic Catch"
+texture = ExtResource("2_uvash")
+value = 113

@@ -14,7 +14,8 @@ func open_quests():
 	for quest in global.save.completed_quests:
 		add_quest(quest)
 	for quest in global.save.uncompleted_quests:
-		add_quest(quest)
+		if quest.level_unlock <= global.save.level:
+			add_quest(quest)
 	
 func close_quests():
 	hide()

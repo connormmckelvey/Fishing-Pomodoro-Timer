@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_4yhls"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/119.png" id="2_cf554"]
+
+[resource]
+script = ExtResource("1_4yhls")
+catchable_name = "Blue crab  "
+rarity = 7
+depth = 60
+type = "crustation"
+texture = ExtResource("2_cf554")
+value = 69

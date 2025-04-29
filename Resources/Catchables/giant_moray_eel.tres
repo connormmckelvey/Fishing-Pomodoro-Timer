@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_83smr"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/62.png" id="2_ajex7"]
+
+[resource]
+script = ExtResource("1_83smr")
+catchable_name = "Giant moray eel  "
+rarity = 16
+depth = 600
+type = "eel"
+texture = ExtResource("2_ajex7")
+value = 158

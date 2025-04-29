@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://cfotunhcbq58u"]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_eua2j"]
-[ext_resource type="Texture2D" uid="uid://i0fu1bxw4p02" path="res://Assets/catchables icons/25.png" id="2_an2bs"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_exj63"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/25.png" id="2_8lccd"]
 
 [resource]
-script = ExtResource("1_eua2j")
-catchable_name = "Greater weever"
-rarity = 3
-depth = 10
-type = "weever"
-texture = ExtResource("2_an2bs")
-value = 5
+script = ExtResource("1_exj63")
+catchable_name = "Greater weever  "
+rarity = 8
+depth = 38
+type = "Common Fish"
+texture = ExtResource("2_8lccd")
+value = 52

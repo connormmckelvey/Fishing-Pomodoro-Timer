@@ -1,12 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_yvnqr"]
-[ext_resource type="Texture2D" uid="uid://bxcsrdim0b8s" path="res://Assets/catchables icons/15.png" id="2_pox37"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_yrsvq"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/15.png" id="2_8e1vi"]
 
 [resource]
-script = ExtResource("1_yvnqr")
-catchable_name = "Ocean sunfish"
-rarity = 5
-depth = 30
-type = "fish"
-texture = ExtResource("2_pox37")
+script = ExtResource("1_yrsvq")
+catchable_name = "Ocean sunfish  "
+rarity = 16
+depth = 450
+type = "Exotic Catch"
+texture = ExtResource("2_8e1vi")
+value = 150

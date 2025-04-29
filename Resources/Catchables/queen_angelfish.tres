@@ -1,12 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_t4isv"]
-[ext_resource type="Texture2D" uid="uid://dalintbrb108o" path="res://Assets/catchables icons/8.png" id="2_6g2r7"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_70inn"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/8.png" id="2_qicrl"]
 
 [resource]
-script = ExtResource("1_t4isv")
-catchable_name = "Queen angelfish"
-rarity = 4
-depth = 25
-type = "fish"
-texture = ExtResource("2_6g2r7")
+script = ExtResource("1_70inn")
+catchable_name = "Queen angelfish  "
+rarity = 13
+depth = 22
+type = "tropical"
+texture = ExtResource("2_qicrl")
+value = 101

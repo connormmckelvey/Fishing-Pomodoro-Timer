@@ -1,17 +1,17 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_5kmd2"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/28.png" id="2_oxd83"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_nkl8q"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/28.png" id="2_efvpf"]
 
 [resource]
-script = ExtResource("1_5kmd2")
-gear_name = "Fork harpoon"
-cost = 35
-rarity = 3
-type = "Rod"
+script = ExtResource("1_nkl8q")
+gear_name = "Fork harpoon  "
+cost = 200
+rarity = "Rare"
+type = "rod"
 bonuses = {
-"depth_score": 4,
+"depth_score": 2800,
 "rariety_score": 2,
-"types_avilable": ["fish", "anglerfish"]
+"types_avilable": PackedStringArray("eel", "Creepers")
 }
-texture = ExtResource("2_oxd83")
+texture = ExtResource("2_efvpf")

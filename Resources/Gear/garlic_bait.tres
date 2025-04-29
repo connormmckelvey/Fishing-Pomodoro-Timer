@@ -1,17 +1,17 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_ahxko"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/17.png" id="2_l86vt"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_enj3y"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/17.png" id="2_po7cs"]
 
 [resource]
-script = ExtResource("1_ahxko")
-gear_name = "Garlic bait"
-cost = 5
-rarity = 2
-type = "Tackle"
+script = ExtResource("1_enj3y")
+gear_name = "Garlic bait  "
+cost = 800
+rarity = "Rare"
+type = "tackle"
 bonuses = {
-"depth_score": 0,
+"depth_score": 4200,
 "rariety_score": 2,
-"types_avilable": ["piranha"]
+"types_avilable": PackedStringArray("Warm Blooded", "mollusk")
 }
-texture = ExtResource("2_l86vt")
+texture = ExtResource("2_po7cs")

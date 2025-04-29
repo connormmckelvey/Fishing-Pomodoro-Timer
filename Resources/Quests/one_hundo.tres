@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="TotalCollectionQuest" load_steps=2 format=3 uid="uid://rnasm86i46ej"]
+[gd_resource type="Resource" script_class="TotalCollectionQuest" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/TotalCollectionQuest.gd" id="1_434rx"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/TotalCollectionQuest.gd" id="1_efdgi"]
 
 [resource]
-script = ExtResource("1_434rx")
+script = ExtResource("1_efdgi")
 needed_amount = 100
 quest_name = "One Hundo"
-description = "Is there anything left?"
-level_unlock = 0
-money_reward = 100
+description = "Catch 100 Fish"
+level_unlock = 2
+money_reward = 1500

@@ -1,17 +1,17 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_i7mhj"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/30.png" id="2_7otwu"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_rdj5s"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/30.png" id="2_h4le1"]
 
 [resource]
-script = ExtResource("1_i7mhj")
-gear_name = "Trident"
-cost = 45
-rarity = 4
-type = "Rod"
+script = ExtResource("1_rdj5s")
+gear_name = "Trident  "
+cost = 3500
+rarity = "Mythic"
+type = "rod"
 bonuses = {
-"depth_score": 5,
-"rariety_score": 2,
-"types_avilable": ["fish", "anglerfish"]
+"depth_score": 9200,
+"rariety_score": 5,
+"types_avilable": PackedStringArray("Dangerous Discoveries", "Warm Blooded")
 }
-texture = ExtResource("2_7otwu")
+texture = ExtResource("2_h4le1")

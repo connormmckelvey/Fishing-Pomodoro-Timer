@@ -1,17 +1,17 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_pgsxy"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/34.png" id="2_4pwm3"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_nvpbf"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/34.png" id="2_kunmu"]
 
 [resource]
-script = ExtResource("1_pgsxy")
-gear_name = "Tackle box"
-cost = 25
-rarity = 2
-type = "Accessory"
+script = ExtResource("1_nvpbf")
+gear_name = "Tackle box  "
+cost = 1000
+rarity = "Rare"
+type = "accessory"
 bonuses = {
-"depth_score": 0,
+"depth_score": 3400,
 "rariety_score": 2,
-"types_avilable": ["fish"]
+"types_avilable": PackedStringArray("tropical", "Common Fish")
 }
-texture = ExtResource("2_4pwm3")
+texture = ExtResource("2_kunmu")

@@ -1,12 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_qv585"]
-[ext_resource type="Texture2D" uid="uid://bd5kc6p3fs2er" path="res://Assets/catchables icons/31.png" id="2_gql5a"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_3w5yb"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/31.png" id="2_wurvh"]
 
 [resource]
-script = ExtResource("1_qv585")
-catchable_name = "Humpback anglerfish"
-rarity = 5
-depth = 35
-type = "anglerfish"
-texture = ExtResource("2_gql5a")
+script = ExtResource("1_3w5yb")
+catchable_name = "Humpback anglerfish  "
+rarity = 13
+depth = 9800
+type = "Deep-Sea Creatures"
+texture = ExtResource("2_wurvh")
+value = 68

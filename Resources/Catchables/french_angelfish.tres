@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://f3qw53b7s1ll"]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_wsavl"]
-[ext_resource type="Texture2D" uid="uid://b8qifdh0ey387" path="res://Assets/catchables icons/9.png" id="2_ncmq6"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_4v5vx"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/9.png" id="2_6ac4e"]
 
 [resource]
-script = ExtResource("1_wsavl")
-catchable_name = "French angelfish"
-rarity = 3
-depth = 20
-type = "fish"
-texture = ExtResource("2_ncmq6")
-value = 50
+script = ExtResource("1_4v5vx")
+catchable_name = "French angelfish  "
+rarity = 2
+depth = 23
+type = "tropical"
+texture = ExtResource("2_6ac4e")
+value = 16

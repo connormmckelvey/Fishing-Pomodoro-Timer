@@ -1,17 +1,17 @@
-[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://bb85r1t312m7y"]
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_c8rnt"]
-[ext_resource type="Texture2D" uid="uid://di0obqgdchr4a" path="res://Assets/gear icons/15.png" id="2_hvkym"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_fbaa5"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/15.png" id="2_tpuf3"]
 
 [resource]
-script = ExtResource("1_c8rnt")
-gear_name = "Worm bait"
-cost = 5
-rarity = ""
-type = "Tackle"
+script = ExtResource("1_fbaa5")
+gear_name = "Worm bait  "
+cost = 20
+rarity = "Common"
+type = "tackle"
 bonuses = {
 "depth_score": 0,
-"rariety_score": 1,
-"types_avilable": ["fish"]
+"rariety_score": 0,
+"types_avilable": PackedStringArray("fish")
 }
-texture = ExtResource("2_hvkym")
+texture = ExtResource("2_tpuf3")

@@ -1,13 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_23swh"]
-[ext_resource type="Texture2D" path="res://Assets/objects icon/3.png" id="2_h26vb"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_3ptij"]
+[ext_resource type="Texture2D" path="res://Assets/objects icon/3.png" id="2_k63s4"]
 
 [resource]
-script = ExtResource("1_23swh")
+script = ExtResource("1_3ptij")
 catchable_name = "Seaweed"
 rarity = 5
 depth = 500
 type = "algae"
-texture = ExtResource("2_h26vb")
+texture = ExtResource("2_k63s4")
 value = 12

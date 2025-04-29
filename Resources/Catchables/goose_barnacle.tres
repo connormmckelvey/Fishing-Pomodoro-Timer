@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_wx4xh"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/129.png" id="2_pi4sa"]
+
+[resource]
+script = ExtResource("1_wx4xh")
+catchable_name = "Goose barnacle  "
+rarity = 6
+depth = 0
+type = "shellfish"
+texture = ExtResource("2_pi4sa")
+value = 40

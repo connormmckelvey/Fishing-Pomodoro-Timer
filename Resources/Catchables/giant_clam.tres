@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_pnowb"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/100.png" id="2_e43nl"]
+
+[resource]
+script = ExtResource("1_pnowb")
+catchable_name = "Giant clam  "
+rarity = 6
+depth = 80
+type = "shellfish"
+texture = ExtResource("2_e43nl")
+value = 49

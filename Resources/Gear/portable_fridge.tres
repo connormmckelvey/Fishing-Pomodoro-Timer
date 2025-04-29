@@ -1,17 +1,17 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_oug7n"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/33.png" id="2_jab7x"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_slanb"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/33.png" id="2_b8bof"]
 
 [resource]
-script = ExtResource("1_oug7n")
-gear_name = "Portable fridge"
-cost = 50
-rarity = 3
-type = "Accessory"
+script = ExtResource("1_slanb")
+gear_name = "Portable fridge  "
+cost = 800
+rarity = "Rare"
+type = "accessory"
 bonuses = {
-"depth_score": 0,
-"rariety_score": 3,
-"types_avilable": ["fish"]
+"depth_score": 3500,
+"rariety_score": 2,
+"types_avilable": PackedStringArray("Coldwater", "Freshwater Fish")
 }
-texture = ExtResource("2_jab7x")
+texture = ExtResource("2_b8bof")

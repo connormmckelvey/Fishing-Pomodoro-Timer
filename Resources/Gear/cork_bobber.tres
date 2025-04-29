@@ -1,17 +1,17 @@
-[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://blkxyx3umpj2n"]
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_adgxa"]
-[ext_resource type="Texture2D" uid="uid://1luq5fkbaafo" path="res://Assets/gear icons/20.png" id="2_q4ky3"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_m832t"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/20.png" id="2_6fn8j"]
 
 [resource]
-script = ExtResource("1_adgxa")
-gear_name = "Cork bobber"
-cost = 5
-rarity = 1
-type = "Tackle"
+script = ExtResource("1_m832t")
+gear_name = "Cork bobber  "
+cost = 75
+rarity = "Uncommon"
+type = "tackle"
 bonuses = {
-"depth_score": 0,
+"depth_score": 1900,
 "rariety_score": 1,
-"types_avilable": ["fish"]
+"types_avilable": PackedStringArray("Tetra", "Common Fish")
 }
-texture = ExtResource("2_q4ky3")
+texture = ExtResource("2_6fn8j")

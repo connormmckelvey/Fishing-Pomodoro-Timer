@@ -1,17 +1,17 @@
-[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://b62c0lbrlmdhy"]
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_p6epe"]
-[ext_resource type="Texture2D" uid="uid://b8kod2fkkkhk3" path="res://Assets/gear icons/32.png" id="2_tlchu"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_x01id"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/32.png" id="2_bokkx"]
 
 [resource]
-script = ExtResource("1_p6epe")
-gear_name = "Fishing bag"
-cost = 10
-rarity = ""
-type = "Accessory"
+script = ExtResource("1_x01id")
+gear_name = "Fishing bag  "
+cost = 50
+rarity = "Common"
+type = "accessory"
 bonuses = {
-"depth_score": 0,
-"rariety_score": 1,
-"types_avilable": ["fish"]
+"depth_score": 100,
+"rariety_score": 0,
+"types_avilable": PackedStringArray("fish")
 }
-texture = ExtResource("2_tlchu")
+texture = ExtResource("2_bokkx")

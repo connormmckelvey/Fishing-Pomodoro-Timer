@@ -1,12 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_4pfah"]
-[ext_resource type="Texture2D" uid="uid://bbbjh3gnpw5sr" path="res://Assets/catchables icons/24.png" id="2_om8pj"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_cm0gq"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/24.png" id="2_nwfby"]
 
 [resource]
-script = ExtResource("1_4pfah")
-catchable_name = "Sailfin molly"
-rarity = 2
+script = ExtResource("1_cm0gq")
+catchable_name = "Sailfin molly  "
+rarity = 10
 depth = 5
-type = "fish"
-texture = ExtResource("2_om8pj")
+type = "Common Fish"
+texture = ExtResource("2_nwfby")
+value = 97

@@ -1,5 +1,6 @@
-[gd_scene load_steps=34 format=3 uid="uid://8gp21sfo5fw2"]
+[gd_scene load_steps=39 format=3 uid="uid://8gp21sfo5fw2"]
 
+[ext_resource type="Script" path="res://Scripts/Utility Scripts/json_to_resource.gd" id="1_spw16"]
 [ext_resource type="Script" path="res://Scripts/global.gd" id="2_hrmec"]
 [ext_resource type="Texture2D" uid="uid://b03r25i7npeaw" path="res://Assets/Skybox/1.png" id="2_xvmsh"]
 [ext_resource type="Texture2D" uid="uid://btlp4ug2hn2ks" path="res://Assets/Skybox/2.png" id="3_6bkoj"]
@@ -19,6 +20,9 @@
 [ext_resource type="FontFile" uid="uid://d2srfwq605q6o" path="res://Assets/Pixellari.ttf" id="14_moku3"]
 [ext_resource type="Script" path="res://Scripts/AudioStreamPlayer2D.gd" id="18_4twtr"]
 [ext_resource type="Script" path="res://Scripts/time_change_btn.gd" id="19_sor7g"]
+[ext_resource type="Texture2D" uid="uid://x83y5rwxjucy" path="res://Assets/icons/fishing-pole.png" id="21_hf7nq"]
+[ext_resource type="Texture2D" uid="uid://cnl8l1d55rr2a" path="res://Assets/icons/laurel-crown.png" id="22_7qlk7"]
+[ext_resource type="Texture2D" uid="uid://b7vhsuc1a876g" path="res://Assets/icons/shop.png" id="23_chep5"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xufis"]
 size = Vector2(425, 15)
@@ -151,7 +155,14 @@ size = Vector2(43, 90)
 size = Vector2(19, 92)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_crpjm"]
-bg_color = Color(0, 0, 0, 0.392157)
+bg_color = Color(0, 0, 0, 0.427451)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mvht8"]
+bg_color = Color(1, 0.219608, 0.294118, 1)
 corner_radius_top_left = 10
 corner_radius_top_right = 10
 corner_radius_bottom_right = 10
@@ -161,6 +172,7 @@ corner_radius_bottom_left = 10
 bg_color = Color(1, 0.219608, 0.294118, 1)
 
 [node name="main" type="Node2D"]
+script = ExtResource("1_spw16")
 
 [node name="global_save" type="Node" parent="."]
 script = ExtResource("2_hrmec")
@@ -262,6 +274,7 @@ position = Vector2(1063.5, 592)
 shape = SubResource("RectangleShape2D_tcyt1")
 
 [node name="shop_area" type="Area2D" parent="."]
+z_index = 1
 script = ExtResource("10_4ofxm")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="shop_area"]
@@ -275,6 +288,7 @@ offset_right = 252.0
 offset_bottom = 124.0
 
 [node name="quest_area" type="Area2D" parent="."]
+z_index = 1
 script = ExtResource("11_780vc")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="quest_area"]
@@ -288,6 +302,7 @@ offset_right = 120.0
 offset_bottom = 127.0
 
 [node name="fishing_area" type="Area2D" parent="."]
+z_index = 1
 script = ExtResource("12_pnmge")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="fishing_area"]
@@ -363,10 +378,26 @@ text = "$10"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="level" type="Label" parent="display"]
+layout_mode = 0
+offset_left = -452.0
+offset_top = 582.0
+offset_right = -413.0
+offset_bottom = 620.0
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("14_moku3")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_mvht8")
+text = "10"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="ProgressBar" type="ProgressBar" parent="display"]
 layout_mode = 0
-offset_left = -450.0
-offset_top = 610.0
+offset_left = -406.0
+offset_top = 600.0
 offset_right = 690.0
 offset_bottom = 620.0
 theme_override_styles/fill = SubResource("StyleBoxFlat_aercw")
@@ -558,6 +589,26 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_crpjm")
 text = "30
 "
 script = ExtResource("19_sor7g")
+
+[node name="icons" type="Control" parent="display"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Fishing-pole" type="Sprite2D" parent="display/icons"]
+position = Vector2(300, 250)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("21_hf7nq")
+
+[node name="Laurel-crown" type="Sprite2D" parent="display/icons"]
+position = Vector2(80, 250)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("22_7qlk7")
+
+[node name="Shop" type="Sprite2D" parent="display/icons"]
+position = Vector2(-107, 250)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("23_chep5")
 
 [connection signal="area_entered" from="shop_area" to="shop_area" method="_on_area_entered"]
 [connection signal="area_exited" from="shop_area" to="shop_area" method="_on_area_exited"]

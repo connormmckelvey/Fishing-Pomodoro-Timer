@@ -1,17 +1,17 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_mknax"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/25.png" id="2_y668r"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_d1dde"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/25.png" id="2_d5k6l"]
 
 [resource]
-script = ExtResource("1_mknax")
-gear_name = "Crab trap"
-cost = 30
-rarity = 3
-type = "Tackle"
+script = ExtResource("1_d1dde")
+gear_name = "Crab trap  "
+cost = 400
+rarity = "Rare"
+type = "rod"
 bonuses = {
-"depth_score": 1,
+"depth_score": 3100,
 "rariety_score": 2,
-"types_avilable": ["crab"]
+"types_avilable": PackedStringArray("shellfish", "crustation")
 }
-texture = ExtResource("2_y668r")
+texture = ExtResource("2_d5k6l")

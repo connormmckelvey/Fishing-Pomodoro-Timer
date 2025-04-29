@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_16n2l"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/94.png" id="2_gchrc"]
+
+[resource]
+script = ExtResource("1_16n2l")
+catchable_name = "Boeseman’s rainbowfish  "
+rarity = 13
+depth = 2
+type = "Freshwater Fish"
+texture = ExtResource("2_gchrc")
+value = 84

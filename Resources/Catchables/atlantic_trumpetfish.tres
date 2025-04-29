@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_mtcli"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/78.png" id="2_dhv2w"]
+
+[resource]
+script = ExtResource("1_mtcli")
+catchable_name = "Atlantic trumpetfish  "
+rarity = 3
+depth = 120
+type = "Coldwater"
+texture = ExtResource("2_dhv2w")
+value = 29

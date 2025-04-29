@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_83k0c"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/117.png" id="2_xeh1x"]
+
+[resource]
+script = ExtResource("1_83k0c")
+catchable_name = "Red king crab  "
+rarity = 12
+depth = 900
+type = "crustation"
+texture = ExtResource("2_xeh1x")
+value = 70

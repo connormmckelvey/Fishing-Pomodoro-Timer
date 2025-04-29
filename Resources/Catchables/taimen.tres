@@ -1,12 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_6pfte"]
-[ext_resource type="Texture2D" uid="uid://dx8eoip86p2gd" path="res://Assets/catchables icons/27.png" id="2_3mafq"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_ad1fx"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/27.png" id="2_chwhb"]
 
 [resource]
-script = ExtResource("1_6pfte")
-catchable_name = "Taimen"
-rarity = 5
-depth = 25
-type = "salmon"
-texture = ExtResource("2_3mafq")
+script = ExtResource("1_ad1fx")
+catchable_name = "Taimen  "
+rarity = 12
+depth = 220
+type = "Freshwater Fish"
+texture = ExtResource("2_chwhb")
+value = 113

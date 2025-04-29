@@ -1,13 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_48hh8"]
-[ext_resource type="Texture2D" path="res://Assets/objects icon/8.png" id="2_y417a"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_byjyx"]
+[ext_resource type="Texture2D" path="res://Assets/objects icon/8.png" id="2_odr5f"]
 
 [resource]
-script = ExtResource("1_48hh8")
+script = ExtResource("1_byjyx")
 catchable_name = "Floating plastic"
 rarity = 2
 depth = 200
 type = "trash"
-texture = ExtResource("2_y417a")
+texture = ExtResource("2_odr5f")
 value = 5

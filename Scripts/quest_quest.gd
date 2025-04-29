@@ -17,4 +17,6 @@ func _ready():
 
 func _on_button_pressed():
 	quest.give_rewards()
+	global.save.completed_quests.erase(quest)
+	global.save.claimed_quests.append(quest)
 	queue_free()

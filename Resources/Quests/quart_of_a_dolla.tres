@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="TotalCollectionQuest" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/TotalCollectionQuest.gd" id="1_ssie3"]
+
+[resource]
+script = ExtResource("1_ssie3")
+needed_amount = 25
+quest_name = "Quart of a Dolla"
+description = "Its pretty obvious no?"
+level_unlock = 1
+money_reward = 250

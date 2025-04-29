@@ -1,17 +1,17 @@
-[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://bllp1gwfo8ku5"]
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_u1anr"]
-[ext_resource type="Texture2D" uid="uid://q2j347haemsy" path="res://Assets/gear icons/2.png" id="2_3lkgl"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_4gyid"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/2.png" id="2_f475r"]
 
 [resource]
-script = ExtResource("1_u1anr")
-gear_name = "Bamboo fishing rod"
-cost = 25
-rarity = ""
-type = "Rod"
+script = ExtResource("1_4gyid")
+gear_name = "Bamboo fishing rod  "
+cost = 200
+rarity = "Uncommon"
+type = "rod"
 bonuses = {
-"depth_score": 3,
+"depth_score": 900,
 "rariety_score": 1,
-"types_avilable": ["fish"]
+"types_avilable": PackedStringArray("Freshwater Fish", "riverfish")
 }
-texture = ExtResource("2_3lkgl")
+texture = ExtResource("2_f475r")

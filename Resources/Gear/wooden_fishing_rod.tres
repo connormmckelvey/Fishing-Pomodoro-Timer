@@ -1,17 +1,17 @@
-[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://b3c0hmpl6jq8u"]
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_p0qs4"]
-[ext_resource type="Texture2D" uid="uid://bm72mautjfly0" path="res://Assets/gear icons/1.png" id="2_l8tkb"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_1gwnc"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/1.png" id="2_ni32i"]
 
 [resource]
-script = ExtResource("1_p0qs4")
-gear_name = "Wooden fishing rod"
-cost = 10
-rarity = ""
-type = "Rod"
+script = ExtResource("1_1gwnc")
+gear_name = "Wooden fishing rod  "
+cost = 0
+rarity = "Common"
+type = "rod"
 bonuses = {
-"depth_score": 2,
-"rariety_score": 1,
-"types_avilable": ["fish"]
+"depth_score": 0,
+"rariety_score": 0,
+"types_avilable": PackedStringArray("Common Fish")
 }
-texture = ExtResource("2_l8tkb")
+texture = ExtResource("2_ni32i")

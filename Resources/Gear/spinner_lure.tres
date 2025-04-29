@@ -1,17 +1,17 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_sbyh6"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/11.png" id="2_rqcrb"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_8b2fr"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/11.png" id="2_b0arg"]
 
 [resource]
-script = ExtResource("1_sbyh6")
-gear_name = "Spinner lure"
-cost = 25
-rarity = 2
-type = "Tackle"
+script = ExtResource("1_8b2fr")
+gear_name = "Spinner lure  "
+cost = 900
+rarity = "Rare"
+type = "tackle"
 bonuses = {
-"depth_score": 2,
-"rariety_score": 1,
-"types_avilable": ["fish"]
+"depth_score": 3600,
+"rariety_score": 2,
+"types_avilable": PackedStringArray("tropical")
 }
-texture = ExtResource("2_rqcrb")
+texture = ExtResource("2_b0arg")

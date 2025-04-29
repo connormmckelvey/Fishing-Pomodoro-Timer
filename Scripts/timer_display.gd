@@ -1,5 +1,10 @@
 extends Label
 
+var hover_amplitude := 5.0
+var hover_speed := 2.0
+var base_y := 0.0
+var hover_offset := 0.0
+
 var isworking = false
 signal done_fishing
 
@@ -8,6 +13,7 @@ func _ready():
 	text = str(global.save.work_time_min)
 	audio_manager.play_sound(load("res://Assets/Audio/wind-and-waves-307526.mp3"),true)
 	$HBoxContainer.hide()
+	base_y = $"icons/Fishing-pole".position.y
 	
 func _on_tacklebox_work_started():
 	isworking = true
@@ -19,6 +25,7 @@ func _process(delta):
 	$date.text = Time.get_datetime_string_from_system().split("T")[0]
 	$clock.text = Time.get_datetime_string_from_system().split("T")[1]
 	$money.text = "$"+str(global.save.money)
+	$level.text = str(global.save.level)
 	$ProgressBar.value = global.save.xp
 	$ProgressBar.max_value = (global.save.level + 1) * 100
 	$ProgressBar.min_value = global.save.level * 100
@@ -27,6 +34,11 @@ func _process(delta):
 			$HBoxContainer.hide()
 		else:
 			$HBoxContainer.show()
+	var time := Time.get_ticks_msec() / 1000.0
+	var y_offset := sin((time + hover_offset) * hover_speed) * hover_amplitude
+	$"icons/Laurel-crown".position.y = base_y + y_offset
+	$"icons/Fishing-pole".position.y = base_y + y_offset
+	$"icons/Shop".position.y = base_y + y_offset
 	
 func format_seconds(seconds: int) -> String:
 	var minutes = seconds / 60

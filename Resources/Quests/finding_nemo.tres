@@ -1,14 +1,12 @@
-[gd_resource type="Resource" script_class="NameCollectionQuest" load_steps=3 format=3 uid="uid://buqkxedtb7dno"]
+[gd_resource type="Resource" script_class="NameCollectionQuest" load_steps=2 format=3]
 
-[ext_resource type="Resource" path="res://Resources/Gear/fruit_bait.tres" id="1_35jj3"]
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/NameCollectionQuest.gd" id="2_xgq0k"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/NameCollectionQuest.gd" id="1_mshag"]
 
 [resource]
-script = ExtResource("2_xgq0k")
-needed_amount = 5
+script = ExtResource("1_mshag")
+needed_amount = 3
 name = "Clownfish"
 quest_name = "Finding Nemo"
-description = "catch 5 clownfish"
+description = "Catch 3 Clownfish"
 level_unlock = 0
-money_reward = 30
-gear_reward = ExtResource("1_35jj3")
+money_reward = 2000

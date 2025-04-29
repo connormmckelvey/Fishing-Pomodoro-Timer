@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_wont6"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/54.png" id="2_hvjqd"]
+
+[resource]
+script = ExtResource("1_wont6")
+catchable_name = "Pike  "
+rarity = 11
+depth = 65
+type = "Coldwater"
+texture = ExtResource("2_hvjqd")
+value = 97

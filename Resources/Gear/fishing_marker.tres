@@ -1,17 +1,17 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_bv15g"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/35.png" id="2_aoltm"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_6a1ov"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/35.png" id="2_mmalm"]
 
 [resource]
-script = ExtResource("1_bv15g")
-gear_name = "Fishing marker"
-cost = 15
-rarity = 1
-type = "Accessory"
+script = ExtResource("1_6a1ov")
+gear_name = "Fishing marker  "
+cost = 3000
+rarity = "Legendary"
+type = "accessory"
 bonuses = {
-"depth_score": 0,
-"rariety_score": 1,
-"types_avilable": ["fish"]
+"depth_score": 6000,
+"rariety_score": 3,
+"types_avilable": PackedStringArray("Deep-Sea Creatures", "special")
 }
-texture = ExtResource("2_aoltm")
+texture = ExtResource("2_mmalm")

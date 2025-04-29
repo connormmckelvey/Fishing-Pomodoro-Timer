@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_mars5"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/42.png" id="2_rk55g"]
+
+[resource]
+script = ExtResource("1_mars5")
+catchable_name = "Starry sturgeon  "
+rarity = 6
+depth = 1500
+type = "Coldwater"
+texture = ExtResource("2_rk55g")
+value = 60

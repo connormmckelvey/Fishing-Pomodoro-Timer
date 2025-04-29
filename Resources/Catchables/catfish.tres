@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://cxjdfwn21d3qf"]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_cfnnn"]
-[ext_resource type="Texture2D" uid="uid://dppybeimdgvoa" path="res://Assets/catchables icons/12.png" id="2_iehyx"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_w7d5e"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/12.png" id="2_66hm0"]
 
 [resource]
-script = ExtResource("1_cfnnn")
-catchable_name = "Catfish"
-rarity = 3
-depth = 10
-type = "fish"
-texture = ExtResource("2_iehyx")
-value = 8
+script = ExtResource("1_w7d5e")
+catchable_name = "Catfish  "
+rarity = 11
+depth = 60
+type = "Common Fish"
+texture = ExtResource("2_66hm0")
+value = 103

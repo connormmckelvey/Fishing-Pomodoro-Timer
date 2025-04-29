@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_g310k"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/64.png" id="2_42bvo"]
+
+[resource]
+script = ExtResource("1_g310k")
+catchable_name = "Harlequin snake eel  "
+rarity = 14
+depth = 140
+type = "eel"
+texture = ExtResource("2_42bvo")
+value = 87

@@ -1,17 +1,17 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_pdyvj"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/21.png" id="2_b431b"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_njm4y"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/21.png" id="2_w47av"]
 
 [resource]
-script = ExtResource("1_pdyvj")
-gear_name = "Plastic bobber"
-cost = 10
-rarity = 1
-type = "Tackle"
+script = ExtResource("1_njm4y")
+gear_name = "Plastic bobber  "
+cost = 60
+rarity = "Common"
+type = "tackle"
 bonuses = {
-"depth_score": 1,
-"rariety_score": 1,
-"types_avilable": ["fish"]
+"depth_score": 0,
+"rariety_score": 0,
+"types_avilable": PackedStringArray("fish")
 }
-texture = ExtResource("2_b431b")
+texture = ExtResource("2_w47av")

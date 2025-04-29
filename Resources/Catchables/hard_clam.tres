@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_w3rl5"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/99.png" id="2_72tth"]
+
+[resource]
+script = ExtResource("1_w3rl5")
+catchable_name = "Hard clam  "
+rarity = 4
+depth = 19
+type = "shellfish"
+texture = ExtResource("2_72tth")
+value = 32

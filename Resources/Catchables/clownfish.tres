@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://b58xoelxkq42y"]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_q8mj6"]
-[ext_resource type="Texture2D" uid="uid://86arl4tt7xv8" path="res://Assets/catchables icons/2.png" id="2_oy1u6"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_pis1w"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/2.png" id="2_go1gp"]
 
 [resource]
-script = ExtResource("1_q8mj6")
-catchable_name = "Clownfish"
-rarity = 2
-depth = 5
-type = "fish"
-texture = ExtResource("2_oy1u6")
-value = 15
+script = ExtResource("1_pis1w")
+catchable_name = "Clownfish  "
+rarity = 6
+depth = 12
+type = "tropical"
+texture = ExtResource("2_go1gp")
+value = 53

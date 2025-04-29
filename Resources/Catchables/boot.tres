@@ -1,13 +1,13 @@
 [gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_v6blr"]
-[ext_resource type="Texture2D" path="res://Assets/objects icon/5.png" id="2_diff0"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_8miwd"]
+[ext_resource type="Texture2D" path="res://Assets/objects icon/5.png" id="2_0aumx"]
 
 [resource]
-script = ExtResource("1_v6blr")
+script = ExtResource("1_8miwd")
 catchable_name = "Boot"
 rarity = 1
 depth = 30
 type = "clothes"
-texture = ExtResource("2_diff0")
+texture = ExtResource("2_0aumx")
 value = 1

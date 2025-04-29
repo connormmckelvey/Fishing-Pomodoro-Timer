@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3 uid="uid://bbbak5vexmgef"]
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_e5lku"]
-[ext_resource type="Texture2D" uid="uid://drs7gnp1k07n7" path="res://Assets/objects icon/17.png" id="2_g7sxh"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_jga7r"]
+[ext_resource type="Texture2D" path="res://Assets/objects icon/17.png" id="2_vq7dg"]
 
 [resource]
-script = ExtResource("1_e5lku")
+script = ExtResource("1_jga7r")
 catchable_name = "Jewelry box"
 rarity = 11
 depth = 1200
 type = "special"
-texture = ExtResource("2_g7sxh")
+texture = ExtResource("2_vq7dg")
 value = 50

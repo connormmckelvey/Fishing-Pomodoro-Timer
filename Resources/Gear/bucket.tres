@@ -1,17 +1,17 @@
-[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://d0qjmcjqhxv2w"]
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_wavio"]
-[ext_resource type="Texture2D" uid="uid://cmvd2wgfkwskh" path="res://Assets/gear icons/31.png" id="2_awpf2"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_26jgc"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/31.png" id="2_utxmg"]
 
 [resource]
-script = ExtResource("1_wavio")
-gear_name = "Bucket"
-cost = 5
-rarity = ""
-type = "Accessory"
+script = ExtResource("1_26jgc")
+gear_name = "Bucket  "
+cost = 25
+rarity = "Common"
+type = "accessory"
 bonuses = {
 "depth_score": 0,
 "rariety_score": 0,
-"types_avilable": ["fish"]
+"types_avilable": PackedStringArray("fish")
 }
-texture = ExtResource("2_awpf2")
+texture = ExtResource("2_utxmg")

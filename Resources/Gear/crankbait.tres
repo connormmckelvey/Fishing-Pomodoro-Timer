@@ -1,17 +1,17 @@
 [gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_0dnve"]
-[ext_resource type="Texture2D" path="res://Assets/gear icons/10.png" id="2_ph1si"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_68skk"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/10.png" id="2_y7gvq"]
 
 [resource]
-script = ExtResource("1_0dnve")
-gear_name = "Crankbait"
-cost = 30
-rarity = 3
-type = "Tackle"
+script = ExtResource("1_68skk")
+gear_name = "Crankbait  "
+cost = 1800
+rarity = "Legendary"
+type = "tackle"
 bonuses = {
-"depth_score": 3,
-"rariety_score": 2,
-"types_avilable": ["fish", "pufferfish"]
+"depth_score": 6800,
+"rariety_score": 4,
+"types_avilable": PackedStringArray("Exotic Catch", "Rare Aquatic Creatures")
 }
-texture = ExtResource("2_ph1si")
+texture = ExtResource("2_y7gvq")

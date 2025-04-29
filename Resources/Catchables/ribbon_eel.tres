@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_xq1un"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/61.png" id="2_insnw"]
+
+[resource]
+script = ExtResource("1_xq1un")
+catchable_name = "Ribbon eel  "
+rarity = 12
+depth = 5
+type = "eel"
+texture = ExtResource("2_insnw")
+value = 71

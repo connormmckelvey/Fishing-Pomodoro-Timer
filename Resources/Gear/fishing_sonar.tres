@@ -1,17 +1,17 @@
-[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://buh5cb3bhqb33"]
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_c0dv2"]
-[ext_resource type="Texture2D" uid="uid://brdeajxbsja4r" path="res://Assets/gear icons/36.png" id="2_pmksx"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_bt1cr"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/36.png" id="2_l7jfs"]
 
 [resource]
-script = ExtResource("1_c0dv2")
-gear_name = "Fishing sonar"
-cost = 60
-rarity = 4
-type = "Accessory"
+script = ExtResource("1_bt1cr")
+gear_name = "Fishing sonar  "
+cost = 4900
+rarity = "Legendary"
+type = "accessory"
 bonuses = {
-"depth_score": 6,
-"rariety_score": 3,
-"types_avilable": ["fish", "deepfish", "anglerfish"]
+"depth_score": 7500,
+"rariety_score": 4,
+"types_avilable": PackedStringArray("Dangerous Discoveries", "Exotic Catch")
 }
-texture = ExtResource("2_pmksx")
+texture = ExtResource("2_l7jfs")

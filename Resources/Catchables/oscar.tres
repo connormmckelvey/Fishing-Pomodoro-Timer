@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_arbas"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/83.png" id="2_e43ju"]
+
+[resource]
+script = ExtResource("1_arbas")
+catchable_name = "Oscar  "
+rarity = 6
+depth = 6000
+type = "Deep-Sea Creatures"
+texture = ExtResource("2_e43ju")
+value = 43

@@ -6,7 +6,7 @@
 	  "rarity": "4",
 	  "depth": "479",
 	  "type": "tropical",
-	  "value": "28"
+	  "value": "37"
 	},
 	{
 	  "T#": "2",
@@ -14,7 +14,7 @@
 	  "rarity": "6",
 	  "depth": "12",
 	  "type": "tropical",
-	  "value": "46"
+	  "value": "53"
 	},
 	{
 	  "T#": "3",
@@ -22,7 +22,7 @@
 	  "rarity": "8",
 	  "depth": "18",
 	  "type": "tropical",
-	  "value": "78"
+	  "value": "77"
 	},
 	{
 	  "T#": "4",
@@ -30,7 +30,7 @@
 	  "rarity": "12",
 	  "depth": "20",
 	  "type": "tropical",
-	  "value": "68"
+	  "value": "63"
 	},
 	{
 	  "T#": "5",
@@ -38,7 +38,7 @@
 	  "rarity": "10",
 	  "depth": "21",
 	  "type": "tropical",
-	  "value": "52"
+	  "value": "99"
 	},
 	{
 	  "T#": "6",
@@ -46,7 +46,7 @@
 	  "rarity": "5",
 	  "depth": "25",
 	  "type": "tropical",
-	  "value": "30"
+	  "value": "37"
 	},
 	{
 	  "T#": "7",
@@ -54,7 +54,7 @@
 	  "rarity": "14",
 	  "depth": "15",
 	  "type": "tropical",
-	  "value": "123"
+	  "value": "122"
 	},
 	{
 	  "T#": "8",
@@ -62,7 +62,7 @@
 	  "rarity": "13",
 	  "depth": "22",
 	  "type": "tropical",
-	  "value": "129"
+	  "value": "101"
 	},
 	{
 	  "T#": "9",
@@ -70,7 +70,7 @@
 	  "rarity": "2",
 	  "depth": "23",
 	  "type": "tropical",
-	  "value": "13"
+	  "value": "16"
 	},
 	{
 	  "T#": "10",
@@ -78,7 +78,7 @@
 	  "rarity": "3",
 	  "depth": "5",
 	  "type": "Common Fish",
-	  "value": "28"
+	  "value": "27"
 	},
 	{
 	  "T#": "11",
@@ -86,7 +86,7 @@
 	  "rarity": "7",
 	  "depth": "4",
 	  "type": "Common Fish",
-	  "value": "63"
+	  "value": "40"
 	},
 	{
 	  "T#": "12",
@@ -94,7 +94,7 @@
 	  "rarity": "11",
 	  "depth": "60",
 	  "type": "Common Fish",
-	  "value": "89"
+	  "value": "103"
 	},
 	{
 	  "T#": "13",
@@ -102,7 +102,7 @@
 	  "rarity": "9",
 	  "depth": "80",
 	  "type": "tropical",
-	  "value": "50"
+	  "value": "83"
 	},
 	{
 	  "T#": "14",
@@ -110,7 +110,7 @@
 	  "rarity": "15",
 	  "depth": "77",
 	  "type": "Exotic Catch",
-	  "value": "150"
+	  "value": "113"
 	},
 	{
 	  "T#": "15",
@@ -118,7 +118,7 @@
 	  "rarity": "16",
 	  "depth": "450",
 	  "type": "Exotic Catch",
-	  "value": "158"
+	  "value": "150"
 	},
 	{
 	  "T#": "16",
@@ -126,7 +126,7 @@
 	  "rarity": "17",
 	  "depth": "130",
 	  "type": "Coldwater",
-	  "value": "118"
+	  "value": "116"
 	},
 	{
 	  "T#": "17",
@@ -134,7 +134,7 @@
 	  "rarity": "7",
 	  "depth": "6",
 	  "type": "tropical",
-	  "value": "59"
+	  "value": "64"
 	},
 	{
 	  "T#": "18",
@@ -142,7 +142,7 @@
 	  "rarity": "9",
 	  "depth": "50",
 	  "type": "Dangerous Discoveries",
-	  "value": "67"
+	  "value": "51"
 	},
 	{
 	  "T#": "19",
@@ -150,7 +150,7 @@
 	  "rarity": "12",
 	  "depth": "110",
 	  "type": "Rare Aquatic Creatures",
-	  "value": "64"
+	  "value": "115"
 	},
 	{
 	  "T#": "20",
@@ -158,7 +158,7 @@
 	  "rarity": "10",
 	  "depth": "95",
 	  "type": "Dangerous Discoveries",
-	  "value": "86"
+	  "value": "68"
 	},
 	{
 	  "T#": "21",
@@ -166,7 +166,7 @@
 	  "rarity": "6",
 	  "depth": "120",
 	  "type": "Dangerous Discoveries",
-	  "value": "52"
+	  "value": "39"
 	},
 	{
 	  "T#": "22",
@@ -174,7 +174,7 @@
 	  "rarity": "4",
 	  "depth": "150",
 	  "type": "Exotic Catch",
-	  "value": "35"
+	  "value": "38"
 	},
 	{
 	  "T#": "23",
@@ -182,7 +182,7 @@
 	  "rarity": "3",
 	  "depth": "3",
 	  "type": "Common Fish",
-	  "value": "26"
+	  "value": "23"
 	},
 	{
 	  "T#": "24",
@@ -190,7 +190,7 @@
 	  "rarity": "10",
 	  "depth": "5",
 	  "type": "Common Fish",
-	  "value": "72"
+	  "value": "97"
 	},
 	{
 	  "T#": "25",
@@ -198,7 +198,7 @@
 	  "rarity": "8",
 	  "depth": "38",
 	  "type": "Common Fish",
-	  "value": "45"
+	  "value": "52"
 	},
 	{
 	  "T#": "26",
@@ -206,7 +206,7 @@
 	  "rarity": "9",
 	  "depth": "150",
 	  "type": "Freshwater Fish",
-	  "value": "49"
+	  "value": "50"
 	},
 	{
 	  "T#": "27",
@@ -214,7 +214,7 @@
 	  "rarity": "12",
 	  "depth": "220",
 	  "type": "Freshwater Fish",
-	  "value": "68"
+	  "value": "113"
 	},
 	{
 	  "T#": "28",
@@ -222,7 +222,7 @@
 	  "rarity": "10",
 	  "depth": "160",
 	  "type": "Freshwater Fish",
-	  "value": "61"
+	  "value": "81"
 	},
 	{
 	  "T#": "29",
@@ -230,7 +230,7 @@
 	  "rarity": "16",
 	  "depth": "140",
 	  "type": "Freshwater Fish",
-	  "value": "85"
+	  "value": "103"
 	},
 	{
 	  "T#": "30",
@@ -238,7 +238,7 @@
 	  "rarity": "14",
 	  "depth": "900",
 	  "type": "Deep-Sea Creatures",
-	  "value": "93"
+	  "value": "128"
 	},
 	{
 	  "T#": "31",
@@ -246,7 +246,7 @@
 	  "rarity": "13",
 	  "depth": "9800",
 	  "type": "Deep-Sea Creatures",
-	  "value": "76"
+	  "value": "68"
 	},
 	{
 	  "T#": "32",
@@ -254,7 +254,7 @@
 	  "rarity": "8",
 	  "depth": "780",
 	  "type": "Deep-Sea Creatures",
-	  "value": "71"
+	  "value": "53"
 	},
 	{
 	  "T#": "33",
@@ -262,7 +262,7 @@
 	  "rarity": "7",
 	  "depth": "45",
 	  "type": "Freshwater Fish",
-	  "value": "59"
+	  "value": "58"
 	},
 	{
 	  "T#": "34",
@@ -278,7 +278,7 @@
 	  "rarity": "5",
 	  "depth": "12",
 	  "type": "Exotic Catch",
-	  "value": "44"
+	  "value": "45"
 	},
 	{
 	  "T#": "36",
@@ -286,7 +286,7 @@
 	  "rarity": "4",
 	  "depth": "14",
 	  "type": "Dangerous Discoveries",
-	  "value": "22"
+	  "value": "34"
 	},
 	{
 	  "T#": "37",
@@ -294,7 +294,7 @@
 	  "rarity": "12",
 	  "depth": "40",
 	  "type": "Tetra",
-	  "value": "71"
+	  "value": "86"
 	},
 	{
 	  "T#": "38",
@@ -302,7 +302,7 @@
 	  "rarity": "15",
 	  "depth": "8",
 	  "type": "Tetra",
-	  "value": "89"
+	  "value": "147"
 	},
 	{
 	  "T#": "39",
@@ -310,7 +310,7 @@
 	  "rarity": "20",
 	  "depth": "1100",
 	  "type": "Exotic Catch",
-	  "value": "115"
+	  "value": "133"
 	},
 	{
 	  "T#": "40",
@@ -318,7 +318,7 @@
 	  "rarity": "9",
 	  "depth": "2100",
 	  "type": "Tetra",
-	  "value": "54"
+	  "value": "56"
 	},
 	{
 	  "T#": "41",
@@ -326,7 +326,7 @@
 	  "rarity": "8",
 	  "depth": "60",
 	  "type": "Common Fish",
-	  "value": "65"
+	  "value": "71"
 	},
 	{
 	  "T#": "42",
@@ -334,7 +334,7 @@
 	  "rarity": "6",
 	  "depth": "1500",
 	  "type": "Coldwater",
-	  "value": "50"
+	  "value": "60"
 	},
 	{
 	  "T#": "43",
@@ -342,7 +342,7 @@
 	  "rarity": "14",
 	  "depth": "60",
 	  "type": "Freshwater Fish",
-	  "value": "96"
+	  "value": "131"
 	},
 	{
 	  "T#": "44",
@@ -350,7 +350,7 @@
 	  "rarity": "12",
 	  "depth": "3",
 	  "type": "Coldwater",
-	  "value": "109"
+	  "value": "70"
 	},
 	{
 	  "T#": "45",
@@ -358,7 +358,7 @@
 	  "rarity": "7",
 	  "depth": "4",
 	  "type": "Dangerous Discoveries",
-	  "value": "43"
+	  "value": "68"
 	},
 	{
 	  "T#": "46",
@@ -366,7 +366,7 @@
 	  "rarity": "6",
 	  "depth": "11",
 	  "type": "Dangerous Discoveries",
-	  "value": "42"
+	  "value": "54"
 	},
 	{
 	  "T#": "47",
@@ -374,7 +374,7 @@
 	  "rarity": "5",
 	  "depth": "9",
 	  "type": "Coldwater",
-	  "value": "31"
+	  "value": "42"
 	},
 	{
 	  "T#": "48",
@@ -382,7 +382,7 @@
 	  "rarity": "8",
 	  "depth": "70",
 	  "type": "Coldwater",
-	  "value": "53"
+	  "value": "62"
 	},
 	{
 	  "T#": "49",
@@ -390,7 +390,7 @@
 	  "rarity": "7",
 	  "depth": "1300",
 	  "type": "Exotic Catch",
-	  "value": "35"
+	  "value": "44"
 	},
 	{
 	  "T#": "50",
@@ -398,7 +398,7 @@
 	  "rarity": "9",
 	  "depth": "1900",
 	  "type": "Exotic Catch",
-	  "value": "83"
+	  "value": "51"
 	},
 	{
 	  "T#": "51",
@@ -406,7 +406,7 @@
 	  "rarity": "15",
 	  "depth": "60",
 	  "type": "Coldwater",
-	  "value": "123"
+	  "value": "89"
 	},
 	{
 	  "T#": "52",
@@ -414,7 +414,7 @@
 	  "rarity": "8",
 	  "depth": "80",
 	  "type": "tropical",
-	  "value": "52"
+	  "value": "47"
 	},
 	{
 	  "T#": "53",
@@ -422,7 +422,7 @@
 	  "rarity": "12",
 	  "depth": "35",
 	  "type": "Coldwater",
-	  "value": "70"
+	  "value": "89"
 	},
 	{
 	  "T#": "54",
@@ -430,7 +430,7 @@
 	  "rarity": "11",
 	  "depth": "65",
 	  "type": "Coldwater",
-	  "value": "62"
+	  "value": "97"
 	},
 	{
 	  "T#": "55",
@@ -438,7 +438,7 @@
 	  "rarity": "7",
 	  "depth": "700",
 	  "type": "Common Fish",
-	  "value": "56"
+	  "value": "63"
 	},
 	{
 	  "T#": "56",
@@ -446,7 +446,7 @@
 	  "rarity": "6",
 	  "depth": "300",
 	  "type": "Tetra",
-	  "value": "60"
+	  "value": "38"
 	},
 	{
 	  "T#": "57",
@@ -454,7 +454,7 @@
 	  "rarity": "15",
 	  "depth": "2400",
 	  "type": "Exotic Catch",
-	  "value": "149"
+	  "value": "116"
 	},
 	{
 	  "T#": "58",
@@ -462,7 +462,7 @@
 	  "rarity": "10",
 	  "depth": "85",
 	  "type": "Exotic Catch",
-	  "value": "93"
+	  "value": "92"
 	},
 	{
 	  "T#": "59",
@@ -470,7 +470,7 @@
 	  "rarity": "8",
 	  "depth": "30",
 	  "type": "Exotic Catch",
-	  "value": "79"
+	  "value": "60"
 	},
 	{
 	  "T#": "60",
@@ -478,7 +478,7 @@
 	  "rarity": "14",
 	  "depth": "7",
 	  "type": "riverfish",
-	  "value": "114"
+	  "value": "130"
 	},
 	{
 	  "T#": "61",
@@ -486,7 +486,7 @@
 	  "rarity": "12",
 	  "depth": "5",
 	  "type": "eel",
-	  "value": "79"
+	  "value": "71"
 	},
 	{
 	  "T#": "62",
@@ -494,7 +494,7 @@
 	  "rarity": "16",
 	  "depth": "600",
 	  "type": "eel",
-	  "value": "90"
+	  "value": "158"
 	},
 	{
 	  "T#": "63",
@@ -502,7 +502,7 @@
 	  "rarity": "20",
 	  "depth": "50",
 	  "type": "eel",
-	  "value": "158"
+	  "value": "128"
 	},
 	{
 	  "T#": "64",
@@ -510,7 +510,7 @@
 	  "rarity": "14",
 	  "depth": "140",
 	  "type": "eel",
-	  "value": "128"
+	  "value": "87"
 	},
 	{
 	  "T#": "65",
@@ -518,7 +518,7 @@
 	  "rarity": "12",
 	  "depth": "430",
 	  "type": "eel",
-	  "value": "75"
+	  "value": "65"
 	},
 	{
 	  "T#": "66",
@@ -526,7 +526,7 @@
 	  "rarity": "10",
 	  "depth": "1150",
 	  "type": "Rare Aquatic Creatures",
-	  "value": "53"
+	  "value": "81"
 	},
 	{
 	  "T#": "67",
@@ -534,7 +534,7 @@
 	  "rarity": "7",
 	  "depth": "2900",
 	  "type": "Dangerous Discoveries",
-	  "value": "45"
+	  "value": "50"
 	},
 	{
 	  "T#": "68",
@@ -542,7 +542,7 @@
 	  "rarity": "12",
 	  "depth": "5000",
 	  "type": "Dangerous Discoveries",
-	  "value": "104"
+	  "value": "109"
 	},
 	{
 	  "T#": "69",
@@ -550,7 +550,7 @@
 	  "rarity": "9",
 	  "depth": "1500",
 	  "type": "Freshwater Fish",
-	  "value": "55"
+	  "value": "51"
 	},
 	{
 	  "T#": "70",
@@ -558,7 +558,7 @@
 	  "rarity": "6",
 	  "depth": "900",
 	  "type": "Coldwater",
-	  "value": "43"
+	  "value": "49"
 	},
 	{
 	  "T#": "71",
@@ -566,7 +566,7 @@
 	  "rarity": "6",
 	  "depth": "1000",
 	  "type": "Coldwater",
-	  "value": "37"
+	  "value": "33"
 	},
 	{
 	  "T#": "72",
@@ -574,15 +574,15 @@
 	  "rarity": "7",
 	  "depth": "35",
 	  "type": "Common Fish",
-	  "value": "60"
+	  "value": "45"
 	},
 	{
 	  "T#": "73",
 	  "name": "Humphead wrasse  ",
 	  "rarity": "6",
 	  "depth": "150",
-	  "type": "Tropical",
-	  "value": "39"
+	  "type": "tropical",
+	  "value": "31"
 	},
 	{
 	  "T#": "74",
@@ -590,7 +590,7 @@
 	  "rarity": "10",
 	  "depth": "90",
 	  "type": "Dangerous Discoveries",
-	  "value": "59"
+	  "value": "95"
 	},
 	{
 	  "T#": "75",
@@ -598,7 +598,7 @@
 	  "rarity": "8",
 	  "depth": "60",
 	  "type": "Warm Blooded",
-	  "value": "68"
+	  "value": "60"
 	},
 	{
 	  "T#": "76",
@@ -606,15 +606,15 @@
 	  "rarity": "7",
 	  "depth": "270",
 	  "type": "eel",
-	  "value": "64"
+	  "value": "47"
 	},
 	{
 	  "T#": "77",
 	  "name": "Racoon butterfish  ",
 	  "rarity": "5",
 	  "depth": "800",
-	  "type": "Tropical",
-	  "value": "40"
+	  "type": "tropical",
+	  "value": "32"
 	},
 	{
 	  "T#": "78",
@@ -622,7 +622,7 @@
 	  "rarity": "3",
 	  "depth": "120",
 	  "type": "Coldwater",
-	  "value": "23"
+	  "value": "29"
 	},
 	{
 	  "T#": "79",
@@ -646,7 +646,7 @@
 	  "rarity": "13",
 	  "depth": "40",
 	  "type": "Coldwater",
-	  "value": "125"
+	  "value": "87"
 	},
 	{
 	  "T#": "82",
@@ -654,7 +654,7 @@
 	  "rarity": "7",
 	  "depth": "2500",
 	  "type": "Deep-Sea Creatures",
-	  "value": "59"
+	  "value": "65"
 	},
 	{
 	  "T#": "83",
@@ -662,7 +662,7 @@
 	  "rarity": "6",
 	  "depth": "6000",
 	  "type": "Deep-Sea Creatures",
-	  "value": "41"
+	  "value": "43"
 	},
 	{
 	  "T#": "84",
@@ -670,7 +670,7 @@
 	  "rarity": "6",
 	  "depth": "400",
 	  "type": "Tropical",
-	  "value": "44"
+	  "value": "47"
 	},
 	{
 	  "T#": "85",
@@ -678,7 +678,7 @@
 	  "rarity": "10",
 	  "depth": "3100",
 	  "type": "Deep-Sea Creatures",
-	  "value": "82"
+	  "value": "67"
 	},
 	{
 	  "T#": "86",
@@ -686,7 +686,7 @@
 	  "rarity": "5",
 	  "depth": "500",
 	  "type": "Freshwater Fish",
-	  "value": "48"
+	  "value": "41"
 	},
 	{
 	  "T#": "87",
@@ -694,55 +694,55 @@
 	  "rarity": "13",
 	  "depth": "40",
 	  "type": "Exotic Catch",
-	  "value": "87"
+	  "value": "98"
 	},
 	{
 	  "T#": "88",
 	  "name": "Moorish idol  ",
 	  "rarity": "7",
 	  "depth": "7",
-	  "type": "Tropical",
-	  "value": "46"
+	  "type": "tropical",
+	  "value": "50"
 	},
 	{
 	  "T#": "89",
 	  "name": "Banggai cardinalfish  ",
 	  "rarity": "15",
 	  "depth": "14",
-	  "type": "Tropical",
-	  "value": "100"
+	  "type": "tropical",
+	  "value": "116"
 	},
 	{
 	  "T#": "90",
 	  "name": "Longhorn cowfish  ",
 	  "rarity": "18",
 	  "depth": "9",
-	  "type": "Tropical",
-	  "value": "178"
+	  "type": "tropical",
+	  "value": "97"
 	},
 	{
 	  "T#": "91",
 	  "name": "Hogfish  ",
 	  "rarity": "9",
 	  "depth": "2",
-	  "type": "Tropical",
-	  "value": "70"
+	  "type": "tropical",
+	  "value": "59"
 	},
 	{
 	  "T#": "92",
 	  "name": "Bluehead wrasse  ",
 	  "rarity": "7",
 	  "depth": "1",
-	  "type": "Tropical",
-	  "value": "51"
+	  "type": "tropical",
+	  "value": "65"
 	},
 	{
 	  "T#": "93",
 	  "name": "Lumpfish  ",
 	  "rarity": "6",
 	  "depth": "3",
-	  "type": "Tropical",
-	  "value": "55"
+	  "type": "tropical",
+	  "value": "38"
 	},
 	{
 	  "T#": "94",
@@ -750,7 +750,7 @@
 	  "rarity": "13",
 	  "depth": "2",
 	  "type": "Freshwater Fish",
-	  "value": "97"
+	  "value": "84"
 	},
 	{
 	  "T#": "95",
@@ -758,7 +758,7 @@
 	  "rarity": "10",
 	  "depth": "6",
 	  "type": "riverfish",
-	  "value": "90"
+	  "value": "68"
 	},
 	{
 	  "T#": "96",
@@ -766,7 +766,7 @@
 	  "rarity": "15",
 	  "depth": "4",
 	  "type": "shellfish",
-	  "value": "99"
+	  "value": "88"
 	},
 	{
 	  "T#": "97",
@@ -774,7 +774,7 @@
 	  "rarity": "7",
 	  "depth": "12",
 	  "type": "shellfish",
-	  "value": "51"
+	  "value": "42"
 	},
 	{
 	  "T#": "98",
@@ -782,7 +782,7 @@
 	  "rarity": "3",
 	  "depth": "15",
 	  "type": "shellfish",
-	  "value": "16"
+	  "value": "20"
 	},
 	{
 	  "T#": "99",
@@ -790,7 +790,7 @@
 	  "rarity": "4",
 	  "depth": "19",
 	  "type": "shellfish",
-	  "value": "34"
+	  "value": "32"
 	},
 	{
 	  "T#": "100",
@@ -798,7 +798,7 @@
 	  "rarity": "6",
 	  "depth": "80",
 	  "type": "shellfish",
-	  "value": "52"
+	  "value": "49"
 	},
 	{
 	  "T#": "101",
@@ -806,7 +806,7 @@
 	  "rarity": "18",
 	  "depth": "180",
 	  "type": "shellfish",
-	  "value": "100"
+	  "value": "166"
 	},
 	{
 	  "T#": "102",
@@ -814,7 +814,7 @@
 	  "rarity": "15",
 	  "depth": "600",
 	  "type": "shellfish",
-	  "value": "93"
+	  "value": "117"
 	},
 	{
 	  "T#": "103",
@@ -822,7 +822,7 @@
 	  "rarity": "5",
 	  "depth": "900",
 	  "type": "shellfish",
-	  "value": "42"
+	  "value": "41"
 	},
 	{
 	  "T#": "104",
@@ -830,7 +830,7 @@
 	  "rarity": "18",
 	  "depth": "20",
 	  "type": "jelly",
-	  "value": "106"
+	  "value": "95"
 	},
 	{
 	  "T#": "105",
@@ -838,7 +838,7 @@
 	  "rarity": "10",
 	  "depth": "40",
 	  "type": "jelly",
-	  "value": "87"
+	  "value": "99"
 	},
 	{
 	  "T#": "106",
@@ -846,7 +846,7 @@
 	  "rarity": "9",
 	  "depth": "120",
 	  "type": "jelly",
-	  "value": "65"
+	  "value": "76"
 	},
 	{
 	  "T#": "107",
@@ -854,7 +854,7 @@
 	  "rarity": "6",
 	  "depth": "140",
 	  "type": "jelly",
-	  "value": "59"
+	  "value": "54"
 	},
 	{
 	  "T#": "108",
@@ -862,7 +862,7 @@
 	  "rarity": "3",
 	  "depth": "30",
 	  "type": "jelly",
-	  "value": "18"
+	  "value": "29"
 	},
 	{
 	  "T#": "109",
@@ -870,7 +870,7 @@
 	  "rarity": "7",
 	  "depth": "5",
 	  "type": "mollusk",
-	  "value": "51"
+	  "value": "53"
 	},
 	{
 	  "T#": "110",
@@ -878,7 +878,7 @@
 	  "rarity": "18",
 	  "depth": "60",
 	  "type": "mollusk",
-	  "value": "91"
+	  "value": "174"
 	},
 	{
 	  "T#": "111",
@@ -886,7 +886,7 @@
 	  "rarity": "17",
 	  "depth": "50",
 	  "type": "mollusk",
-	  "value": "164"
+	  "value": "157"
 	},
 	{
 	  "T#": "112",
@@ -894,7 +894,7 @@
 	  "rarity": "10",
 	  "depth": "45",
 	  "type": "mollusk",
-	  "value": "96"
+	  "value": "62"
 	},
 	{
 	  "T#": "113",
@@ -902,7 +902,7 @@
 	  "rarity": "5",
 	  "depth": "70",
 	  "type": "shellfish",
-	  "value": "31"
+	  "value": "46"
 	},
 	{
 	  "T#": "114",
@@ -910,7 +910,7 @@
 	  "rarity": "3",
 	  "depth": "12",
 	  "type": "algae",
-	  "value": "27"
+	  "value": "29"
 	},
 	{
 	  "T#": "115",
@@ -918,7 +918,7 @@
 	  "rarity": "2",
 	  "depth": "40",
 	  "type": "shellfish",
-	  "value": "17"
+	  "value": "11"
 	},
 	{
 	  "T#": "116",
@@ -926,7 +926,7 @@
 	  "rarity": "4",
 	  "depth": "70",
 	  "type": "Dangerous Discoveries",
-	  "value": "35"
+	  "value": "31"
 	},
 	{
 	  "T#": "117",
@@ -934,7 +934,7 @@
 	  "rarity": "12",
 	  "depth": "900",
 	  "type": "crustation",
-	  "value": "71"
+	  "value": "70"
 	},
 	{
 	  "T#": "118",
@@ -942,7 +942,7 @@
 	  "rarity": "6",
 	  "depth": "5",
 	  "type": "crustation",
-	  "value": "31"
+	  "value": "40"
 	},
 	{
 	  "T#": "119",
@@ -950,7 +950,7 @@
 	  "rarity": "7",
 	  "depth": "60",
 	  "type": "crustation",
-	  "value": "62"
+	  "value": "69"
 	},
 	{
 	  "T#": "120",
@@ -958,7 +958,7 @@
 	  "rarity": "16",
 	  "depth": "200",
 	  "type": "crustation",
-	  "value": "95"
+	  "value": "125"
 	},
 	{
 	  "T#": "121",
@@ -966,7 +966,7 @@
 	  "rarity": "9",
 	  "depth": "2400",
 	  "type": "crustation",
-	  "value": "79"
+	  "value": "53"
 	},
 	{
 	  "T#": "122",
@@ -974,7 +974,7 @@
 	  "rarity": "8",
 	  "depth": "15",
 	  "type": "crustation",
-	  "value": "71"
+	  "value": "57"
 	},
 	{
 	  "T#": "123",
@@ -982,7 +982,7 @@
 	  "rarity": "13",
 	  "depth": "35",
 	  "type": "crustation",
-	  "value": "110"
+	  "value": "73"
 	},
 	{
 	  "T#": "124",
@@ -990,7 +990,7 @@
 	  "rarity": "14",
 	  "depth": "18",
 	  "type": "crustation",
-	  "value": "117"
+	  "value": "78"
 	},
 	{
 	  "T#": "125",
@@ -998,7 +998,7 @@
 	  "rarity": "5",
 	  "depth": "120",
 	  "type": "crustation",
-	  "value": "28"
+	  "value": "39"
 	},
 	{
 	  "T#": "126",
@@ -1006,7 +1006,7 @@
 	  "rarity": "11",
 	  "depth": "8",
 	  "type": "Warm Blooded",
-	  "value": "93"
+	  "value": "100"
 	},
 	{
 	  "T#": "127",
@@ -1014,7 +1014,7 @@
 	  "rarity": "19",
 	  "depth": "10",
 	  "type": "Warm Blooded",
-	  "value": "116"
+	  "value": "102"
 	},
 	{
 	  "T#": "128",
@@ -1022,7 +1022,7 @@
 	  "rarity": "15",
 	  "depth": "4",
 	  "type": "shellfish",
-	  "value": "97"
+	  "value": "144"
 	},
 	{
 	  "T#": "129",
@@ -1030,7 +1030,7 @@
 	  "rarity": "6",
 	  "depth": "0",
 	  "type": "shellfish",
-	  "value": "54"
+	  "value": "40"
 	},
 	{
 	  "T#": "130",
@@ -1038,7 +1038,7 @@
 	  "rarity": "20",
 	  "depth": "9",
 	  "type": "jelly",
-	  "value": "144"
+	  "value": "197"
 	},
 	{
 	  "T#": "131",
@@ -1046,7 +1046,7 @@
 	  "rarity": "13",
 	  "depth": "13",
 	  "type": "mollusk",
-	  "value": "105"
+	  "value": "114"
 	},
 	{
 	  "T#": "132",
@@ -1054,7 +1054,7 @@
 	  "rarity": "14",
 	  "depth": "25",
 	  "type": "crustation",
-	  "value": "82"
+	  "value": "137"
 	},
 	{
 	  "T#": "133",
@@ -1062,7 +1062,7 @@
 	  "rarity": "8",
 	  "depth": "7",
 	  "type": "Creepers",
-	  "value": "59"
+	  "value": "55"
 	},
 	{
 	  "T#": "134",
@@ -1070,7 +1070,7 @@
 	  "rarity": "3",
 	  "depth": "60",
 	  "type": "Creepers",
-	  "value": "19"
+	  "value": "22"
 	},
 	{
 	  "T#": "135",
@@ -1078,7 +1078,7 @@
 	  "rarity": "7",
 	  "depth": "2",
 	  "type": "Creepers",
-	  "value": "69"
+	  "value": "49"
 	},
 	{
 	  "T#": "136",
@@ -1086,7 +1086,7 @@
 	  "rarity": "10",
 	  "depth": "11",
 	  "type": "Creepers",
-	  "value": "77"
+	  "value": "91"
 	},
 	{
 	  "T#": "137",
@@ -1094,7 +1094,7 @@
 	  "rarity": "9",
 	  "depth": "5",
 	  "type": "Creepers",
-	  "value": "82"
+	  "value": "68"
 	},
 	{
 	  "T#": "138",
@@ -1102,7 +1102,7 @@
 	  "rarity": "18",
 	  "depth": "6",
 	  "type": "Creepers",
-	  "value": "128"
+	  "value": "162"
 	},
 	{
 	  "T#": "139",
@@ -1110,7 +1110,7 @@
 	  "rarity": "11",
 	  "depth": "1",
 	  "type": "Exotic Catch",
-	  "value": "104"
+	  "value": "66"
 	},
 	{
 	  "T#": "140",
@@ -1118,7 +1118,7 @@
 	  "rarity": "15",
 	  "depth": "1",
 	  "type": "Creepers",
-	  "value": "102"
+	  "value": "143"
 	},
 	{
 	  "T#": "141",
@@ -1126,7 +1126,7 @@
 	  "rarity": "4",
 	  "depth": "30",
 	  "type": "Creepers",
-	  "value": "40"
+	  "value": "22"
 	},
 	{
 	  "T#": "142",
@@ -1134,7 +1134,7 @@
 	  "rarity": "6",
 	  "depth": "80",
 	  "type": "Creepers",
-	  "value": "57"
+	  "value": "45"
 	},
 	{
 	  "T#": "143",
@@ -1142,7 +1142,7 @@
 	  "rarity": "2",
 	  "depth": "2",
 	  "type": "algae",
-	  "value": "12"
+	  "value": "17"
 	},
 	{
 	  "T#": "144",
@@ -1150,7 +1150,7 @@
 	  "rarity": "1",
 	  "depth": "1",
 	  "type": "Creepers",
-	  "value": "9"
+	  "value": "5"
 	},
 	{
 	  "name": "Green algae",
@@ -1660,7 +1660,7 @@
 	  "Name": "Amature Hour",
 	  "description": "Catch 10 Fish",
 	  "level unlock": "0",
-	  "money reward": "20",
+	  "money reward": "200",
 	  "type": "TotalCollectionQuest",
 	  "need amt": "10"
 	},
@@ -1668,16 +1668,16 @@
 	  "Name": "Finding Nemo",
 	  "description": "Catch 3 Clownfish",
 	  "level unlock": "0",
-	  "money reward": "30",
+	  "money reward": "2000",
 	  "type": "NameCollectionQuest",
 	  "need amt": "3",
-	  "name": "Clownfish"
+	  "catchable name": "Clownfish"
 	},
 	{
 	  "Name": "One Hundo",
 	  "description": "Catch 100 Fish",
 	  "level unlock": "2",
-	  "money reward": "100",
+	  "money reward": "1500",
 	  "type": "TotalCollectionQuest",
 	  "need amt": "100"
 	},
@@ -1685,9 +1685,37 @@
 	  "Name": "Quart of a Dolla",
 	  "description": "Its pretty obvious no?",
 	  "level unlock": "1",
-	  "money reward": "25",
+	  "money reward": "250",
 	  "type": "TotalCollectionQuest",
 	  "need amt": "25"
+	},
+	{
+	  "Name": "Warm Waters Only",
+	  "description": "Catch 10 tropical fish",
+	  "level unlock": "0",
+	  "gear reward": "Fruit bait  ",
+	  "type": "TypeCollectionQuest",
+	  "need amt": "10",
+	  "catchable type": "tropical"
+	},
+	{
+	  "Name": "Creeper Sweep",
+	  "description": "Find some creepy crawlies",
+	  "level unlock": "0",
+	  "gear reward": "Bait catapult / Bait slingshot  ",
+	  "type": "TypeCollectionQuest",
+	  "need amt": "3",
+	  "catchable type": "Creepers"
+	},
+	{
+	  "Name": "Junk in the Trunk",
+	  "description": "Ok freak",
+	  "level unlock": "1",
+	  "money reward": "2000",
+	  "gear reward": "Fishing net  ",
+	  "type": "TypeCollectionQuest",
+	  "need amt": "5",
+	  "catchable type": "trash"
 	}
   ],
   "Dropdowns": [

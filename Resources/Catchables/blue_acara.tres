@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_cgofe"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/82.png" id="2_q7sq3"]
+
+[resource]
+script = ExtResource("1_cgofe")
+catchable_name = "Blue acara  "
+rarity = 7
+depth = 2500
+type = "Deep-Sea Creatures"
+texture = ExtResource("2_q7sq3")
+value = 65

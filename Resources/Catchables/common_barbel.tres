@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_hthqt"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/55.png" id="2_7tn2r"]
+
+[resource]
+script = ExtResource("1_hthqt")
+catchable_name = "Common barbel  "
+rarity = 7
+depth = 700
+type = "Common Fish"
+texture = ExtResource("2_7tn2r")
+value = 63

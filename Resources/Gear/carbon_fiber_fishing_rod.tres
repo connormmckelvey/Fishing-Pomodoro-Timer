@@ -1,17 +1,17 @@
-[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3 uid="uid://bwhgevmat4ap0"]
+[gd_resource type="Resource" script_class="Gear" load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_ra2s4"]
-[ext_resource type="Texture2D" uid="uid://dr8ooyee53134" path="res://Assets/gear icons/5.png" id="2_8tdqw"]
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Gear.gd" id="1_0i5y8"]
+[ext_resource type="Texture2D" path="res://Assets/gear icons/5.png" id="2_75a6p"]
 
 [resource]
-script = ExtResource("1_ra2s4")
-gear_name = "Carbon fiber fishing rod"
-cost = 100
-rarity = 4
-type = "Rod"
+script = ExtResource("1_0i5y8")
+gear_name = "Carbon fiber fishing rod  "
+cost = 2000
+rarity = "Legendary"
+type = "rod"
 bonuses = {
-"depth_score": 8,
-"rariety_score": 3,
-"types_avilable": ["fish", "anglerfish", "pufferfish"]
+"depth_score": 6200,
+"rariety_score": 4,
+"types_avilable": PackedStringArray("Deep-Sea Creatures", "Dangerous Discoveries")
 }
-texture = ExtResource("2_8tdqw")
+texture = ExtResource("2_75a6p")

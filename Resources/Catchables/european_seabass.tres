@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Catchable" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Resource Scripts/Catchable.gd" id="1_n4d5k"]
+[ext_resource type="Texture2D" path="res://Assets/catchables icons/71.png" id="2_u7w3i"]
+
+[resource]
+script = ExtResource("1_n4d5k")
+catchable_name = "European seabass  "
+rarity = 6
+depth = 1000
+type = "Coldwater"
+texture = ExtResource("2_u7w3i")
+value = 33
